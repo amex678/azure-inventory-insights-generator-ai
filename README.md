@@ -115,6 +115,7 @@ VS Code + GitHub Copilot Chat 環境では、以下の prompt を使って一連
 > 補足:
 > - `GITHUB_TOKEN` を使って Actions から呼び出します。
 > - モデル応答取得に失敗した場合は、既存のルールベース HTML 生成にフォールバックしてジョブを継続します。
+> - GitHub Pages デプロイは、リポジトリ Variable `ENABLE_GITHUB_PAGES=true` を設定した場合のみ実行されます（未設定時はスキップ）。
 
 ## セキュリティと取り扱い上の注意
 
