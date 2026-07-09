@@ -20,6 +20,10 @@ on:
     # Weekly production run: Monday 02:07 UTC (offset from :00 to dodge the peak).
     - cron: '7 2 * * 1'
 
+concurrency:
+  group: azure-report-public-${{ github.ref }}
+  cancel-in-progress: false
+
 permissions:
   id-token: write
   contents: write
@@ -187,7 +191,20 @@ jobs:
             exit 0
           fi
           git commit -m "Publish Azure inventory report [skip ci]"
-          git push
+
+          # Retry push with rebase to absorb concurrent report commits.
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push; then
+              echo "Push succeeded on attempt ${attempt}"
+              exit 0
+            fi
+            git rebase --abort || true
+            echo "Push attempt ${attempt} failed; retrying..."
+            sleep 5
+          done
+
+          echo "Push failed after retries"
+          exit 1
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
