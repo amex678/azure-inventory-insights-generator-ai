@@ -203,9 +203,18 @@ try {
 
     $response = Invoke-RestMethod -Method Post -Uri $ApiEndpoint -Headers $headers -Body $body -TimeoutSec 180
     $content = $null
+    $usage = $null
 
     if ($response.choices -and $response.choices.Count -gt 0) {
         $content = Get-TextFromChoice -choiceMessage $response.choices[0].message
+    }
+
+    if ($response.usage) {
+        $usage = [ordered]@{
+            promptTokens = [int]$response.usage.prompt_tokens
+            completionTokens = [int]$response.usage.completion_tokens
+            totalTokens = [int]$response.usage.total_tokens
+        }
     }
 
     if ([string]::IsNullOrWhiteSpace($content)) {
@@ -225,7 +234,9 @@ try {
         repository = $repo
         generatedAt = (Get-Date).ToString('o')
         model = $Model
+        endpoint = $ApiEndpoint
         metrics = $compact.metrics
+        usage = $usage
     }
 
     New-Item -ItemType Directory -Path ([System.IO.Path]::GetDirectoryName($OutputPath)) -Force | Out-Null
