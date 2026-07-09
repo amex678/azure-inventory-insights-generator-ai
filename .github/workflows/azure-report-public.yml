@@ -24,6 +24,7 @@ permissions:
   id-token: write
   contents: write
   pages: write
+  models: read
 
 jobs:
   collect-data:
@@ -83,6 +84,7 @@ jobs:
           AI_REPORT_API_KEY: ${{ secrets.AI_REPORT_API_KEY }}
           AI_REPORT_API_ENDPOINT: ${{ vars.AI_REPORT_API_ENDPOINT }}
           AI_REPORT_MODEL: ${{ vars.AI_REPORT_MODEL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPORT_MODE: ${{ github.event.inputs.report_mode || 'auto' }}
           GITHUB_RUN_ID: ${{ github.run_id }}
           GITHUB_REPOSITORY: ${{ github.repository }}

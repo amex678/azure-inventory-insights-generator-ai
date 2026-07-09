@@ -116,6 +116,7 @@ $content
 }
 
 $apiKey = $env:AI_REPORT_API_KEY
+$githubToken = $env:GITHUB_TOKEN
 
 $runId = if ($env:GITHUB_RUN_ID) { $env:GITHUB_RUN_ID } else { 'local' }
 $repo = if ($env:GITHUB_REPOSITORY) { $env:GITHUB_REPOSITORY } else { 'local' }
@@ -176,14 +177,28 @@ $payload = @{
 
 $headers = @{
     'Content-Type' = 'application/json'
-    'api-key' = $apiKey
+}
+
+$isGitHubModelsEndpoint = $ApiEndpoint -match 'models\.github\.ai'
+
+if ($isGitHubModelsEndpoint -and -not [string]::IsNullOrWhiteSpace($githubToken)) {
+    # GitHub Models endpoint expects Bearer token authentication.
+    $headers['Authorization'] = "Bearer $githubToken"
+}
+elseif (-not [string]::IsNullOrWhiteSpace($apiKey)) {
+    # Azure/OpenAI-compatible gateways that expect api-key header.
+    $headers['api-key'] = $apiKey
 }
 
 $body = $payload | ConvertTo-Json -Depth 12
 
 try {
-    if ([string]::IsNullOrWhiteSpace($apiKey)) {
-        throw 'AI_REPORT_API_KEY が未設定です。'
+    if ($isGitHubModelsEndpoint -and [string]::IsNullOrWhiteSpace($githubToken)) {
+        throw 'GitHub Models を使うには GITHUB_TOKEN が必要です。'
+    }
+
+    if (-not $isGitHubModelsEndpoint -and [string]::IsNullOrWhiteSpace($apiKey)) {
+        throw 'AI_REPORT_API_KEY が未設定です。GitHub Models を使う場合は AI_REPORT_API_ENDPOINT を models.github.ai に設定してください。'
     }
 
     $response = Invoke-RestMethod -Method Post -Uri $ApiEndpoint -Headers $headers -Body $body -TimeoutSec 180
