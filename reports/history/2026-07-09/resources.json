@@ -539,6 +539,83 @@
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-MOBILE-GHC-CLI/providers/Microsoft.Compute/virtualMachines/mobvmghc-vm-yypwhhh6st5ky/extensions/MDE.Linux"
   },
   {
+    "Name": "vmprovjpe202607091459-nsg",
+    "ResourceType": "Microsoft.Network/networkSecurityGroups",
+    "ResourceGroupName": "rg-vmprov-jpe-20260709-1459",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "purpose=demo;demoTheme=virtual-machine-provision;createdBy=GitHubCopilotBrowserAutomation;deleteAfter=2026-07-16",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-vmprov-jpe-20260709-1459/providers/Microsoft.Network/networkSecurityGroups/vmprovjpe202607091459-nsg"
+  },
+  {
+    "Name": "vmprovjpe202607091459-vnet",
+    "ResourceType": "Microsoft.Network/virtualNetworks",
+    "ResourceGroupName": "rg-vmprov-jpe-20260709-1459",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "deleteAfter=2026-07-16;createdBy=GitHubCopilotBrowserAutomation;demoTheme=virtual-machine-provision;purpose=demo",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-vmprov-jpe-20260709-1459/providers/Microsoft.Network/virtualNetworks/vmprovjpe202607091459-vnet"
+  },
+  {
+    "Name": "vmprovjpe202607091459-nic",
+    "ResourceType": "Microsoft.Network/networkInterfaces",
+    "ResourceGroupName": "rg-vmprov-jpe-20260709-1459",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "purpose=demo;demoTheme=virtual-machine-provision;createdBy=GitHubCopilotBrowserAutomation;deleteAfter=2026-07-16",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-vmprov-jpe-20260709-1459/providers/Microsoft.Network/networkInterfaces/vmprovjpe202607091459-nic"
+  },
+  {
+    "Name": "vmprovjpe202607091459",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "rg-vmprov-jpe-20260709-1459",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "purpose=demo;demoTheme=virtual-machine-provision;createdBy=GitHubCopilotBrowserAutomation;deleteAfter=2026-07-16",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-vmprov-jpe-20260709-1459/providers/Microsoft.Compute/virtualMachines/vmprovjpe202607091459"
+  },
+  {
+    "Name": "vmprovjpe202607091459_OsDisk_1_b5a2f2730c4040d6b4ee67d46a191a9a",
+    "ResourceType": "Microsoft.Compute/disks",
+    "ResourceGroupName": "RG-VMPROV-JPE-20260709-1459",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": "StandardSSD_LRS",
+    "Kind": null,
+    "Tags": "purpose=demo;demoTheme=virtual-machine-provision;createdBy=GitHubCopilotBrowserAutomation;deleteAfter=2026-07-16",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-VMPROV-JPE-20260709-1459/providers/Microsoft.Compute/disks/vmprovjpe202607091459_OsDisk_1_b5a2f2730c4040d6b4ee67d46a191a9a"
+  },
+  {
+    "Name": "vmprovjpe202607091459/MDE.Linux",
+    "ResourceType": "Microsoft.Compute/virtualMachines/extensions",
+    "ResourceGroupName": "RG-VMPROV-JPE-20260709-1459",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-VMPROV-JPE-20260709-1459/providers/Microsoft.Compute/virtualMachines/vmprovjpe202607091459/extensions/MDE.Linux"
+  },
+  {
+    "Name": "vmprovjpe202607091459-vnet-default-nsg-japaneast",
+    "ResourceType": "Microsoft.Network/networkSecurityGroups",
+    "ResourceGroupName": "rg-vmprov-jpe-20260709-1459",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "createdBy=GitHubCopilotBrowserAutomation;purpose=demo;deleteAfter=2026-07-16;demoTheme=virtual-machine-provision",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-vmprov-jpe-20260709-1459/providers/Microsoft.Network/networkSecurityGroups/vmprovjpe202607091459-vnet-default-nsg-japaneast"
+  },
+  {
     "Name": "Foundry-test-csa",
     "ResourceType": "Microsoft.CognitiveServices/accounts",
     "ResourceGroupName": "test01",
