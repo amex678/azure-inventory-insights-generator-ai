@@ -803,6 +803,17 @@
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe/extensions/MDE.Linux"
   },
   {
+    "Name": "nwrilkb2l5f6fuhds-b76efd16-f2b5-4e7b-8843-59b265acf065",
+    "ResourceType": "Microsoft.EventGrid/systemTopics",
+    "ResourceGroupName": "rg-nwri-jpe-20260709",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-nwri-jpe-20260709/providers/Microsoft.EventGrid/systemTopics/nwrilkb2l5f6fuhds-b76efd16-f2b5-4e7b-8843-59b265acf065"
+  },
+  {
     "Name": "Foundry-test-csa",
     "ResourceType": "Microsoft.CognitiveServices/accounts",
     "ResourceGroupName": "test01",
