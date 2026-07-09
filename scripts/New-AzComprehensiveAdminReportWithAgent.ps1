@@ -115,6 +115,51 @@ $content
 "@
 }
 
+function Ensure-RequiredSections {
+    param(
+        [string]$Html
+    )
+
+    $requiredSections = @(
+        @{
+            Name = 'エグゼクティブサマリ'
+            Pattern = 'エグゼクティブ\s*サマリ'
+            Snippet = "<section><h2>エグゼクティブサマリ</h2><p>データなし（生成時補完）</p></section>"
+        },
+        @{
+            Name = '全体サマリ表'
+            Pattern = '全体\s*サマリ(表)?'
+            Snippet = "<section><h2>全体サマリ表</h2><p>データなし（生成時補完）</p></section>"
+        },
+        @{
+            Name = '潜在リスク Top 5'
+            Pattern = '潜在\s*リスク\s*Top\s*5'
+            Snippet = "<section><h2>潜在リスク Top 5</h2><p>データなし（生成時補完）</p></section>"
+        },
+        @{
+            Name = '30日アクションプラン'
+            Pattern = '30\s*日\s*アクション\s*プラン'
+            Snippet = "<section><h2>30日アクションプラン</h2><ol><li>Week 1: 優先リスクの棚卸しと担当割り当て</li><li>Week 2: 高優先度項目の対処開始</li><li>Week 3: 対処結果の検証と未対応項目の再計画</li><li>Week 4: 定例レビューと次月計画の確定</li></ol></section>"
+        }
+    )
+
+    $updated = $Html
+    foreach ($section in $requiredSections) {
+        if ($updated -notmatch $section.Pattern) {
+            if ($updated -match '</main>') {
+                $updated = $updated -replace '</main>', ("`n" + $section.Snippet + "`n</main>")
+            } elseif ($updated -match '</body>') {
+                $updated = $updated -replace '</body>', ("`n" + $section.Snippet + "`n</body>")
+            } else {
+                $updated += "`n" + $section.Snippet
+            }
+            Write-Warning "Missing required section was auto-inserted: $($section.Name)"
+        }
+    }
+
+    return $updated
+}
+
 $apiKey = $env:AI_REPORT_API_KEY
 $githubToken = $env:GITHUB_TOKEN
 
@@ -228,6 +273,8 @@ try {
     if ($content -match '<script[\s>]') {
         throw '生成 HTML に script タグが含まれています。'
     }
+
+    $content = Ensure-RequiredSections -Html $content
 
     $evidence = [ordered]@{
         runId = $runId
