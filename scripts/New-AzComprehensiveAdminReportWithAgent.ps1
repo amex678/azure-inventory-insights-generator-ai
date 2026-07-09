@@ -220,11 +220,21 @@ try {
 }
 catch {
     Write-Warning "AI HTML generation was skipped or failed. Fallback to rule-based script. Reason: $($_.Exception.Message)"
+
+    if ($FailOnError) {
+        throw
+    }
+
     $fallbackScript = Join-Path $PSScriptRoot 'New-AzComprehensiveAdminReport.ps1'
     if (Test-Path $fallbackScript) {
         & $fallbackScript -ResourcesJson $ResourcesJson -RbacJson $RbacJson -NsgJson $NsgJson -DefenderJson $DefenderJson -AdvisorJson $AdvisorJson -OutputPath $OutputPath
+
+        if (Test-Path $OutputPath) {
+            $fallbackHtml = Get-Content -Path $OutputPath -Raw -Encoding UTF8
+            $fallbackHtml = $fallbackHtml -replace 'AI Insights authored by GitHub Copilot', 'Rule-based insights authored by PowerShell logic'
+            $fallbackHtml | Set-Content -Path $OutputPath -Encoding utf8
+        }
     } else {
-        if ($FailOnError) { throw }
         throw 'Fallback script New-AzComprehensiveAdminReport.ps1 が見つかりません。'
     }
 }

@@ -99,6 +99,14 @@ jobs:
 
           ./scripts/New-AzComprehensiveAdminReportWithAgent.ps1
 
+      - name: Assert AI evidence for ai-only mode
+        if: ${{ github.event.inputs.report_mode == 'ai-only' }}
+        shell: pwsh
+        run: |
+          if (-not (Test-Path 'output/report-evidence.json')) {
+            throw 'ai-only mode requires output/report-evidence.json, but it was not generated.'
+          }
+
       - name: Upload generated report artifacts
         uses: actions/upload-artifact@v4
         with:
