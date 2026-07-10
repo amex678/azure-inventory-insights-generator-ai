@@ -13,12 +13,8 @@ on:
           - ai-only
           - rule-based
   schedule:
-    # Temporary verification schedule (every 30 min at :17 and :47, UTC).
-    # Fixed minutes avoid the top-of-hour peak to improve trigger reliability.
-    # Remove after one schedule run is confirmed.
-    - cron: '17,47 * * * *'
-    # Weekly production run: Monday 02:07 UTC (offset from :00 to dodge the peak).
-    - cron: '7 2 * * 1'
+    # Production schedule: every 4 hours at minute 7 (UTC).
+    - cron: '7 */4 * * *'
 
 concurrency:
   group: azure-report-public-${{ github.ref }}

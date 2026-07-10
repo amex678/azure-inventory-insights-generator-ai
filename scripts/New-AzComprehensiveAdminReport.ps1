@@ -654,133 +654,73 @@ $html = @"
 <meta charset="UTF-8">
 <title>Azure 総合レポート（管理者向け／AI インサイト）</title>
 <style>
-  :root { --bg:#0f172a; --card:#1e293b; --muted:#94a3b8; --fg:#f1f5f9; --accent:#38bdf8; --border:#334155;
-          --high:#ef4444; --med:#f59e0b; --low:#38bdf8; --ok:#10b981; }
+  :root { --bg:#f5f7fa; --card:#ffffff; --muted:#6b7280; --fg:#1f2937; --accent:#0078d4; --border:#e5e7eb;
+          --high:#d93025; --med:#f9ab00; --low:#38bdf8; --ok:#10b981; }
   * { box-sizing: border-box; }
-  body { font-family:'Segoe UI','Yu Gothic UI',sans-serif; margin:0; background:var(--bg); color:var(--fg); }
+  body { font-family:'Yu Gothic','Segoe UI',sans-serif; margin:0; background:var(--bg); color:var(--fg); }
   a { color:var(--accent); text-decoration:none; }
   a:hover { text-decoration:underline; }
-  header.top { padding:28px 32px; background:linear-gradient(120deg,#7c3aed,#0ea5e9); color:#fff; }
-  header.top h1 { margin:0; font-size:26px; }
-  header.top .badge { display:inline-block; background:rgba(255,255,255,0.2); padding:2px 10px; border-radius:999px; font-size:11px; margin-left:8px; vertical-align:middle; }
-  header.top .sub { opacity:0.9; font-size:13px; margin-top:6px; }
+  header { padding:28px 32px; background:linear-gradient(120deg,#0078d4,#50e6ff); color:#fff; }
+  header h1 { margin:0; font-size:26px; }
+  header .sub { opacity:0.9; font-size:13px; margin-top:6px; }
   main { padding:24px 32px; max-width:1400px; margin:0 auto; }
-  section { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:18px 22px; margin-bottom:22px; }
+  section { background:var(--card); border:1px solid var(--border); border-radius:8px; padding:18px 22px; margin-bottom:22px; box-shadow:0 1px 2px rgba(0,0,0,0.05); }
   section h2 { margin:0 0 14px 0; font-size:18px; padding-bottom:10px; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:10px; }
-  section h2 .num { color:var(--muted); font-size:13px; font-weight:400; }
-  section h2 .ai { font-size:11px; background:linear-gradient(90deg,#7c3aed,#ec4899); padding:2px 8px; border-radius:999px; color:#fff; }
   table { width:100%; border-collapse:collapse; font-size:13px; }
-  th, td { text-align:left; padding:9px 12px; border-bottom:1px solid var(--border); vertical-align:top; }
-  th { background:#0b1220; color:var(--muted); font-weight:600; }
+  th, td { text-align:left; padding:11px 12px; border-bottom:1px solid var(--border); vertical-align:top; }
+  th { background:#f9fafb; color:var(--muted); font-weight:600; }
   td.num { text-align:right; font-variant-numeric:tabular-nums; font-weight:600; color:var(--accent); }
-  td.nowrap { white-space:nowrap; color:var(--muted); }
+
+  .badge { display:inline-block; padding:3px 10px; border-radius:999px; font-size:11px; font-weight:700; }
+  .badge-High { background-color:#fecdca; color:#c41c00; }
+  .badge-Medium { background-color:#fde7b6; color:#974707; }
+  .badge-Low { background-color:#d0e2f9; color:#003d82; }
+  .domain-badge { font-weight:700; color:#fff; border-radius:4px; padding:3px 8px; font-size:11px; margin-right:6px; display:inline-block; }
+  .domain-Resources { background-color:#0078d4; }
+  .domain-RBAC { background-color:#107c10; }
+  .domain-NSG { background-color:#ff8c00; }
+  .domain-Defender { background-color:#d93025; }
+  .domain-Advisor { background-color:#5c2d91; }
+
+  .kpi-grid { display:grid; grid-template-columns:repeat(6, 1fr); gap:12px; margin-bottom:18px; }
+  @media (max-width:1200px) { .kpi-grid { grid-template-columns:repeat(3, 1fr); } }
+  @media (max-width:768px) { .kpi-grid { grid-template-columns:repeat(2, 1fr); } }
+  .kpi { background:linear-gradient(135deg, #f5f7fa 0%, #ffffff 100%); border-radius:8px; padding:16px; border:1px solid var(--border); box-shadow:0 1px 2px rgba(0,0,0,0.04); }
+  .kpi-label { font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px; font-weight:600; }
+  .kpi-value { font-size:28px; font-weight:700; line-height:1; font-variant-numeric:tabular-nums; color:var(--accent); }
+  .kpi-unit { font-size:13px; color:var(--muted); margin-left:4px; font-weight:400; }
+  .kpi-sub { font-size:12px; color:var(--muted); margin-top:6px; }
+
+  .exec-focus { background:linear-gradient(135deg,rgba(0,120,212,0.08),rgba(80,230,255,0.08)); border:1px solid #b3e5fc; border-radius:8px; padding:16px 18px; margin-bottom:18px; }
+  .exec-focus h3 { margin:0 0 10px 0; font-size:15px; padding-bottom:8px; border-bottom:1px solid #b3e5fc; }
+  .exec-focus ul { margin:6px 0 0 0; padding-left:20px; font-size:13px; line-height:1.8; }
+  .exec-focus ul li { margin:5px 0; }
+
+  .risk-card { border:1px solid var(--border); background:var(--card); border-radius:6px; padding:14px 16px; margin:12px 0; }
+  .risk-card.high { border-left:4px solid var(--high); }
+  .risk-card.medium { border-left:4px solid var(--med); }
+  .risk-card.low { border-left:4px solid var(--low); }
+  .risk-title { font-size:14px; font-weight:700; margin-bottom:8px; }
+  .risk-badge { margin-left:8px; }
+
+  .action-table { margin:16px 0; }
+  .action-table td { padding:10px 12px; }
+  .action-table tr:nth-child(even) { background:#f9fafb; }
+
+  .insight { background:linear-gradient(135deg,rgba(16,185,129,0.08),rgba(56,189,248,0.08)); border:1px solid #b3e5fc; border-radius:8px; padding:14px 16px; margin:14px 0; }
+  .insight p { line-height:1.7; margin:6px 0; font-size:13px; }
+  .insight ul { margin:6px 0 0 0; padding-left:20px; font-size:13px; line-height:1.6; }
+
+  .nowrap { white-space:nowrap; }
+  .small { font-size:12px; color:var(--muted); }
   .muted { color:var(--muted); }
-  code { background:#0b1220; padding:1px 6px; border-radius:4px; color:#fbbf24; font-size:12px; word-break:break-all; }
-  .summary p { line-height:1.85; color:#e2e8f0; margin:8px 0; }
-  .summary { background:linear-gradient(135deg,rgba(124,58,237,0.18),rgba(14,165,233,0.18)); border:1px solid #6366f1; }
-
-  /* Executive summary */
-  .verdict-bar { display:flex; align-items:center; gap:16px; background:#0b1220; border-radius:8px; padding:14px 18px; margin-bottom:14px; }
-  .verdict-emoji { font-size:32px; line-height:1; }
-  .verdict-title { font-size:18px; font-weight:700; }
-  .verdict-score { font-size:13px; color:var(--muted); font-weight:400; margin-left:6px; }
-  .verdict-desc { font-size:13px; color:var(--muted); margin-top:4px; line-height:1.6; }
-
-  .kpi-grid { display:grid; grid-template-columns:repeat(6, 1fr); gap:10px; margin-bottom:16px; }
-  @media (max-width:1100px) { .kpi-grid { grid-template-columns:repeat(3, 1fr); } }
-  @media (max-width:600px)  { .kpi-grid { grid-template-columns:repeat(2, 1fr); } }
-  .kpi { background:#0b1220; border-radius:8px; padding:12px 14px; border:1px solid var(--border); }
-  .kpi-label { font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px; }
-  .kpi-value { font-size:26px; font-weight:700; line-height:1; font-variant-numeric:tabular-nums; }
-  .kpi-unit { font-size:12px; color:var(--muted); margin-left:3px; font-weight:400; }
-  .kpi-sub { font-size:11px; color:var(--muted); margin-top:4px; }
-
-  .exec-cols { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:14px; }
-  @media (max-width:900px) { .exec-cols { grid-template-columns:1fr; } }
-  .exec-col { background:#0b1220; border-radius:8px; padding:14px 16px; border:1px solid var(--border); }
-  .exec-col h3 { margin:0 0 8px 0; font-size:14px; padding-bottom:6px; border-bottom:1px solid var(--border); }
-  .exec-col ul { margin:6px 0 0 0; padding-left:18px; font-size:13px; line-height:1.7; }
-  .exec-col ul li { margin:5px 0; }
-  .exec-concern { border-left:3px solid var(--high); }
-  .exec-strength { border-left:3px solid var(--ok); }
-  .exec-focus { background:#0b1220; border-radius:8px; padding:14px 16px; border:1px solid var(--border); border-left:3px solid var(--accent); }
-  .exec-focus h3 { margin:0 0 8px 0; font-size:14px; padding-bottom:6px; border-bottom:1px solid var(--border); }
-  .exec-focus ul { margin:6px 0 0 0; padding-left:18px; font-size:13px; line-height:1.8; }
-  .exec-focus ul li { margin:4px 0; }
-
-  /* Domain badges */
-  .dom { display:inline-block; padding:2px 8px; border-radius:999px; font-size:11px; font-weight:700; }
-  .dom-リソース  { background:rgba(56,189,248,0.15); color:#38bdf8; border:1px solid #38bdf8; }
-  .dom-rbac      { background:rgba(168,85,247,0.15); color:#c084fc; border:1px solid #a855f7; }
-  .dom-nsg       { background:rgba(245,158,11,0.15); color:#fbbf24; border:1px solid #f59e0b; }
-  .dom-defender  { background:rgba(239,68,68,0.15);  color:#fca5a5; border:1px solid #ef4444; }
-  .dom-advisor   { background:rgba(16,185,129,0.15); color:#6ee7b7; border:1px solid #10b981; }
-
-  /* Risk cards */
-  .risk { border:1px solid var(--border); border-radius:10px; padding:0; margin-bottom:14px; background:#0b1220; overflow:hidden; }
-  .risk-head { display:flex; align-items:center; gap:12px; padding:12px 16px; border-bottom:1px solid var(--border); }
-  .risk-head h3 { margin:0; font-size:15px; flex:1; }
-  .risk-head .rank { font-weight:700; color:var(--muted); font-size:13px; }
-  .risk-head .sev  { font-size:11px; font-weight:700; padding:3px 10px; border-radius:999px; }
-  .sev-high  .risk-head .sev  { background:rgba(239,68,68,0.15);  color:var(--high); border:1px solid var(--high); }
-  .sev-med   .risk-head .sev  { background:rgba(245,158,11,0.15); color:var(--med);  border:1px solid var(--med); }
-  .sev-low   .risk-head .sev  { background:rgba(56,189,248,0.12); color:var(--low);  border:1px solid var(--low); }
-  .sev-high  { border-left:4px solid var(--high); }
-  .sev-med   { border-left:4px solid var(--med); }
-  .sev-low   { border-left:4px solid var(--low); }
-  .risk-body { padding:14px 16px; }
-  .risk-body .row { display:grid; grid-template-columns:120px 1fr; gap:12px; padding:8px 0; border-bottom:1px dashed var(--border); }
-  .risk-body .row:last-child { border-bottom:none; }
-  .risk-body .lbl { color:var(--muted); font-size:12px; font-weight:600; }
-  .risk-body .val { color:#e2e8f0; font-size:13px; line-height:1.7; word-break:break-word; }
-  .links { margin:0; padding-left:18px; }
-  .links li { margin:2px 0; }
-
-  /* Severity badges in tables */
-  .sev-badge { display:inline-block; padding:2px 8px; border-radius:999px; font-size:11px; font-weight:700; }
-  .sev-badge.sev-high { background:rgba(239,68,68,0.15);  color:var(--high); border:1px solid var(--high); }
-  .sev-badge.sev-med  { background:rgba(245,158,11,0.15); color:var(--med);  border:1px solid var(--med); }
-  .sev-badge.sev-low  { background:rgba(56,189,248,0.12); color:var(--low);  border:1px solid var(--low); }
-  tr.risky td { background:rgba(239,68,68,0.08); }
-  .empty { color:var(--muted); font-size:13px; padding:14px; text-align:center; }
-
-  /* Insight sections */
-  .insight { background:linear-gradient(135deg,rgba(239,68,68,0.08),rgba(124,58,237,0.08)); border:1px solid #6366f1; }
-  .insight.adv { background:linear-gradient(135deg,rgba(16,185,129,0.08),rgba(56,189,248,0.10)); border:1px solid #10b981; }
-  .insight p { line-height:1.85; color:#e2e8f0; margin:8px 0; }
-  .insight ul { margin:6px 0 6px 0; padding-left:22px; color:#e2e8f0; }
-  .insight ul li { margin:3px 0; }
-  .insight-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:14px; }
-  @media (max-width:1000px) { .insight-grid { grid-template-columns:1fr; } }
-  .insight-sub h3 { font-size:14px; margin:0 0 8px 0; color:var(--muted); border-bottom:1px solid var(--border); padding-bottom:6px; }
-
-  .adv-cat { background:#0b1220; border-radius:8px; padding:10px 14px; margin-bottom:10px; }
-  .adv-cat-head { font-weight:700; font-size:13px; margin-bottom:6px; }
-  .adv-list { margin:4px 0 0 18px; padding:0; font-size:12px; line-height:1.7; }
-
-  /* Tabs */
-  .tabs { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:0; margin-bottom:22px; overflow:hidden; }
-  .tab-nav { display:flex; flex-wrap:wrap; background:#0b1220; border-bottom:1px solid var(--border); padding:0; margin:0; gap:0; position:sticky; top:0; z-index:10; }
-  .tab-btn { background:transparent; color:var(--muted); border:none; border-bottom:3px solid transparent; padding:14px 22px; font-size:14px; font-weight:600; cursor:pointer; transition:all 0.15s; font-family:inherit; display:flex; align-items:center; gap:8px; }
-  .tab-btn:hover { color:var(--fg); background:rgba(56,189,248,0.06); }
-  .tab-btn.active { color:var(--fg); border-bottom-color:var(--accent); background:var(--card); }
-  .tab-btn .cnt { background:rgba(148,163,184,0.18); color:var(--muted); padding:1px 8px; border-radius:999px; font-size:11px; font-weight:700; }
-  .tab-btn.active .cnt { background:rgba(56,189,248,0.2); color:var(--accent); }
-  .tab-panel { display:none; padding:22px; }
-  .tab-panel.active { display:block; animation:fadeIn 0.2s ease; }
-  @keyframes fadeIn { from { opacity:0; transform:translateY(4px); } to { opacity:1; transform:none; } }
-  .tab-panel h2 { margin:0 0 14px 0; font-size:18px; padding-bottom:10px; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:10px; }
-  .tab-panel h3 { font-size:14px; margin:18px 0 8px 0; color:var(--muted); border-bottom:1px solid var(--border); padding-bottom:6px; }
-  .tab-panel h3:first-of-type { margin-top:8px; }
-  .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
-  @media (max-width:1000px) { .grid2 { grid-template-columns:1fr; } }
-  .scroll-box { max-height:420px; overflow:auto; border:1px solid var(--border); border-radius:6px; }
+  code { background:#f0f0f0; padding:2px 6px; border-radius:3px; color:#c41c00; font-size:12px; }
 
   footer { color:var(--muted); font-size:12px; padding:16px 32px; text-align:center; }
 </style>
 </head>
 <body>
-<header class="top">
+<header>
   <h1>Azure 総合レポート <span class="badge">管理者向け</span> <span class="badge">AI Insights</span> <span class="badge">横断分析</span></h1>
   <div class="sub">サブスクリプション: $(ConvertTo-HtmlEncoded $subName) ($subId) ／ 生成日時: $generated ／ 入力: resources ($rTotal) · rbac ($aTotal) · nsg ($nRules) · defender ($dTotal) · advisor ($advTotal)</div>
 </header>
@@ -968,7 +908,7 @@ $html = @"
   </div>
 
 </main>
-<footer>Generated by Azure PowerShell (Resources / RBAC / NSG / Defender for Cloud / Advisor) ／ AI Insights authored by GitHub Copilot</footer>
+<footer>⚙️ Rule-Based Report | Generated by Azure PowerShell (Resources / RBAC / NSG / Defender for Cloud / Advisor) ／ AI Insights authored by GitHub Copilot</footer>
 <script>
 (function () {
   var nav = document.getElementById('domain-tabs');

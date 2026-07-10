@@ -1,0 +1,192 @@
+agent-generate-report	Set up job	﻿2026-07-09T02:11:58.9052713Z Current runner version: '2.335.1'
+agent-generate-report	Set up job	2026-07-09T02:11:58.9089213Z ##[group]Runner Image Provisioner
+agent-generate-report	Set up job	2026-07-09T02:11:58.9090560Z Hosted Compute Agent
+agent-generate-report	Set up job	2026-07-09T02:11:58.9091874Z Version: 20260624.560
+agent-generate-report	Set up job	2026-07-09T02:11:58.9092934Z Commit: 925d229a51159bc391ae97e54a2dd1fe20af789d
+agent-generate-report	Set up job	2026-07-09T02:11:58.9094295Z Build Date: 2026-06-24T18:26:47Z
+agent-generate-report	Set up job	2026-07-09T02:11:58.9095439Z Worker ID: {69bae8d8-56df-4b9a-876a-970114ff3c5f}
+agent-generate-report	Set up job	2026-07-09T02:11:58.9096710Z Azure Region: eastus
+agent-generate-report	Set up job	2026-07-09T02:11:58.9097590Z ##[endgroup]
+agent-generate-report	Set up job	2026-07-09T02:11:58.9099908Z ##[group]Operating System
+agent-generate-report	Set up job	2026-07-09T02:11:58.9101380Z Ubuntu
+agent-generate-report	Set up job	2026-07-09T02:11:58.9102329Z 24.04.4
+agent-generate-report	Set up job	2026-07-09T02:11:58.9103307Z LTS
+agent-generate-report	Set up job	2026-07-09T02:11:58.9104137Z ##[endgroup]
+agent-generate-report	Set up job	2026-07-09T02:11:58.9104981Z ##[group]Runner Image
+agent-generate-report	Set up job	2026-07-09T02:11:58.9106089Z Image: ubuntu-24.04
+agent-generate-report	Set up job	2026-07-09T02:11:58.9107047Z Version: 20260705.232.1
+agent-generate-report	Set up job	2026-07-09T02:11:58.9108870Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260705.232/images/ubuntu/Ubuntu2404-Readme.md
+agent-generate-report	Set up job	2026-07-09T02:11:58.9112013Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260705.232
+agent-generate-report	Set up job	2026-07-09T02:11:58.9113781Z ##[endgroup]
+agent-generate-report	Set up job	2026-07-09T02:11:58.9116254Z ##[group]GITHUB_TOKEN Permissions
+agent-generate-report	Set up job	2026-07-09T02:11:58.9119240Z Contents: write
+agent-generate-report	Set up job	2026-07-09T02:11:58.9120152Z Metadata: read
+agent-generate-report	Set up job	2026-07-09T02:11:58.9121352Z Pages: write
+agent-generate-report	Set up job	2026-07-09T02:11:58.9122321Z ##[endgroup]
+agent-generate-report	Set up job	2026-07-09T02:11:58.9125312Z Secret source: Actions
+agent-generate-report	Set up job	2026-07-09T02:11:58.9126877Z Prepare workflow directory
+agent-generate-report	Set up job	2026-07-09T02:11:58.9600198Z Prepare all required actions
+agent-generate-report	Set up job	2026-07-09T02:11:58.9656787Z Getting action download info
+agent-generate-report	Set up job	2026-07-09T02:11:59.1865033Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+agent-generate-report	Set up job	2026-07-09T02:11:59.2646559Z Download action repository 'actions/download-artifact@v4' (SHA:d3f86a106a0bac45b974a628896c90dbdf5c8093)
+agent-generate-report	Set up job	2026-07-09T02:11:59.4241134Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+agent-generate-report	Set up job	2026-07-09T02:11:59.6742768Z Complete job name: agent-generate-report
+agent-generate-report	Checkout repository	﻿2026-07-09T02:11:59.7482851Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.7491768Z ##[group]Run actions/checkout@v4
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.7492519Z with:
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.7493073Z   repository: amex678/azure-inventory-insights-generator-ai
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.7497177Z   token: ***
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.7497589Z   ssh-strict: true
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.7498012Z   ssh-user: git
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.7498444Z   persist-credentials: true
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.7498919Z   clean: true
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.7499354Z   sparse-checkout-cone-mode: true
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.7499854Z   fetch-depth: 1
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.7500265Z   fetch-tags: false
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.7500688Z   show-progress: true
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.7501351Z   lfs: false
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.7501753Z   submodules: false
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.7502223Z   set-safe-directory: true
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.7503073Z ##[endgroup]
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8524713Z Syncing repository: amex678/azure-inventory-insights-generator-ai
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8526998Z ##[group]Getting Git version info
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8528231Z Working directory is '/home/runner/work/azure-inventory-insights-generator-ai/azure-inventory-insights-generator-ai'
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8529665Z [command]/usr/bin/git version
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8553426Z git version 2.54.0
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8609186Z ##[endgroup]
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8627136Z Temporarily overriding HOME='/home/runner/work/_temp/30c22997-093d-4258-9dfc-bc85f2a3b502' before making global git config changes
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8629510Z Adding repository directory to the temporary git global config as a safe directory
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8638581Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/azure-inventory-insights-generator-ai/azure-inventory-insights-generator-ai
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8711599Z Deleting the contents of '/home/runner/work/azure-inventory-insights-generator-ai/azure-inventory-insights-generator-ai'
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8714430Z ##[group]Initializing the repository
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8716385Z [command]/usr/bin/git init /home/runner/work/azure-inventory-insights-generator-ai/azure-inventory-insights-generator-ai
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8821072Z hint: Using 'master' as the name for the initial branch. This default branch name
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8822659Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8823603Z hint: to use in all of your new repositories, which will suppress this warning,
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8824344Z hint: call:
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8824730Z hint:
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8825227Z hint: 	git config --global init.defaultBranch <name>
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8825813Z hint:
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8826382Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8827320Z hint: 'development'. The just-created branch can be renamed via this command:
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8828064Z hint:
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8828461Z hint: 	git branch -m <name>
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8828983Z hint:
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8829586Z hint: Disable this message with "git config set advice.defaultBranchName false"
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8837651Z Initialized empty Git repository in /home/runner/work/azure-inventory-insights-generator-ai/azure-inventory-insights-generator-ai/.git/
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8850131Z [command]/usr/bin/git remote add origin https://github.com/amex678/azure-inventory-insights-generator-ai
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8899320Z ##[endgroup]
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8900641Z ##[group]Disabling automatic garbage collection
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8932027Z [command]/usr/bin/git config --local gc.auto 0
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8942735Z ##[endgroup]
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8944004Z ##[group]Setting up auth
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.8950463Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.9035623Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.9504578Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.9552721Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.9819895Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+agent-generate-report	Checkout repository	2026-07-09T02:11:59.9857236Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+agent-generate-report	Checkout repository	2026-07-09T02:12:00.0103496Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+agent-generate-report	Checkout repository	2026-07-09T02:12:00.0152102Z ##[endgroup]
+agent-generate-report	Checkout repository	2026-07-09T02:12:00.0153655Z ##[group]Fetching the repository
+agent-generate-report	Checkout repository	2026-07-09T02:12:00.0163553Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +cbf3afec3f43445b88802d4ac8eae40093d85454:refs/remotes/origin/main
+agent-generate-report	Checkout repository	2026-07-09T02:12:00.3272581Z From https://github.com/amex678/azure-inventory-insights-generator-ai
+agent-generate-report	Checkout repository	2026-07-09T02:12:00.3275234Z  * [new ref]         cbf3afec3f43445b88802d4ac8eae40093d85454 -> origin/main
+agent-generate-report	Checkout repository	2026-07-09T02:12:00.3312700Z ##[endgroup]
+agent-generate-report	Checkout repository	2026-07-09T02:12:00.3314530Z ##[group]Determining the checkout info
+agent-generate-report	Checkout repository	2026-07-09T02:12:00.3316544Z ##[endgroup]
+agent-generate-report	Checkout repository	2026-07-09T02:12:00.3323855Z [command]/usr/bin/git sparse-checkout disable
+agent-generate-report	Checkout repository	2026-07-09T02:12:00.3379260Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+agent-generate-report	Checkout repository	2026-07-09T02:12:00.3413797Z ##[group]Checking out the ref
+agent-generate-report	Checkout repository	2026-07-09T02:12:00.3418631Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+agent-generate-report	Checkout repository	2026-07-09T02:12:00.3703044Z Switched to a new branch 'main'
+agent-generate-report	Checkout repository	2026-07-09T02:12:00.3705233Z branch 'main' set up to track 'origin/main'.
+agent-generate-report	Checkout repository	2026-07-09T02:12:00.3710406Z ##[endgroup]
+agent-generate-report	Checkout repository	2026-07-09T02:12:00.3762128Z [command]/usr/bin/git log -1 --format=%H
+agent-generate-report	Checkout repository	2026-07-09T02:12:00.3789476Z cbf3afec3f43445b88802d4ac8eae40093d85454
+agent-generate-report	Download collected datasets	﻿2026-07-09T02:12:00.4098517Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+agent-generate-report	Download collected datasets	2026-07-09T02:12:00.4104263Z ##[group]Run actions/download-artifact@v4
+agent-generate-report	Download collected datasets	2026-07-09T02:12:00.4105504Z with:
+agent-generate-report	Download collected datasets	2026-07-09T02:12:00.4106441Z   name: azure-inventory-datasets
+agent-generate-report	Download collected datasets	2026-07-09T02:12:00.4107575Z   path: output/
+agent-generate-report	Download collected datasets	2026-07-09T02:12:00.4108538Z   merge-multiple: false
+agent-generate-report	Download collected datasets	2026-07-09T02:12:00.4109874Z   repository: amex678/azure-inventory-insights-generator-ai
+agent-generate-report	Download collected datasets	2026-07-09T02:12:00.4111513Z   run-id: 28989092703
+agent-generate-report	Download collected datasets	2026-07-09T02:12:00.4112498Z ##[endgroup]
+agent-generate-report	Download collected datasets	2026-07-09T02:12:00.5618394Z Downloading single artifact
+agent-generate-report	Download collected datasets	2026-07-09T02:12:00.5768315Z (node:2289) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+agent-generate-report	Download collected datasets	2026-07-09T02:12:00.5771304Z (Use `node --trace-deprecation ...` to show where the warning was created)
+agent-generate-report	Download collected datasets	2026-07-09T02:12:00.6378822Z Preparing to download the following artifacts:
+agent-generate-report	Download collected datasets	2026-07-09T02:12:00.6381714Z - azure-inventory-datasets (ID: 8187192533, Size: 110129, Expected Digest: sha256:05a0e45080321a42657ab383b91707eaedbdfad64ac130fe78d734a0debab0cb)
+agent-generate-report	Download collected datasets	2026-07-09T02:12:00.7229841Z Redirecting to blob download url: https://productionresultssa2.blob.core.windows.net/actions-results/8f0adbe0-aa68-463a-8c67-f3c5dd3255b6/workflow-job-run-d1a9a9b1-8563-50cd-8387-326b565b6e16/artifacts/0a6e83595bb8cc30c8788f5f52abd0bda1c3bfd9e78a7654b1c367d7786a13ad.zip
+agent-generate-report	Download collected datasets	2026-07-09T02:12:00.7235407Z Starting download of artifact to: /home/runner/work/azure-inventory-insights-generator-ai/azure-inventory-insights-generator-ai/output
+agent-generate-report	Download collected datasets	2026-07-09T02:12:00.7593821Z (node:2289) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+agent-generate-report	Download collected datasets	2026-07-09T02:12:00.7761253Z SHA256 digest of downloaded artifact is 05a0e45080321a42657ab383b91707eaedbdfad64ac130fe78d734a0debab0cb
+agent-generate-report	Download collected datasets	2026-07-09T02:12:00.7763994Z Artifact download completed successfully.
+agent-generate-report	Download collected datasets	2026-07-09T02:12:00.7764943Z Total of 1 artifact(s) downloaded
+agent-generate-report	Download collected datasets	2026-07-09T02:12:00.7765634Z Download artifact has finished successfully
+agent-generate-report	Build comprehensive HTML report with Agent	﻿2026-07-09T02:12:00.8007462Z ##[group]Run if ($env:REPORT_MODE -eq 'rule-based') {
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:00.8008483Z ^[[36;1mif ($env:REPORT_MODE -eq 'rule-based') {^[[0m
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:00.8009441Z ^[[36;1m  ./scripts/New-AzComprehensiveAdminReport.ps1^[[0m
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:00.8010236Z ^[[36;1m  exit 0^[[0m
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:00.8010612Z ^[[36;1m}^[[0m
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:00.8011247Z ^[[36;1m^[[0m
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:00.8011685Z ^[[36;1mif ($env:REPORT_MODE -eq 'ai-only') {^[[0m
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:00.8012881Z ^[[36;1m  ./scripts/New-AzComprehensiveAdminReportWithAgent.ps1 -FailOnError^[[0m
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:00.8013990Z ^[[36;1m  exit 0^[[0m
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:00.8014371Z ^[[36;1m}^[[0m
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:00.8014703Z ^[[36;1m^[[0m
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:00.8015364Z ^[[36;1m./scripts/New-AzComprehensiveAdminReportWithAgent.ps1^[[0m
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:00.8904106Z shell: /usr/bin/pwsh -command ". '{0}'"
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:00.8904972Z env:
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:00.8905388Z   AI_REPORT_API_KEY: 
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:00.8905973Z   AI_REPORT_API_ENDPOINT: 
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:00.8906598Z   AI_REPORT_MODEL: 
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:00.8907179Z   REPORT_MODE: ai-only
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:00.8907760Z   GITHUB_RUN_ID: 28989092703
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:00.8908726Z   GITHUB_REPOSITORY: amex678/azure-inventory-insights-generator-ai
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:00.8909728Z ##[endgroup]
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:20.6193245Z ^[[33;1mWARNING: AI HTML generation was skipped or failed. Fallback to rule-based script. Reason: AI_REPORT_API_KEY が未設定です。^[[0m
+agent-generate-report	Build comprehensive HTML report with Agent	2026-07-09T02:12:36.4491814Z Comprehensive Admin HTML: /home/runner/work/azure-inventory-insights-generator-ai/azure-inventory-insights-generator-ai/scripts/../output/comprehensive-report.html
+agent-generate-report	Upload generated report artifacts	﻿2026-07-09T02:12:39.0184406Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.0185742Z ##[group]Run actions/upload-artifact@v4
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.0186016Z with:
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.0186228Z   name: azure-inventory-report
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.0186495Z   path: output/
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.0186710Z   if-no-files-found: error
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.0186975Z   retention-days: 30
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.0187194Z   compression-level: 6
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.0187429Z   overwrite: false
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.0187644Z   include-hidden-files: false
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.0187884Z ##[endgroup]
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.1830406Z (node:2355) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.1831445Z (Use `node --trace-deprecation ...` to show where the warning was created)
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.1911367Z With the provided path, there will be 11 files uploaded
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.1918005Z Artifact name is valid!
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.1919159Z Root directory input is valid!
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.3266563Z Beginning upload of artifact content to blob storage
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.3824816Z (node:2355) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.4195591Z Uploaded bytes 127960
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.4358782Z Finished uploading artifact content to blob storage!
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.4360262Z SHA256 digest of uploaded artifact zip is 031badb9b8f31bf4e4107c40f9cb4ec519c9b01521cf1bc74f005c137a869e40
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.4361838Z Finalizing artifact upload
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.5931718Z Artifact azure-inventory-report.zip successfully finalized. Artifact ID 8187204929
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.5933639Z Artifact azure-inventory-report has been successfully uploaded! Final size is 127960 bytes. Artifact ID is 8187204929
+agent-generate-report	Upload generated report artifacts	2026-07-09T02:12:39.5941576Z Artifact download URL: https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/28989092703/artifacts/8187204929
+agent-generate-report	Post Checkout repository	﻿2026-07-09T02:12:39.6145743Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+agent-generate-report	Post Checkout repository	2026-07-09T02:12:39.6147019Z Post job cleanup.
+agent-generate-report	Post Checkout repository	2026-07-09T02:12:39.6968969Z [command]/usr/bin/git version
+agent-generate-report	Post Checkout repository	2026-07-09T02:12:39.7014070Z git version 2.54.0
+agent-generate-report	Post Checkout repository	2026-07-09T02:12:39.7085981Z Temporarily overriding HOME='/home/runner/work/_temp/3decea2b-4a23-4f84-b5c9-2b11d673af43' before making global git config changes
+agent-generate-report	Post Checkout repository	2026-07-09T02:12:39.7087313Z Adding repository directory to the temporary git global config as a safe directory
+agent-generate-report	Post Checkout repository	2026-07-09T02:12:39.7092198Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/azure-inventory-insights-generator-ai/azure-inventory-insights-generator-ai
+agent-generate-report	Post Checkout repository	2026-07-09T02:12:39.7130316Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+agent-generate-report	Post Checkout repository	2026-07-09T02:12:39.7167764Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+agent-generate-report	Post Checkout repository	2026-07-09T02:12:39.7419067Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+agent-generate-report	Post Checkout repository	2026-07-09T02:12:39.7449139Z http.https://github.com/.extraheader
+agent-generate-report	Post Checkout repository	2026-07-09T02:12:39.7462092Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+agent-generate-report	Post Checkout repository	2026-07-09T02:12:39.7495716Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+agent-generate-report	Post Checkout repository	2026-07-09T02:12:39.7761697Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+agent-generate-report	Post Checkout repository	2026-07-09T02:12:39.7799195Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+agent-generate-report	Complete job	﻿2026-07-09T02:12:39.8212973Z Cleaning up orphan processes
+agent-generate-report	Complete job	2026-07-09T02:12:39.8510244Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/download-artifact@v4, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
