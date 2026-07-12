@@ -184,10 +184,16 @@ if (-not $focusItems) { $focusItems = @('<strong>Week 1-4:</strong> 全体サマ
 $focusHtml = ($focusItems | ForEach-Object { "<li>$_</li>" }) -join "`n"
 
 # 総評パラグラフ（AI 推察に相当するルールベース生成文）
+# 規模分類と孤児ロールの閾値
+$sizeThresholdSmall  = 50
+$sizeThresholdMedium = 200
+$orphanHighThreshold = 10
+
 $narrativeParts = @()
 
 # 環境規模の説明
-$narrativeParts += "本サブスクリプションは $rTotal リソース・$rRGs リソースグループ・$rLocs リージョンで構成された$(if ($rTotal -lt 50) { '小規模' } elseif ($rTotal -lt 200) { '中規模' } else { '大規模' })環境です。"
+$sizeLabel = if ($rTotal -lt $sizeThresholdSmall) { '小規模' } elseif ($rTotal -lt $sizeThresholdMedium) { '中規模' } else { '大規模' }
+$narrativeParts += "本サブスクリプションは $rTotal リソース・$rRGs リソースグループ・$rLocs リージョンで構成された${sizeLabel}環境です。"
 
 # リスク面の推察
 if ($dHigh -gt 50 -and $advHigh -gt 20) {
@@ -201,7 +207,7 @@ if ($dHigh -gt 50 -and $advHigh -gt 20) {
 }
 
 # RBAC の所見
-if ($aOrphan -gt 10) {
+if ($aOrphan -gt $orphanHighThreshold) {
     $narrativeParts += "孤児候補ロールが $aOrphan 件と多く、削除済みアカウントへの権限残存が常態化していると推察されます。Owner $aOwner 件も恒久付与を避け PIM へ移行すべきです。"
 } elseif ($aOwner -gt 2) {
     $narrativeParts += "Owner ロールの恒久付与が $aOwner 件あり、最小権限原則の徹底と PIM への移行が望まれます。"
