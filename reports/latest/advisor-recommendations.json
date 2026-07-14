@@ -2289,22 +2289,6 @@
   },
   {
     "Category": "HighAvailability",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Ensure Azure Disks are in the same zone as your VM for higher resiliency and availability",
-    "Solution": "Ensure Azure Disks are in the same zone as your VM for higher resiliency and availability",
-    "ImpactedField": "MICROSOFT.COMPUTE/DISKS",
-    "ImpactedValue": "mobvmghc-vm-yypwhhh6st5ky_osdisk_1_44c6a46557db42e5b234bfe64d084ce0",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-mobile-ghc-cli/providers/microsoft.compute/disks/mobvmghc-vm-yypwhhh6st5ky_osdisk_1_44c6a46557db42e5b234bfe64d084ce0",
-    "ResourceName": "mobvmghc-vm-yypwhhh6st5ky_osdisk_1_44c6a46557db42e5b234bfe64d084ce0",
-    "ResourceType": "MICROSOFT.COMPUTE/DISKS",
-    "ResourceGroupName": "rg-mobile-ghc-cli",
-    "LastUpdated": "2026-07-04T16:39:33.7935299Z",
-    "RecommendationId": "a1a122a250d916b6a206af7f7e8a2f303db43595075a1f5913b8cfced17b2580",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-mobile-ghc-cli/providers/microsoft.compute/disks/mobvmghc-vm-yypwhhh6st5ky_osdisk_1_44c6a46557db42e5b234bfe64d084ce0/providers/Microsoft.Advisor/recommendations/a1a122a250d916b6a206af7f7e8a2f303db43595075a1f5913b8cfced17b2580"
-  },
-  {
-    "Category": "HighAvailability",
     "Impact": "Medium",
     "Risk": null,
     "Problem": "Migrate Standard HDD OS Disks to SSD",
@@ -2542,22 +2526,6 @@
     "LastUpdated": "2026-07-09T18:47:51.3706561Z",
     "RecommendationId": "40129736c08b3623dac4e358cd1453684438cc5209fe89f5d641775640c2cbe2",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.compute/disks/vm-nwri-src-jpe_osdisk_1_cb8a7c294776415f9732b629726f07f6/providers/Microsoft.Advisor/recommendations/40129736c08b3623dac4e358cd1453684438cc5209fe89f5d641775640c2cbe2"
-  },
-  {
-    "Category": "HighAvailability",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Ensure Azure Disks are in the same zone as your VM for higher resiliency and availability",
-    "Solution": "Ensure Azure Disks are in the same zone as your VM for higher resiliency and availability",
-    "ImpactedField": "MICROSOFT.COMPUTE/DISKS",
-    "ImpactedValue": "vmprovjpe202607091459_osdisk_1_b5a2f2730c4040d6b4ee67d46a191a9a",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-vmprov-jpe-20260709-1459/providers/microsoft.compute/disks/vmprovjpe202607091459_osdisk_1_b5a2f2730c4040d6b4ee67d46a191a9a",
-    "ResourceName": "vmprovjpe202607091459_osdisk_1_b5a2f2730c4040d6b4ee67d46a191a9a",
-    "ResourceType": "MICROSOFT.COMPUTE/DISKS",
-    "ResourceGroupName": "rg-vmprov-jpe-20260709-1459",
-    "LastUpdated": "2026-07-09T21:26:31.4350749Z",
-    "RecommendationId": "92cf0f8248f0a32df0951b154aaaf08bc0aa49f91fea16723629c097e061bc21",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-vmprov-jpe-20260709-1459/providers/microsoft.compute/disks/vmprovjpe202607091459_osdisk_1_b5a2f2730c4040d6b4ee67d46a191a9a/providers/Microsoft.Advisor/recommendations/92cf0f8248f0a32df0951b154aaaf08bc0aa49f91fea16723629c097e061bc21"
   },
   {
     "Category": "OperationalExcellence",
