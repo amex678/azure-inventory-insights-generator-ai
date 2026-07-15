@@ -987,7 +987,7 @@
     "ResourceName": "foundry-test-csa",
     "ResourceType": "Microsoft.CognitiveServices/accounts",
     "ResourceGroupName": "test01",
-    "LastUpdated": "2026-06-05T04:55:32.5742655Z",
+    "LastUpdated": "2026-07-15T13:23:43.5909921Z",
     "RecommendationId": "4f1663bb7e3b35f72907f9b3fc7ba2d7993a9c2ca9faead732cf060dac6ab194",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/test01/providers/microsoft.cognitiveservices/accounts/foundry-test-csa/providers/Microsoft.Advisor/recommendations/4f1663bb7e3b35f72907f9b3fc7ba2d7993a9c2ca9faead732cf060dac6ab194"
   },
@@ -2926,5 +2926,21 @@
     "LastUpdated": "2026-07-15T05:34:06.0766772Z",
     "RecommendationId": "b54eccc2dafdb85aa84383757bb86eabc1949e15be7dea664dbd1a792fe4a1b4",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.storage/storageaccounts/nwrilkb2l5f6fuhds/providers/Microsoft.Advisor/recommendations/b54eccc2dafdb85aa84383757bb86eabc1949e15be7dea664dbd1a792fe4a1b4"
+  },
+  {
+    "Category": "Security",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Storage accounts should restrict network access using virtual network rules",
+    "Solution": "Storage accounts should restrict network access using virtual network rules",
+    "ImpactedField": "Microsoft.Storage/storageAccounts",
+    "ImpactedValue": "nwrilkb2l5f6fuhds",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.storage/storageaccounts/nwrilkb2l5f6fuhds",
+    "ResourceName": "nwrilkb2l5f6fuhds",
+    "ResourceType": "Microsoft.Storage/storageAccounts",
+    "ResourceGroupName": "rg-nwri-jpe-20260709",
+    "LastUpdated": "2026-07-15T13:08:33.611418Z",
+    "RecommendationId": "52891f4803c11c69e615fbe0e7975a9aa5168d9c3aa5d50d4e27495dd3ebf64b",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.storage/storageaccounts/nwrilkb2l5f6fuhds/providers/Microsoft.Advisor/recommendations/52891f4803c11c69e615fbe0e7975a9aa5168d9c3aa5d50d4e27495dd3ebf64b"
   }
 ]
