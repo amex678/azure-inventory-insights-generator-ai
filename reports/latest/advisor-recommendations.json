@@ -2363,7 +2363,7 @@
     "ResourceName": "vmprovjpe202607091459",
     "ResourceType": "Microsoft.Compute/virtualMachines",
     "ResourceGroupName": "rg-vmprov-jpe-20260709-1459",
-    "LastUpdated": "2026-07-09T09:16:37.7237401Z",
+    "LastUpdated": "2026-07-15T09:19:38.8799717Z",
     "RecommendationId": "4f089f48bab6bc6eba750276f827c0c05cfef6f5edda08dbbd017776084327da",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-vmprov-jpe-20260709-1459/providers/microsoft.compute/virtualmachines/vmprovjpe202607091459/providers/Microsoft.Advisor/recommendations/4f089f48bab6bc6eba750276f827c0c05cfef6f5edda08dbbd017776084327da"
   },
