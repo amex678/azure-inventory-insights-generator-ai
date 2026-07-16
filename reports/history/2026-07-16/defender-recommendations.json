@@ -342,24 +342,6 @@
     "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe/providers/Microsoft.Security/assessments/ae319ed0-d1f3-b83a-0166-915bd54cce8e"
   },
   {
-    "AssessmentName": "796079e2-8db1-ee46-c964-a16e1351b935",
-    "DisplayName": "Update linux-image-generic_for_linux",
-    "Severity": "Medium",
-    "Status": "Unhealthy",
-    "StatusCause": null,
-    "StatusDescription": null,
-    "SecurityIssue": "Vulnerability",
-    "SecurityCategories": "Vulnerabilities",
-    "RecommendationCategory": "SoftwareUpdate",
-    "Description": null,
-    "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-PW-OPS-DEV-JPE-27161/providers/Microsoft.Compute/virtualMachines/vm-pw-ops-dev-jpw-27161",
-    "ResourceName": "vm-pw-ops-dev-jpw-27161",
-    "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-PW-OPS-DEV-JPE-27161",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-PW-OPS-DEV-JPE-27161/providers/Microsoft.Compute/virtualMachines/vm-pw-ops-dev-jpw-27161/providers/Microsoft.Security/assessments/796079e2-8db1-ee46-c964-a16e1351b935"
-  },
-  {
     "AssessmentName": "77abae95-0b0f-230b-f37e-dbcbff0a9d02",
     "DisplayName": "Update libncurses6",
     "Severity": "High",
@@ -952,6 +934,24 @@
     "ResourceType": "microsoft.compute/virtualmachines",
     "ResourceGroupName": "rg-vmprov-jpe-20260709-1459",
     "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-vmprov-jpe-20260709-1459/providers/microsoft.compute/virtualmachines/vmprovjpe202607091459/providers/Microsoft.Security/assessments/fc856955-2b3d-57e8-fd8e-07b981942c57"
+  },
+  {
+    "AssessmentName": "0eb43387-0e67-e2b5-4e77-d4fde3118af8",
+    "DisplayName": "Update wget_for_linux",
+    "Severity": "Medium",
+    "Status": "Unhealthy",
+    "StatusCause": null,
+    "StatusDescription": null,
+    "SecurityIssue": "Vulnerability",
+    "SecurityCategories": "Vulnerabilities",
+    "RecommendationCategory": "SoftwareUpdate",
+    "Description": null,
+    "Remediation": null,
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-PW-OPS-DEV-JPE-27161/providers/Microsoft.Compute/virtualMachines/vm-pw-ops-dev-jpw-27161",
+    "ResourceName": "vm-pw-ops-dev-jpw-27161",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "RG-PW-OPS-DEV-JPE-27161",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-PW-OPS-DEV-JPE-27161/providers/Microsoft.Compute/virtualMachines/vm-pw-ops-dev-jpw-27161/providers/Microsoft.Security/assessments/0eb43387-0e67-e2b5-4e77-d4fde3118af8"
   },
   {
     "AssessmentName": "ae319ed0-d1f3-b83a-0166-915bd54cce8e",

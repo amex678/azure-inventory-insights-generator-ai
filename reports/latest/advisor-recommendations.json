@@ -2990,5 +2990,37 @@
     "LastUpdated": "2026-07-16T05:34:04.3649007Z",
     "RecommendationId": "4263ea42af60140d428aa8b2f586bbdf74b5f6bc3e19e29db00e7333bae36eb4",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.compute/virtualmachines/vm-nwri-dst-jpe/providers/Microsoft.Advisor/recommendations/4263ea42af60140d428aa8b2f586bbdf74b5f6bc3e19e29db00e7333bae36eb4"
+  },
+  {
+    "Category": "Security",
+    "Impact": "High",
+    "Risk": null,
+    "Problem": "Linux virtual machines should enable Azure Disk Encryption or EncryptionAtHost.",
+    "Solution": "Linux virtual machines should enable Azure Disk Encryption or EncryptionAtHost.",
+    "ImpactedField": "Microsoft.Compute/virtualMachines",
+    "ImpactedValue": "vm-nwri-dst-jpe",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.compute/virtualmachines/vm-nwri-dst-jpe",
+    "ResourceName": "vm-nwri-dst-jpe",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "rg-nwri-jpe-20260709",
+    "LastUpdated": "2026-07-16T10:44:47.4510712Z",
+    "RecommendationId": "047507986add6d6e7e5c78a0702798a889fd9644b417b8db5949229577be3476",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.compute/virtualmachines/vm-nwri-dst-jpe/providers/Microsoft.Advisor/recommendations/047507986add6d6e7e5c78a0702798a889fd9644b417b8db5949229577be3476"
+  },
+  {
+    "Category": "Security",
+    "Impact": "High",
+    "Risk": null,
+    "Problem": "Linux virtual machines should enable Azure Disk Encryption or EncryptionAtHost.",
+    "Solution": "Linux virtual machines should enable Azure Disk Encryption or EncryptionAtHost.",
+    "ImpactedField": "Microsoft.Compute/virtualMachines",
+    "ImpactedValue": "vm-nwri-src-jpe",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.compute/virtualmachines/vm-nwri-src-jpe",
+    "ResourceName": "vm-nwri-src-jpe",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "rg-nwri-jpe-20260709",
+    "LastUpdated": "2026-07-16T10:44:47.4510189Z",
+    "RecommendationId": "86696776d18ccb6d40e49f54afba267b3f2123bfa785d0ab4eedd8b6f4dfad9c",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.compute/virtualmachines/vm-nwri-src-jpe/providers/Microsoft.Advisor/recommendations/86696776d18ccb6d40e49f54afba267b3f2123bfa785d0ab4eedd8b6f4dfad9c"
   }
 ]
