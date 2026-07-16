@@ -2958,5 +2958,37 @@
     "LastUpdated": "2026-07-16T00:35:32.1094677Z",
     "RecommendationId": "06631e6e7545a0c234aebcf765ec754f0855ff2b1d2de4786617aed38921876f",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.storage/storageaccounts/nwrilkb2l5f6fuhds/providers/Microsoft.Advisor/recommendations/06631e6e7545a0c234aebcf765ec754f0855ff2b1d2de4786617aed38921876f"
+  },
+  {
+    "Category": "Security",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Guest Configuration extension should be installed on machines",
+    "Solution": "Guest Configuration extension should be installed on machines",
+    "ImpactedField": "Microsoft.Compute/virtualMachines",
+    "ImpactedValue": "vm-nwri-src-jpe",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.compute/virtualmachines/vm-nwri-src-jpe",
+    "ResourceName": "vm-nwri-src-jpe",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "rg-nwri-jpe-20260709",
+    "LastUpdated": "2026-07-16T05:33:49.9125925Z",
+    "RecommendationId": "fa7e44efa4622cf14fe6f74bfb06fde7fce4a7b91fb5c82eca261a3a9abdaf85",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.compute/virtualmachines/vm-nwri-src-jpe/providers/Microsoft.Advisor/recommendations/fa7e44efa4622cf14fe6f74bfb06fde7fce4a7b91fb5c82eca261a3a9abdaf85"
+  },
+  {
+    "Category": "Security",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Guest Configuration extension should be installed on machines",
+    "Solution": "Guest Configuration extension should be installed on machines",
+    "ImpactedField": "Microsoft.Compute/virtualMachines",
+    "ImpactedValue": "vm-nwri-dst-jpe",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.compute/virtualmachines/vm-nwri-dst-jpe",
+    "ResourceName": "vm-nwri-dst-jpe",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "rg-nwri-jpe-20260709",
+    "LastUpdated": "2026-07-16T05:34:04.3649007Z",
+    "RecommendationId": "4263ea42af60140d428aa8b2f586bbdf74b5f6bc3e19e29db00e7333bae36eb4",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.compute/virtualmachines/vm-nwri-dst-jpe/providers/Microsoft.Advisor/recommendations/4263ea42af60140d428aa8b2f586bbdf74b5f6bc3e19e29db00e7333bae36eb4"
   }
 ]
