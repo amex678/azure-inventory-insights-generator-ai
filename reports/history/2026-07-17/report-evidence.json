@@ -1,10 +1,9 @@
 {
-  "generation_method": "api-ai",
-  "runId": "29585911024",
+  "generation_method": "rule-based-fallback",
+  "runId": "29599554205",
   "repository": "amex678/azure-inventory-insights-generator-ai",
-  "generatedAt": "2026-07-17T14:00:26.3277095+00:00",
-  "model": "openai/gpt-4.1-mini",
-  "endpoint": "https://models.github.ai/inference/chat/completions",
+  "generatedAt": "2026-07-17T17:24:45.5196325+00:00",
+  "fallbackReason": "The request was canceled due to the configured HttpClient.Timeout of 180 seconds elapsing.",
   "metrics": {
     "resourcesTotal": 84,
     "resourceGroups": 7,
@@ -13,14 +12,9 @@
     "uaaAssignments": 2,
     "orphanAssignments": 41,
     "nsgRisky": 0,
-    "defenderUnhealthy": 225,
+    "defenderUnhealthy": 246,
     "defenderHigh": 69,
-    "advisorHigh": 67,
+    "advisorHigh": 69,
     "tagCoverage": 42.9
-  },
-  "usage": {
-    "promptTokens": 7335,
-    "completionTokens": 7204,
-    "totalTokens": 14539
   }
 }
