@@ -264,7 +264,30 @@ try {
         throw 'AI_REPORT_API_KEY が未設定です。GitHub Models を使う場合は AI_REPORT_API_ENDPOINT を models.github.ai に設定してください。'
     }
 
-    $response = Invoke-RestMethod -Method Post -Uri $ApiEndpoint -Headers $headers -Body $body -TimeoutSec 180
+    $apiTimeoutSeconds = 180
+    $apiJob = Start-Job -ScriptBlock {
+        param(
+            [string]$RequestUri,
+            [hashtable]$RequestHeaders,
+            [string]$RequestBody,
+            [int]$RequestTimeoutSeconds
+        )
+
+        Invoke-RestMethod -Method Post -Uri $RequestUri -Headers $RequestHeaders -Body $RequestBody -TimeoutSec $RequestTimeoutSeconds
+    } -ArgumentList $ApiEndpoint, $headers, $body, $apiTimeoutSeconds
+
+    try {
+        if (-not (Wait-Job -Job $apiJob -Timeout ($apiTimeoutSeconds + 30))) {
+            Stop-Job -Job $apiJob -ErrorAction SilentlyContinue
+            throw "AI API call timed out after $apiTimeoutSeconds seconds."
+        }
+
+        $response = Receive-Job -Job $apiJob -ErrorAction Stop
+    }
+    finally {
+        Remove-Job -Job $apiJob -Force -ErrorAction SilentlyContinue
+    }
+
     $content = $null
     $usage = $null
 
