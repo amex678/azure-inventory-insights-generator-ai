@@ -2816,22 +2816,6 @@
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-pw-ops-dev-jpe-27161/providers/microsoft.network/virtualnetworks/vm-pw-ops-dev-jpw-27161vnet/providers/Microsoft.Advisor/recommendations/64a5bc18934ad808910e1bd6128e12943e779476991dc3b7a740e19f2ac95776"
   },
   {
-    "Category": "HighAvailability",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Use Availability zones for better resiliency and availability",
-    "Solution": "Use Availability zones for better resiliency and availability",
-    "ImpactedField": "Microsoft.Compute/virtualMachines",
-    "ImpactedValue": "mobvmghc-vm-yypwhhh6st5ky",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-mobile-ghc-cli/providers/microsoft.compute/virtualmachines/mobvmghc-vm-yypwhhh6st5ky",
-    "ResourceName": "mobvmghc-vm-yypwhhh6st5ky",
-    "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "rg-mobile-ghc-cli",
-    "LastUpdated": "2026-07-12T21:21:24.8257263Z",
-    "RecommendationId": "0efbfe9871024529c550463d7898cd913aac0951db7f682ed15ef010789cdf94",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-mobile-ghc-cli/providers/microsoft.compute/virtualmachines/mobvmghc-vm-yypwhhh6st5ky/providers/Microsoft.Advisor/recommendations/0efbfe9871024529c550463d7898cd913aac0951db7f682ed15ef010789cdf94"
-  },
-  {
     "Category": "Security",
     "Impact": "Low",
     "Risk": null,
@@ -3230,5 +3214,21 @@
     "LastUpdated": "2026-07-17T13:59:27.7704355Z",
     "RecommendationId": "d0f1019d9d31e28bf341899fe9fd0d1c2918c10f015fd9e3556ec8d8a4de4fb7",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-appl-001/providers/Microsoft.Advisor/recommendations/d0f1019d9d31e28bf341899fe9fd0d1c2918c10f015fd9e3556ec8d8a4de4fb7"
+  },
+  {
+    "Category": "HighAvailability",
+    "Impact": "High",
+    "Risk": null,
+    "Problem": "Use Availability zones for better resiliency and availability",
+    "Solution": "Use Availability zones for better resiliency and availability",
+    "ImpactedField": "Microsoft.Compute/virtualMachines",
+    "ImpactedValue": "vmprovjpe202607091459",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-vmprov-jpe-20260709-1459/providers/microsoft.compute/virtualmachines/vmprovjpe202607091459",
+    "ResourceName": "vmprovjpe202607091459",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "rg-vmprov-jpe-20260709-1459",
+    "LastUpdated": "2026-07-17T20:55:18.5482178Z",
+    "RecommendationId": "1a887abecf1086c67e7e8f73908490c5d6f90c9913b827ec0394537be1229ed9",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-vmprov-jpe-20260709-1459/providers/microsoft.compute/virtualmachines/vmprovjpe202607091459/providers/Microsoft.Advisor/recommendations/1a887abecf1086c67e7e8f73908490c5d6f90c9913b827ec0394537be1229ed9"
   }
 ]
