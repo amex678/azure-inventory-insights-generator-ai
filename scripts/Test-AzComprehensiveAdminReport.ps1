@@ -39,8 +39,27 @@ foreach ($section in $requiredSectionPatterns) {
     }
 }
 
-if ((Test-Path $EvidencePath) -and $html -match '<script[\s>]') {
-    throw 'Generated AI HTML contains script tag, which is not allowed.'
+$generationMethod = 'unknown'
+if (Test-Path $EvidencePath) {
+    $evidence = Get-Content -Path $EvidencePath -Raw -Encoding UTF8 | ConvertFrom-Json
+    if ($evidence.generation_method) {
+        $generationMethod = [string]$evidence.generation_method
+    }
+}
+
+if ($generationMethod -eq 'api-ai') {
+    $blockedPatterns = @(
+        @{ Name = 'script tag'; Pattern = '<script[\s>]' },
+        @{ Name = 'external src'; Pattern = '\ssrc\s*=\s*["'']https?://' },
+        @{ Name = 'form tag'; Pattern = '<form[\s>]' },
+        @{ Name = 'inline event handler'; Pattern = '\son[a-z]+\s*=' }
+    )
+
+    foreach ($blocked in $blockedPatterns) {
+        if ($html -match $blocked.Pattern) {
+            throw "Generated HTML contains blocked content: $($blocked.Name)"
+        }
+    }
 }
 
 $resources = Read-JsonArray $ResourcesJson
@@ -76,4 +95,4 @@ if ($missing.Count -ge 3) {
     throw "Too many metric values are missing from report body: $($missing -join ', ')"
 }
 
-Write-Host 'Report validation passed.'
+Write-Host "Report validation passed. generation_method=$generationMethod"

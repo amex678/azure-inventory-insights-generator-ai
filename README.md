@@ -85,7 +85,7 @@ cd scripts
 │   ├── Export-AzDefenderRecommendations.ps1
 │   ├── Export-AzAdvisorRecommendations.ps1
 │   ├── New-AzComprehensiveAdminReport.ps1
-│   ├── New-AzComprehensiveAdminReportWithAgent.ps1
+│   ├── New-AzComprehensiveAdminReportWithAi.ps1
 │   └── Test-AzComprehensiveAdminReport.ps1
 └── output/
 ```
@@ -98,12 +98,20 @@ VS Code + GitHub Copilot Chat 環境では、以下の prompt を使って一連
 /azure-comprehensive-report
 ```
 
-## GitHub Actions で Agentic Workflow 実行
+## GitHub Actions でAPI経由のAI HTML生成
 
-このリポジトリでは、PR を経由せず GitHub Actions 実行だけで Agentic Workflow による AI HTML レポート生成ができます。
+このリポジトリでは、パターンXのローカル実行フローをできる限り維持しながら、GitHub Actions上でAPI経由のAI HTMLレポート生成ができます。
+
+パターンXから変えないもの:
+
+- 既存のAzure棚卸し収集スクリプト
+- 既存の5ドメイン出力: `resources.json`, `rbac.json`, `nsg-rules.json`, `defender-recommendations.json`, `advisor-recommendations.json`
+- 既存のルールベースHTML生成スクリプト
+- 生成HTML名: `comprehensive-report.html`
+- `reports/latest` / `reports/history` への保存
 
 - ワークフロー: `.github/workflows/azure-report-public.yml`
-- AI 生成スクリプト: `scripts/New-AzComprehensiveAdminReportWithAgent.ps1`
+- AI 生成スクリプト: `scripts/New-AzComprehensiveAdminReportWithAi.ps1`
 - 検証スクリプト: `scripts/Test-AzComprehensiveAdminReport.ps1`
 - 生成物:
 	- `output/comprehensive-report.html`
@@ -114,7 +122,7 @@ VS Code + GitHub Copilot Chat 環境では、以下の prompt を使って一連
 ジョブ構成は以下です。
 
 1. `collect-data`: Azure の各種データを収集（resources/rbac/nsg/defender/advisor）
-2. `agent-generate-report`: prompt + compact JSON から AI で HTML を生成
+2. `generate-report`: compact input からAPI経由でAI HTMLを生成
 3. `validate-report`: 必須セクション・危険タグ・主要数値の整合性を検証
 4. `publish-report`: `reports/latest` / `reports/history` / Pages 用 `_site` を更新
 
@@ -135,7 +143,8 @@ VS Code + GitHub Copilot Chat 環境では、以下の prompt を使って一連
 
 > 補足:
 > - AI 生成が失敗した場合は、既存のルールベース HTML 生成 (`New-AzComprehensiveAdminReport.ps1`) にフォールバックして処理を継続します。
-> - `azure-comprehensive-report.prompt.md` を seed として利用し、Agent 側で事実拘束ルールを適用します。
+> - `output/report-evidence.json` に `generation_method=api-ai` または `generation_method=rule-based-fallback` を記録します。
+> - `azure-comprehensive-report.prompt.md` を seed として利用し、API呼び出し時のプロンプトで事実拘束ルールを適用します。
 
 ## セキュリティと取り扱い上の注意
 

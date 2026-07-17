@@ -65,7 +65,7 @@ jobs:
           if-no-files-found: error
           retention-days: 30
 
-  agent-generate-report:
+  generate-report:
     needs: collect-data
     runs-on: ubuntu-latest
     steps:
@@ -78,7 +78,7 @@ jobs:
           name: azure-inventory-datasets
           path: output/
 
-      - name: Build comprehensive HTML report with Agent
+      - name: Build comprehensive HTML report with AI API
         shell: pwsh
         env:
           AI_REPORT_API_KEY: ${{ secrets.AI_REPORT_API_KEY }}
@@ -95,11 +95,11 @@ jobs:
           }
 
           if ($env:REPORT_MODE -eq 'ai-only') {
-            ./scripts/New-AzComprehensiveAdminReportWithAgent.ps1 -FailOnError
+            ./scripts/New-AzComprehensiveAdminReportWithAi.ps1 -FailOnError
             exit 0
           }
 
-          ./scripts/New-AzComprehensiveAdminReportWithAgent.ps1
+          ./scripts/New-AzComprehensiveAdminReportWithAi.ps1
 
       - name: Assert AI evidence for ai-only mode
         if: ${{ github.event.inputs.report_mode == 'ai-only' }}
@@ -118,7 +118,7 @@ jobs:
           retention-days: 30
 
   validate-report:
-    needs: agent-generate-report
+    needs: generate-report
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
