@@ -149,6 +149,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync repository before publishing
+        shell: bash
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
 
       - name: Download validated report artifacts
         uses: actions/download-artifact@v4
@@ -190,7 +198,7 @@ jobs:
 
           # Retry push with rebase to absorb concurrent report commits.
           for attempt in 1 2 3; do
-            if git pull --rebase --autostash origin main && git push; then
+            if git pull --rebase --autostash -X theirs origin main && git push; then
               echo "Push succeeded on attempt ${attempt}"
               exit 0
             fi
