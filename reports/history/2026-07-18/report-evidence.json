@@ -1,9 +1,10 @@
 {
-  "generation_method": "rule-based-fallback",
-  "runId": "29639564096",
+  "generation_method": "api-ai",
+  "runId": "29646566336",
   "repository": "amex678/azure-inventory-insights-generator-ai",
-  "generatedAt": "2026-07-18T09:43:46.3105149+00:00",
-  "fallbackReason": "Response status code does not indicate success: 429 (Too Many Requests).",
+  "generatedAt": "2026-07-18T13:44:22.7097016+00:00",
+  "model": "openai/gpt-4.1-mini",
+  "endpoint": "https://models.github.ai/inference/chat/completions",
   "metrics": {
     "resourcesTotal": 84,
     "resourceGroups": 7,
@@ -14,7 +15,12 @@
     "nsgRisky": 0,
     "defenderUnhealthy": 262,
     "defenderHigh": 80,
-    "advisorHigh": 74,
+    "advisorHigh": 75,
     "tagCoverage": 42.9
+  },
+  "usage": {
+    "promptTokens": 7335,
+    "completionTokens": 10224,
+    "totalTokens": 17559
   }
 }
