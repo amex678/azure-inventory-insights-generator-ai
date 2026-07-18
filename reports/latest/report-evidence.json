@@ -1,9 +1,9 @@
 {
   "generation_method": "rule-based-fallback",
-  "runId": "29633573428",
+  "runId": "29639564096",
   "repository": "amex678/azure-inventory-insights-generator-ai",
-  "generatedAt": "2026-07-18T06:17:51.0751796+00:00",
-  "fallbackReason": "The request was canceled due to the configured HttpClient.Timeout of 180 seconds elapsing.",
+  "generatedAt": "2026-07-18T09:43:46.3105149+00:00",
+  "fallbackReason": "Response status code does not indicate success: 429 (Too Many Requests).",
   "metrics": {
     "resourcesTotal": 84,
     "resourceGroups": 7,
@@ -14,7 +14,7 @@
     "nsgRisky": 0,
     "defenderUnhealthy": 262,
     "defenderHigh": 80,
-    "advisorHigh": 71,
+    "advisorHigh": 74,
     "tagCoverage": 42.9
   }
 }
