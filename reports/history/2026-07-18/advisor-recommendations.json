@@ -2267,7 +2267,7 @@
     "ResourceName": "mobvmghc-vm-yypwhhh6st5ky",
     "ResourceType": "Microsoft.Compute/virtualMachines",
     "ResourceGroupName": "rg-mobile-ghc-cli",
-    "LastUpdated": "2026-07-07T05:29:05.7491934Z",
+    "LastUpdated": "2026-07-18T15:22:30.9154113Z",
     "RecommendationId": "df94cc102c8232832b122a93d9da8ca7b470592114ef2f84096503405f0ac1df",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-mobile-ghc-cli/providers/microsoft.compute/virtualmachines/mobvmghc-vm-yypwhhh6st5ky/providers/Microsoft.Advisor/recommendations/df94cc102c8232832b122a93d9da8ca7b470592114ef2f84096503405f0ac1df"
   },
