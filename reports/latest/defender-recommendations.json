@@ -756,6 +756,24 @@
     "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-ubu-001/providers/Microsoft.Security/assessments/ce26a5b0-5f60-f8dd-41f7-1557174096cd"
   },
   {
+    "AssessmentName": "861f54da-31ef-fcb2-2637-658a4edbf4f9",
+    "DisplayName": "Update edge_chromium-based",
+    "Severity": "High",
+    "Status": "Unhealthy",
+    "StatusCause": null,
+    "StatusDescription": null,
+    "SecurityIssue": "Vulnerability",
+    "SecurityCategories": "Vulnerabilities",
+    "RecommendationCategory": "SoftwareUpdate",
+    "Description": null,
+    "Remediation": null,
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-migrate-demo-je-001/providers/Microsoft.Compute/virtualMachines/vm-amig-win-001",
+    "ResourceName": "vm-amig-win-001",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "rg-migrate-demo-je-001",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-migrate-demo-je-001/providers/Microsoft.Compute/virtualMachines/vm-amig-win-001/providers/Microsoft.Security/assessments/861f54da-31ef-fcb2-2637-658a4edbf4f9"
+  },
+  {
     "AssessmentName": "e0726efe-3996-0eba-0770-aca6a81d0050",
     "DisplayName": "Update libnss3",
     "Severity": "Medium",
@@ -8499,7 +8517,7 @@
     "AssessmentName": "1195afff-c881-495e-9bc5-1486211ae03f",
     "DisplayName": "Machines should have vulnerability findings resolved",
     "Severity": "Low",
-    "Status": "Healthy",
+    "Status": "Unhealthy",
     "StatusCause": null,
     "StatusDescription": null,
     "SecurityIssue": "Vulnerability",
