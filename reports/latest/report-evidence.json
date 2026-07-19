@@ -1,8 +1,8 @@
 {
   "generation_method": "rule-based-fallback",
-  "runId": "29689402318",
+  "runId": "29696212048",
   "repository": "amex678/azure-inventory-insights-generator-ai",
-  "generatedAt": "2026-07-19T13:48:50.5895677+00:00",
+  "generatedAt": "2026-07-19T17:13:38.9856568+00:00",
   "fallbackReason": "The request was canceled due to the configured HttpClient.Timeout of 180 seconds elapsing.",
   "metrics": {
     "resourcesTotal": 84,
@@ -12,9 +12,9 @@
     "uaaAssignments": 2,
     "orphanAssignments": 41,
     "nsgRisky": 0,
-    "defenderUnhealthy": 262,
-    "defenderHigh": 79,
-    "advisorHigh": 75,
+    "defenderUnhealthy": 260,
+    "defenderHigh": 77,
+    "advisorHigh": 77,
     "tagCoverage": 42.9
   }
 }
