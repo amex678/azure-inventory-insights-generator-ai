@@ -3,21 +3,21 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Azure 総合運用監査レポート</title>
+<title>Azure 総合レポート</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Yu+Gothic&family=Segoe+UI&display=swap');
   body {
     margin: 0; padding: 0;
     font-family: "Yu Gothic", "Segoe UI", sans-serif;
-    background-color: #f5f7fa;
     line-height: 1.7;
-    color: #333;
+    background-color: #f5f7fa;
+    color: #222;
   }
   header {
     background: linear-gradient(90deg, #0078d4 0%, #50e6ff 100%);
     color: #fff;
     padding: 28px 32px;
-    font-size: 1.6rem;
+    font-size: 1.8em;
     font-weight: 700;
   }
   main {
@@ -25,30 +25,14 @@
     margin: 24px auto 80px;
     padding: 0 16px;
   }
-  section {
-    background: #fff;
-    border: 1px solid #e5e7eb;
-    border-radius: 8px;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
-    padding: 24px 32px;
-    margin-bottom: 32px;
-  }
-  h2 {
-    margin-top: 0;
-    color: #0078d4;
-    font-weight: 700;
-    font-size: 1.4rem;
-    border-bottom: 2px solid #0078d4;
-    padding-bottom: 8px;
-  }
-  /* KPI グリッド */
+  /* KPIカードグリッド */
   .kpi-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    margin-bottom: 24px;
+    gap: 16px;
+    margin-bottom: 32px;
     background: linear-gradient(90deg, #0078d4 0%, #50e6ff 100%);
-    padding: 20px;
+    padding: 16px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0,120,212,0.3);
   }
@@ -63,21 +47,33 @@
     }
   }
   .kpi-card {
-    background: #fff;
+    background: #ffffff;
     border-radius: 8px;
-    padding: 16px 20px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    padding: 20px 24px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
     text-align: center;
-  }
-  .kpi-title {
-    font-weight: 700;
-    font-size: 1rem;
     color: #0078d4;
-    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 1.5em;
   }
-  .kpi-value {
-    font-size: 2.2rem;
-    font-weight: 900;
+  .kpi-label {
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #555;
+    margin-top: 8px;
+  }
+  section {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    padding: 24px 32px;
+    margin-bottom: 32px;
+  }
+  h2 {
+    border-bottom: 2px solid #0078d4;
+    padding-bottom: 8px;
+    margin-top: 0;
     color: #0078d4;
   }
   /* 全体サマリ表 */
@@ -90,18 +86,15 @@
     background-color: #0078d4;
     color: #fff;
   }
-  thead th {
-    padding: 10px 8px;
-    text-align: left;
-  }
   tbody tr:nth-child(odd) {
     background-color: #f9fafb;
   }
-  tbody td {
-    padding: 8px 8px;
-    border-bottom: 1px solid #e5e7eb;
+  th, td {
+    padding: 8px 12px;
+    border: 1px solid #e5e7eb;
+    text-align: left;
   }
-  /* バッジ */
+  /* ドメインバッジ */
   .badge {
     display: inline-block;
     padding: 2px 8px;
@@ -109,465 +102,427 @@
     font-size: 11px;
     font-weight: 700;
     color: #fff;
-    vertical-align: middle;
-    border-left: 4px solid transparent;
-    margin-right: 6px;
+    user-select: none;
   }
-  .badge-high {
-    background-color: #d93025;
-    border-left-color: #d93025;
-  }
-  .badge-medium {
-    background-color: #f9ab00;
-    border-left-color: #f9ab00;
-  }
-  .badge-low {
-    background-color: #38bdf8;
-    border-left-color: #38bdf8;
-  }
-  /* 潜在リスクカード */
-  .risk-card {
-    background: #fff;
-    border-radius: 8px;
-    border: 1px solid #e5e7eb;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
-    padding: 20px 24px;
-    margin-bottom: 20px;
-  }
-  .risk-title {
-    font-weight: 700;
-    font-size: 1.2rem;
-    margin-bottom: 8px;
-  }
+  .badge-resource { background-color: #0078d4; }
+  .badge-rbac { background-color: #50a3ff; }
+  .badge-nsg { background-color: #38bdf8; }
+  .badge-defender { background-color: #d93025; }
+  .badge-advisor { background-color: #f9ab00; }
+  /* リスクバッジ */
   .risk-badge {
     font-weight: 700;
-    font-size: 0.9rem;
-    padding: 4px 10px;
-    border-radius: 12px;
+    padding: 4px 12px;
+    border-left: 4px solid;
+    border-radius: 0 8px 8px 0;
     color: #fff;
-    border-left: 4px solid transparent;
     display: inline-block;
-    margin-bottom: 12px;
+    font-size: 13px;
+    user-select: none;
   }
   .risk-high {
     background-color: #d93025;
-    border-left-color: #d93025;
+    border-color: #d93025;
   }
   .risk-medium {
     background-color: #f9ab00;
-    border-left-color: #f9ab00;
+    border-color: #f9ab00;
   }
   .risk-low {
     background-color: #38bdf8;
-    border-left-color: #38bdf8;
+    border-color: #38bdf8;
   }
-  .risk-desc {
-    margin-bottom: 12px;
+  ul {
+    padding-left: 1.2em;
+    margin-top: 0.3em;
+    margin-bottom: 1.2em;
   }
-  .risk-links a {
+  ul li {
+    margin-bottom: 0.6em;
+  }
+  a {
     color: #0078d4;
     text-decoration: none;
-    margin-right: 12px;
-    font-size: 0.9rem;
   }
-  .risk-links a:hover {
+  a:hover {
     text-decoration: underline;
-  }
-  /* 30日アクションプラン */
-  .action-list {
-    list-style-type: disc;
-    padding-left: 20px;
-  }
-  .action-list li {
-    margin-bottom: 8px;
-  }
-  /* 付録テーブル */
-  .appendix-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 13px;
-  }
-  .appendix-table thead tr {
-    background-color: #0078d4;
-    color: #fff;
-  }
-  .appendix-table thead th {
-    padding: 6px 8px;
-    text-align: left;
-  }
-  .appendix-table tbody tr:nth-child(odd) {
-    background-color: #f9fafb;
-  }
-  .appendix-table tbody td {
-    padding: 6px 8px;
-    border-bottom: 1px solid #e5e7eb;
   }
   footer {
     text-align: center;
-    font-size: 12px;
-    color: #666;
-    padding: 20px 0;
+    padding: 16px 8px;
+    font-size: 13px;
+    color: #777;
     border-top: 1px solid #e5e7eb;
-    background-color: #f5f7fa;
+    background-color: #fff;
     position: fixed;
-    bottom: 0;
-    width: 100%;
+    bottom: 0; left: 0; right: 0;
   }
-  /* Responsive adjustments */
-  @media (max-width: 480px) {
-    .kpi-value {
-      font-size: 1.6rem;
-    }
-    .kpi-title {
-      font-size: 0.9rem;
-    }
+  /* リンクボックス */
+  .link-list a {
+    display: block;
+    margin-bottom: 6px;
   }
 </style>
 </head>
 <body>
-<header>Azure 総合運用監査レポート</header>
+<header>Azure 総合レポート</header>
 <main>
-  <section aria-labelledby="exec-summary-title">
-    <h2 id="exec-summary-title">エグゼクティブサマリ</h2>
-    <div class="kpi-grid" role="list" aria-label="主要KPI指標">
-      <div class="kpi-card" role="listitem" tabindex="0" aria-label="リソース総数">
-        <div class="kpi-title">リソース総数</div>
-        <div class="kpi-value">84</div>
-      </div>
-      <div class="kpi-card" role="listitem" tabindex="0" aria-label="Defender High 件数">
-        <div class="kpi-title">Defender High 件数</div>
-        <div class="kpi-value">77</div>
-      </div>
-      <div class="kpi-card" role="listitem" tabindex="0" aria-label="Advisor High Impact 件数">
-        <div class="kpi-title">Advisor High Impact 件数</div>
-        <div class="kpi-value">77</div>
-      </div>
-      <div class="kpi-card" role="listitem" tabindex="0" aria-label="Owner 割り当て数">
-        <div class="kpi-title">Owner 割り当て数</div>
-        <div class="kpi-value">13</div>
-      </div>
-      <div class="kpi-card" role="listitem" tabindex="0" aria-label="タグ付与率">
-        <div class="kpi-title">タグ付与率 (%)</div>
-        <div class="kpi-value">42.9</div>
-      </div>
-    </div>
-    <p>
-      本サブスクリプションは84件のリソースを有し、多様なリージョンに展開されています。Defender for CloudのHighリスクが77件と多く、セキュリティ態勢に重大なギャップが存在します。また、Azure AdvisorのHigh Impact推奨も77件あり、運用改善の余地が大きい状況です。Owner割り当ては13件と限定的ですが、孤児割り当てが41件と多く、特権境界の管理が不十分であることが懸念されます。タグ付与率は42.9%と低く、ガバナンス基盤の強化が急務です。公開境界のリスクはNSGの高リスクルールは0件と良好ですが、監視フィードバックとガバナンスの強化が必要です。
-    </p>
-    <p>
-      公開境界、特権境界、監視フィードバック、ガバナンス基盤の4つの主要改善領域に注力し、優先的にDefenderの高リスク対応とAdvisor推奨の実施、孤児割り当ての整理、タグ付与の徹底を推進することが重要です。
-    </p>
-    <h3>主要懸念事項</h3>
-    <ul>
-      <li>Defender for CloudのHighリスクが77件存在し、セキュリティインシデントの潜在的リスクが高い。</li>
-      <li>Azure AdvisorのHigh Impact推奨が77件あり、運用上の改善が多数必要。</li>
-      <li>孤児割り当てが41件と多く、特権ロールの管理不備によるblast radius拡大の危険性。</li>
-      <li>タグ付与率が42.9%と低く、リソース管理・コスト配分の透明性が不足。</li>
-      <li>監視フィードバックループの不十分さが運用改善の遅延を招く可能性。</li>
-    </ul>
-    <h3>強み</h3>
-    <ul>
-      <li>リソース総数は84件と管理可能な規模である。</li>
-      <li>NSGの高リスクルールは0件で公開境界の直接的な脆弱性は低い。</li>
-      <li>Owner割り当てが13件あり、明確な責任者が存在。</li>
-      <li>複数リージョンに分散し、冗長性の基盤がある。</li>
-      <li>Defender for CloudおよびAzure Advisorのデータ取得が可能で、改善のための情報基盤が整備されている。</li>
-    </ul>
-  </section>
 
-  <section aria-labelledby="overall-summary-title">
-    <h2 id="overall-summary-title">全体サマリ表</h2>
-    <table role="table" aria-label="全体サマリ表">
+<section aria-labelledby="exec-summary-title">
+  <h2 id="exec-summary-title">エグゼクティブサマリ</h2>
+  <div class="kpi-grid" role="list" aria-label="主要指標">
+    <div class="kpi-card" role="listitem" aria-label="リソース総数">
+      84
+      <div class="kpi-label">リソース総数</div>
+    </div>
+    <div class="kpi-card" role="listitem" aria-label="Defender High 件数">
+      77
+      <div class="kpi-label">Defender High 件数</div>
+    </div>
+    <div class="kpi-card" role="listitem" aria-label="Advisor High Impact 件数">
+      77
+      <div class="kpi-label">Advisor High Impact 件数</div>
+    </div>
+    <div class="kpi-card" role="listitem" aria-label="Owner 割り当て数">
+      13
+      <div class="kpi-label">Owner 割り当て数</div>
+    </div>
+    <div class="kpi-card" role="listitem" aria-label="タグ付与率">
+      42.9%
+      <div class="kpi-label">タグ付与率</div>
+    </div>
+  </div>
+  <p>
+    本サブスクリプション環境は、84のリソースが分散し、7つのリソースグループと5つのリージョンにまたがっています。Defender for CloudのHighリスクが77件、AdvisorのHigh Impactも77件と多く、セキュリティ態勢に複数の重大な課題が存在します。特に特権ロールの恒久的な割り当てや孤立した権限の多さがリスクを増大させており、公開境界の露出は現状低いものの、監視フィードバックやガバナンス基盤の強化が急務です。タグ付与率は42.9%と低めで、資産管理の効率化とガバナンス強化のためにも改善が望まれます。
+  </p>
+  <p>
+    公開境界、特権境界、監視フィードバック、ガバナンス基盤の4つの主要改善領域に注力し、特にDefender for Cloudのセキュリティ態勢ギャップとAdvisorのフィードバックループ不在を解消することが優先されます。これにより、リスクの早期検知と対応が可能となり、全体的なセキュリティレベルの向上が期待されます。
+  </p>
+  <h3>主要懸念事項</h3>
+  <ul>
+    <li>特権ロールの恒久付与と孤児アカウントの多さ（Owner 13件、孤児41件）は、権限濫用や不正アクセスのリスクを高める。</li>
+    <li>Defender for CloudのHighリスクが77件存在し、重要な脆弱性や設定ミスが多数放置されている。</li>
+    <li>AdvisorのHigh Impact推奨が77件あり、セキュリティや高可用性に関する改善が未実施である。</li>
+    <li>タグ付与率42.9%は資産管理やガバナンスの効率化に課題を残し、運用負荷増大の要因となる。</li>
+    <li>監視フィードバックループの不十分さにより、リスク検知と対応の迅速化が阻害されている。</li>
+  </ul>
+  <h3>強み</h3>
+  <ul>
+    <li>公開境界のリスクが低く、NSGの高リスクルールは0件であるため外部からの直接攻撃面は限定的。</li>
+    <li>リソース数は84と中規模で管理しやすい範囲にある。</li>
+    <li>複数リージョンに分散しているため、可用性の確保に一定の配慮が見られる。</li>
+    <li>Defender for CloudおよびAdvisorのデータ取得が正常に行われており、セキュリティ監視基盤は整備されている。</li>
+    <li>Owner割り当て数が明確に把握されており、権限管理の現状把握が可能。</li>
+  </ul>
+</section>
+
+<section aria-labelledby="summary-table-title">
+  <h2 id="summary-table-title">全体サマリ表</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>ドメイン</th>
+        <th>指標</th>
+        <th>値</th>
+        <th>備考</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="badge badge-resource">リソース</span></td>
+        <td>リソース総数</td>
+        <td>84</td>
+        <td>7リソースグループ、5リージョン</td>
+      </tr>
+      <tr>
+        <td><span class="badge badge-rbac">RBAC</span></td>
+        <td>Owner割り当て数</td>
+        <td>13</td>
+        <td>特権ロールの恒久付与</td>
+      </tr>
+      <tr>
+        <td><span class="badge badge-rbac">RBAC</span></td>
+        <td>UAA割り当て数</td>
+        <td>2</td>
+        <td>ユーザー割り当てアプリケーション</td>
+      </tr>
+      <tr>
+        <td><span class="badge badge-rbac">RBAC</span></td>
+        <td>孤児割り当て数</td>
+        <td>41</td>
+        <td>管理されていない権限</td>
+      </tr>
+      <tr>
+        <td><span class="badge badge-nsg">NSG</span></td>
+        <td>高リスクルール件数</td>
+        <td>0</td>
+        <td>公開境界の露出なし</td>
+      </tr>
+      <tr>
+        <td><span class="badge badge-defender">Defender</span></td>
+        <td>未正常件数</td>
+        <td>263</td>
+        <td>全Severity含む</td>
+      </tr>
+      <tr>
+        <td><span class="badge badge-defender">Defender</span></td>
+        <td>High Severity件数</td>
+        <td>77</td>
+        <td>重大な脆弱性多数</td>
+      </tr>
+      <tr>
+        <td><span class="badge badge-advisor">Advisor</span></td>
+        <td>High Impact件数</td>
+        <td>77</td>
+        <td>改善推奨多数</td>
+      </tr>
+      <tr>
+        <td><span class="badge badge-advisor">Advisor</span></td>
+        <td>Medium Impact件数</td>
+        <td>複数（詳細省略）</td>
+        <td>中程度の改善推奨</td>
+      </tr>
+      <tr>
+        <td><span class="badge badge-resource">リソース</span></td>
+        <td>タグ付与率</td>
+        <td>42.9%</td>
+        <td>資産管理に課題</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section aria-labelledby="top5-risks-title">
+  <h2 id="top5-risks-title">潜在リスク Top 5</h2>
+
+  <article aria-labelledby="risk1-title" style="margin-bottom:24px;">
+    <h3 id="risk1-title"><span class="risk-badge risk-medium">Medium</span> 公開境界の露出</h3>
+    <p>本環境ではNSGの高リスクルールは0件であり、公開境界の直接的な露出は低い状況です。ただしPublic IPの詳細は未取得のため、潜在的なリスクは残存します。推奨としてはBastionやJITアクセスの導入、Application GatewayのWAF活用による境界防御の強化が望まれます。</p>
+    <div class="link-list">
+      <a href="https://learn.microsoft.com/ja-jp/azure/security/fundamentals/network-best-practices" target="_blank" rel="noopener">ネットワーク セキュリティのベストプラクティス</a>
+      <a href="https://learn.microsoft.com/ja-jp/azure/bastion/bastion-overview" target="_blank" rel="noopener">Azure Bastion の概要</a>
+      <a href="https://learn.microsoft.com/ja-jp/azure/application-gateway/waf-overview" target="_blank" rel="noopener">Application Gateway WAF の概要</a>
+    </div>
+  </article>
+
+  <article aria-labelledby="risk2-title" style="margin-bottom:24px;">
+    <h3 id="risk2-title"><span class="risk-badge risk-high">High</span> 特権ロールの恒久付与と blast radius</h3>
+    <p>Owner割り当てが13件、孤児アカウントが41件と多く、特権ロールの恒久的な割り当てがリスクを増大させています。これにより権限濫用や不正アクセスの可能性が高まり、被害範囲（blast radius）が拡大する恐れがあります。PIMの導入やマネージドID活用、定期的なAccess Reviewが必須です。</p>
+    <div class="link-list">
+      <a href="https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure" target="_blank" rel="noopener">Azure AD Privileged Identity Management の設定</a>
+      <a href="https://learn.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview" target="_blank" rel="noopener">マネージド ID の概要</a>
+      <a href="https://learn.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview" target="_blank" rel="noopener">アクセス レビューの概要</a>
+    </div>
+  </article>
+
+  <article aria-labelledby="risk3-title" style="margin-bottom:24px;">
+    <h3 id="risk3-title"><span class="risk-badge risk-high">High</span> Defender for Cloud のセキュリティ態勢ギャップ</h3>
+    <p>Defender for Cloudは有効であるものの、High Severityの不健康な推奨が77件も存在し、重要な脆弱性や設定ミスが多数放置されています。ベースラインの欠如や継続的な改善不足が懸念されます。Foundational CSPMの導入とSecure Scoreの月次レビューを強化し、態勢の改善を図る必要があります。</p>
+    <div class="link-list">
+      <a href="https://learn.microsoft.com/ja-jp/azure/security-center/security-center-get-started" target="_blank" rel="noopener">Microsoft Defender for Cloud の開始方法</a>
+      <a href="https://learn.microsoft.com/ja-jp/azure/security-center/secure-score" target="_blank" rel="noopener">Secure Score の理解と活用</a>
+      <a href="https://learn.microsoft.com/ja-jp/azure/security-center/security-center-cspm" target="_blank" rel="noopener">クラウドセキュリティ態勢管理 (CSPM)</a>
+    </div>
+  </article>
+
+  <article aria-labelledby="risk4-title" style="margin-bottom:24px;">
+    <h3 id="risk4-title"><span class="risk-badge risk-high">High</span> Advisor フィードバックループ不在</h3>
+    <p>AdvisorのHigh Impact推奨が77件あり、Microsoft Defender CSPMの未有効化やストレージのマルウェアスキャン未設定など重要な改善点が放置されています。月次レビューの実施とCost Managementとの連携によるフィードバックループの確立が急務です。</p>
+    <div class="link-list">
+      <a href="https://learn.microsoft.com/ja-jp/azure/advisor/advisor-overview" target="_blank" rel="noopener">Azure Advisor の概要</a>
+      <a href="https://learn.microsoft.com/ja-jp/azure/cost-management-billing/costs/tutorial-acm-cost-analysis" target="_blank" rel="noopener">コスト管理の基本と分析</a>
+      <a href="https://learn.microsoft.com/ja-jp/azure/security-center/security-center-advisor" target="_blank" rel="noopener">Security Advisor の活用</a>
+    </div>
+  </article>
+
+  <article aria-labelledby="risk5-title" style="margin-bottom:24px;">
+    <h3 id="risk5-title"><span class="risk-badge risk-medium">Medium</span> ガバナンス基盤の弱さ</h3>
+    <p>タグ付与率が42.9%と低く、ストレージの冗長性設定もLRSのみのケースが想定されるため、資産管理や可用性に課題があります。Azure Policyの適用やタグ継承の仕組み導入、ZRS/GZRSへの移行を推奨します。</p>
+    <div class="link-list">
+      <a href="https://learn.microsoft.com/ja-jp/azure/governance/policy/overview" target="_blank" rel="noopener">Azure Policy の概要</a>
+      <a href="https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/tag-resources" target="_blank" rel="noopener">リソースへのタグ付け</a>
+      <a href="https://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy" target="_blank" rel="noopener">ストレージの冗長性オプション</a>
+    </div>
+  </article>
+</section>
+
+<section aria-labelledby="action-plan-title">
+  <h2 id="action-plan-title">30日アクションプラン</h2>
+  <ul>
+    <li><strong>Cloud Ops:</strong> 本レポートを関係者に展開し、改善計画の共有と進捗管理を開始する。</li>
+    <li><strong>Security:</strong> Defender for CloudのHighリスク項目を優先的に対応し、Foundational CSPMの導入とSecure Scoreの月次レビュー体制を構築する。</li>
+    <li><strong>Network:</strong> NSGの緊急是正を実施し、BastionおよびJITアクセスの導入を検討する。</li>
+    <li><strong>IAM:</strong> Ownerおよび孤児アカウントのPIM化を推進し、不要な権限の削除とAccess Reviewを実施する。</li>
+    <li><strong>Governance:</strong> タグ付与の必須化ポリシーをAzure Policyで適用し、タグ継承の仕組みを整備する。</li>
+    <li><strong>FinOps:</strong> Advisorの推奨事項を踏まえたコスト管理の改善と月次レビューの運用を開始する。</li>
+    <li><strong>Storage:</strong> ストレージアカウントの冗長性をZRS/GZRSに移行し、Defender for Storageの有効化を行う。</li>
+    <li><strong>管理者:</strong> 監視ベースラインを整備し、定期的なレビュー会議を設置して継続的な改善を推進する。</li>
+  </ul>
+</section>
+
+<section aria-labelledby="appendix-title">
+  <h2 id="appendix-title">付録</h2>
+
+  <article aria-labelledby="appendix-nsg-title" style="margin-bottom:24px;">
+    <h3 id="appendix-nsg-title">A: NSG ルール ハイライト（高リスク優先 上位 30）</h3>
+    <p>本環境では高リスクなNSGルールは0件であり、公開境界のリスクは低い状態です。詳細なルール一覧は別途CSV/JSONファイルをご参照ください。</p>
+  </article>
+
+  <article aria-labelledby="appendix-defender-title" style="margin-bottom:24px;">
+    <h3 id="appendix-defender-title">B: Defender 推奨事項（Unhealthy, Severity 順 上位 30）</h3>
+    <table>
       <thead>
         <tr>
-          <th>ドメイン</th>
-          <th>指標</th>
-          <th>値</th>
-          <th>備考</th>
+          <th>推奨名</th>
+          <th>Severity</th>
+          <th>状態</th>
+          <th>リソースタイプ</th>
+          <th>リソースID</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>リソース</td>
-          <td>総リソース数</td>
-          <td>84</td>
-          <td>リソースグループ数: 7、リージョン数: 5</td>
+          <td>Update python3.10-minimal_for_linux</td>
+          <td>High</td>
+          <td>Unhealthy</td>
+          <td>Microsoft.Compute/virtualMachines</td>
+          <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe</td>
         </tr>
         <tr>
-          <td>RBAC</td>
-          <td>Owner割り当て数</td>
-          <td>13</td>
-          <td>UAA割り当て: 2、孤児割り当て: 41</td>
+          <td>Update gzip_for_linux</td>
+          <td>High</td>
+          <td>Unhealthy</td>
+          <td>Microsoft.Compute/virtualMachines</td>
+          <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe</td>
         </tr>
         <tr>
-          <td>NSG</td>
-          <td>高リスクルール数</td>
-          <td>0</td>
-          <td>公開境界の直接的リスクは低い</td>
+          <td>Update xxd_for_linux</td>
+          <td>High</td>
+          <td>Unhealthy</td>
+          <td>Microsoft.Compute/virtualMachines</td>
+          <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe</td>
         </tr>
         <tr>
-          <td>Defender for Cloud</td>
-          <td>Unhealthy件数</td>
-          <td>263</td>
-          <td>High Severity件数: 77</td>
+          <td>Update libsqlite3-0_for_linux</td>
+          <td>High</td>
+          <td>Unhealthy</td>
+          <td>Microsoft.Compute/virtualMachines</td>
+          <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe</td>
         </tr>
         <tr>
-          <td>Azure Advisor</td>
-          <td>High Impact件数</td>
-          <td>77</td>
-          <td>Medium Impactも多数存在</td>
+          <td>Update python3.10_for_linux</td>
+          <td>High</td>
+          <td>Unhealthy</td>
+          <td>Microsoft.Compute/virtualMachines</td>
+          <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe</td>
         </tr>
         <tr>
-          <td>タグ</td>
-          <td>タグ付与率</td>
-          <td>42.9%</td>
-          <td>ガバナンス基盤の強化が必要</td>
+          <td>Update libpython3.10-minimal_for_linux</td>
+          <td>High</td>
+          <td>Unhealthy</td>
+          <td>Microsoft.Compute/virtualMachines</td>
+          <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe</td>
+        </tr>
+        <tr>
+          <td>Update vim-runtime_for_linux</td>
+          <td>High</td>
+          <td>Unhealthy</td>
+          <td>Microsoft.Compute/virtualMachines</td>
+          <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe</td>
+        </tr>
+        <tr>
+          <td>Update libxml2_for_linux</td>
+          <td>High</td>
+          <td>Unhealthy</td>
+          <td>Microsoft.Compute/virtualMachines</td>
+          <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe</td>
+        </tr>
+        <tr>
+          <td>Update libnss3_for_linux</td>
+          <td>Medium</td>
+          <td>Unhealthy</td>
+          <td>Microsoft.Compute/virtualMachines</td>
+          <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe</td>
+        </tr>
+        <tr>
+          <td>Update vim-common_for_linux</td>
+          <td>High</td>
+          <td>Unhealthy</td>
+          <td>Microsoft.Compute/virtualMachines</td>
+          <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe</td>
         </tr>
       </tbody>
     </table>
-  </section>
+  </article>
 
-  <section aria-labelledby="top5-risks-title">
-    <h2 id="top5-risks-title">潜在リスク Top 5</h2>
+  <article aria-labelledby="appendix-advisor-title" style="margin-bottom:24px;">
+    <h3 id="appendix-advisor-title">C: Advisor 推奨事項（Impact 順 上位 30）</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>カテゴリ</th>
+          <th>影響度</th>
+          <th>問題</th>
+          <th>解決策</th>
+          <th>リソースタイプ</th>
+          <th>リソースID</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Security</td>
+          <td>High</td>
+          <td>Microsoft Defender CSPM should be enabled</td>
+          <td>Microsoft Defender CSPM should be enabled</td>
+          <td>Microsoft.Subscriptions/subscriptions</td>
+          <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc</td>
+        </tr>
+        <tr>
+          <td>Security</td>
+          <td>High</td>
+          <td>Microsoft Defender for Storage plan should be enabled with Malware Scanning and Sensitive Data Threat Detection</td>
+          <td>Microsoft Defender for Storage plan should be enabled with Malware Scanning and Sensitive Data Threat Detection</td>
+          <td>Microsoft.Subscriptions/subscriptions</td>
+          <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc</td>
+        </tr>
+        <tr>
+          <td>HighAvailability</td>
+          <td>High</td>
+          <td>Create an Azure Service Health alert</td>
+          <td>Create an Azure Service Health alert</td>
+          <td>Microsoft.Subscriptions/subscriptions</td>
+          <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc</td>
+        </tr>
+        <tr>
+          <td>HighAvailability</td>
+          <td>High</td>
+          <td>Enable zone redundancy for storage accounts to improve high availability and resiliency</td>
+          <td>Enable zone redundancy for storage accounts to improve high availability and resiliency</td>
+          <td>MICROSOFT.STORAGE/STORAGEACCOUNTS</td>
+          <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/mcapsgovernance/providers/microsoft.storage/storageaccounts/mcaps97700b11998514dc</td>
+        </tr>
+        <tr>
+          <td>Security</td>
+          <td>Medium</td>
+          <td>Storage accounts should restrict network access using virtual network rules</td>
+          <td>Storage accounts should restrict network access using virtual network rules</td>
+          <td>Microsoft.Storage/storageAccounts</td>
+          <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/mcapsgovernance/providers/microsoft.storage/storageaccounts/mcaps97700b11998514dc</td>
+        </tr>
+      </tbody>
+    </table>
+  </article>
+</section>
 
-    <article class="risk-card" aria-labelledby="risk1-title">
-      <div class="risk-badge risk-low" aria-label="Lowリスク">Low</div>
-      <h3 id="risk1-title" class="risk-title">公開境界の露出</h3>
-      <p class="risk-desc">
-        NSGの高リスクルールは0件であり、公開境界に関する直接的なリスクは低い状況です。ただし、Public IPの詳細は未取得のため、BastionやJITアクセス、Application Gateway WAFの導入を推奨します。
-      </p>
-      <div class="risk-links">
-        <a href="https://learn.microsoft.com/ja-jp/azure/security/fundamentals/network-best-practices" target="_blank" rel="noopener">ネットワークセキュリティのベストプラクティス</a>
-        <a href="https://learn.microsoft.com/ja-jp/azure/security/fundamentals/defender-for-cloud" target="_blank" rel="noopener">Defender for Cloudの概要</a>
-      </div>
-    </article>
-
-    <article class="risk-card" aria-labelledby="risk2-title">
-      <div class="risk-badge risk-high" aria-label="Highリスク">High</div>
-      <h3 id="risk2-title" class="risk-title">特権ロールの恒久付与と blast radius</h3>
-      <p class="risk-desc">
-        Owner割り当ては13件ですが、孤児割り当てが41件と多く、特権ロールの管理不備が懸念されます。これにより、権限の乱用や誤操作による影響範囲が拡大する恐れがあります。PIMやAccess Reviewの導入が急務です。
-      </p>
-      <div class="risk-links">
-        <a href="https://learn.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure" target="_blank" rel="noopener">Azure PIMの設定</a>
-        <a href="https://learn.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview" target="_blank" rel="noopener">アクセスレビューの概要</a>
-      </div>
-    </article>
-
-    <article class="risk-card" aria-labelledby="risk3-title">
-      <div class="risk-badge risk-high" aria-label="Highリスク">High</div>
-      <h3 id="risk3-title" class="risk-title">Defender for Cloud のセキュリティ態勢ギャップ</h3>
-      <p class="risk-desc">
-        Defender for CloudのHigh Severity不健康状態が77件存在し、セキュリティ態勢に重大なギャップがあります。Foundational CSPMの導入とSecure Scoreの月次レビューを実施し、継続的な改善を図る必要があります。
-      </p>
-      <div class="risk-links">
-        <a href="https://learn.microsoft.com/ja-jp/azure/security-center/security-center-intro" target="_blank" rel="noopener">Defender for Cloudの紹介</a>
-        <a href="https://learn.microsoft.com/ja-jp/azure/security-center/secure-score" target="_blank" rel="noopener">Secure Scoreの活用</a>
-      </div>
-    </article>
-
-    <article class="risk-card" aria-labelledby="risk4-title">
-      <div class="risk-badge risk-high" aria-label="Highリスク">High</div>
-      <h3 id="risk4-title" class="risk-title">Advisor フィードバックループ不在</h3>
-      <p class="risk-desc">
-        AdvisorのHigh Impact推奨が77件あり、運用改善のためのフィードバックループが不十分です。月次レビューの実施とCost Managementとの連携を強化し、継続的な改善を推進してください。
-      </p>
-      <div class="risk-links">
-        <a href="https://learn.microsoft.com/ja-jp/azure/advisor/advisor-overview" target="_blank" rel="noopener">Azure Advisorの概要</a>
-        <a href="https://learn.microsoft.com/ja-jp/azure/cost-management-billing/costs/cost-analysis" target="_blank" rel="noopener">コスト管理の分析</a>
-      </div>
-    </article>
-
-    <article class="risk-card" aria-labelledby="risk5-title">
-      <div class="risk-badge risk-medium" aria-label="Mediumリスク">Medium</div>
-      <h3 id="risk5-title" class="risk-title">ガバナンス基盤の弱さ</h3>
-      <p class="risk-desc">
-        タグ付与率が42.9%と低く、リソース管理の透明性が不足しています。また、LRSのみの冗長性やPublic IPの管理も課題です。Azure PolicyやTag Inheritance、ZRS/GZRSの活用で基盤強化を図るべきです。
-      </p>
-      <div class="risk-links">
-        <a href="https://learn.microsoft.com/ja-jp/azure/governance/policy/overview" target="_blank" rel="noopener">Azure Policyの概要</a>
-        <a href="https://learn.microsoft.com/ja-jp/azure/storage/common/storage-redundancy" target="_blank" rel="noopener">ストレージの冗長性オプション</a>
-      </div>
-    </article>
-  </section>
-
-  <section aria-labelledby="action-plan-title">
-    <h2 id="action-plan-title">30日アクションプラン</h2>
-    <ul class="action-list">
-      <li><strong>Cloud Ops:</strong> 本レポートを関係者に展開し、改善計画の共有を開始。</li>
-      <li><strong>Security:</strong> Defender for CloudのHighリスク項目の優先対応とFoundational CSPMの導入。</li>
-      <li><strong>Network:</strong> NSGの緊急是正は不要だが、公開境界の監査とBastion/JIT導入検討。</li>
-      <li><strong>IAM:</strong> Owner/UAA割り当てのPIM化推進と孤児割り当ての整理。</li>
-      <li><strong>Governance:</strong> タグ付与の必須化とAzure Policyによるガバナンス強化。</li>
-      <li><strong>FinOps:</strong> Advisor推奨の月次レビュー体制構築とコスト管理連携。</li>
-      <li><strong>Storage:</strong> ストレージアカウントのゾーン冗長化（ZRS/GZRS）移行計画策定。</li>
-      <li><strong>管理者:</strong> 監視ベースラインの整備と定期レビュー会議の設定。</li>
-    </ul>
-  </section>
-
-  <section aria-labelledby="appendix-title">
-    <h2 id="appendix-title">付録</h2>
-
-    <article aria-labelledby="appendix-nsg-title">
-      <h3 id="appendix-nsg-title">A: NSG ルール ハイライト（高リスク優先 上位 30）</h3>
-      <p>高リスクのNSGルールは0件のため、該当データはありません。</p>
-    </article>
-
-    <article aria-labelledby="appendix-defender-title" style="margin-top:24px;">
-      <h3 id="appendix-defender-title">B: Defender 推奨事項（Unhealthy, Severity 順 上位 30）</h3>
-      <table class="appendix-table" role="table" aria-label="Defender 推奨事項一覧">
-        <thead>
-          <tr>
-            <th>Severity</th>
-            <th>表示名</th>
-            <th>状態</th>
-            <th>リソースタイプ</th>
-            <th>リソースID</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- 上位30件表示 -->
-          <tr>
-            <td><span class="badge badge-high">High</span></td>
-            <td>Update python3.10-minimal_for_linux</td>
-            <td>Unhealthy</td>
-            <td>Microsoft.Compute/virtualMachines</td>
-            <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe</td>
-          </tr>
-          <tr>
-            <td><span class="badge badge-high">High</span></td>
-            <td>Update gzip_for_linux</td>
-            <td>Unhealthy</td>
-            <td>Microsoft.Compute/virtualMachines</td>
-            <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe</td>
-          </tr>
-          <tr>
-            <td><span class="badge badge-high">High</span></td>
-            <td>Update xxd_for_linux</td>
-            <td>Unhealthy</td>
-            <td>Microsoft.Compute/virtualMachines</td>
-            <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe</td>
-          </tr>
-          <tr>
-            <td><span class="badge badge-high">High</span></td>
-            <td>Update libsqlite3-0_for_linux</td>
-            <td>Unhealthy</td>
-            <td>Microsoft.Compute/virtualMachines</td>
-            <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe</td>
-          </tr>
-          <tr>
-            <td><span class="badge badge-high">High</span></td>
-            <td>Update python3.10_for_linux</td>
-            <td>Unhealthy</td>
-            <td>Microsoft.Compute/virtualMachines</td>
-            <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe</td>
-          </tr>
-          <tr>
-            <td><span class="badge badge-high">High</span></td>
-            <td>Update libpython3.10-minimal_for_linux</td>
-            <td>Unhealthy</td>
-            <td>Microsoft.Compute/virtualMachines</td>
-            <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe</td>
-          </tr>
-          <tr>
-            <td><span class="badge badge-high">High</span></td>
-            <td>Update vim-runtime_for_linux</td>
-            <td>Unhealthy</td>
-            <td>Microsoft.Compute/virtualMachines</td>
-            <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe</td>
-          </tr>
-          <tr>
-            <td><span class="badge badge-high">High</span></td>
-            <td>Update libxml2_for_linux</td>
-            <td>Unhealthy</td>
-            <td>Microsoft.Compute/virtualMachines</td>
-            <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe</td>
-          </tr>
-          <tr>
-            <td><span class="badge badge-medium">Medium</span></td>
-            <td>Update libnss3_for_linux</td>
-            <td>Unhealthy</td>
-            <td>Microsoft.Compute/virtualMachines</td>
-            <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe</td>
-          </tr>
-          <tr>
-            <td><span class="badge badge-high">High</span></td>
-            <td>Update vim-common_for_linux</td>
-            <td>Unhealthy</td>
-            <td>Microsoft.Compute/virtualMachines</td>
-            <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe</td>
-          </tr>
-          <!-- 以下略、最大30件まで -->
-        </tbody>
-      </table>
-    </article>
-
-    <article aria-labelledby="appendix-advisor-title" style="margin-top:24px;">
-      <h3 id="appendix-advisor-title">C: Advisor 推奨事項（Impact 順 上位 30）</h3>
-      <table class="appendix-table" role="table" aria-label="Advisor 推奨事項一覧">
-        <thead>
-          <tr>
-            <th>Impact</th>
-            <th>カテゴリ</th>
-            <th>問題</th>
-            <th>解決策</th>
-            <th>リソースタイプ</th>
-            <th>リソースID</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><span class="badge badge-high">High</span></td>
-            <td>Security</td>
-            <td>Microsoft Defender CSPM should be enabled</td>
-            <td>Microsoft Defender CSPM should be enabled</td>
-            <td>Microsoft.Subscriptions/subscriptions</td>
-            <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc</td>
-          </tr>
-          <tr>
-            <td><span class="badge badge-high">High</span></td>
-            <td>Security</td>
-            <td>Microsoft Defender for Storage plan should be enabled with Malware Scanning and Sensitive Data Threat Detection</td>
-            <td>Microsoft Defender for Storage plan should be enabled with Malware Scanning and Sensitive Data Threat Detection</td>
-            <td>Microsoft.Subscriptions/subscriptions</td>
-            <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc</td>
-          </tr>
-          <tr>
-            <td><span class="badge badge-high">High</span></td>
-            <td>HighAvailability</td>
-            <td>Create an Azure Service Health alert</td>
-            <td>Create an Azure Service Health alert</td>
-            <td>Microsoft.Subscriptions/subscriptions</td>
-            <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc</td>
-          </tr>
-          <tr>
-            <td><span class="badge badge-high">High</span></td>
-            <td>HighAvailability</td>
-            <td>Enable zone redundancy for storage accounts to improve high availability and resiliency</td>
-            <td>Enable zone redundancy for storage accounts to improve high availability and resiliency</td>
-            <td>MICROSOFT.STORAGE/STORAGEACCOUNTS</td>
-            <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/mcapsgovernance/providers/microsoft.storage/storageaccounts/mcaps97700b11998514dc</td>
-          </tr>
-          <tr>
-            <td><span class="badge badge-medium">Medium</span></td>
-            <td>Security</td>
-            <td>Storage accounts should restrict network access using virtual network rules</td>
-            <td>Storage accounts should restrict network access using virtual network rules</td>
-            <td>Microsoft.Storage/storageAccounts</td>
-            <td>/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/mcapsgovernance/providers/microsoft.storage/storageaccounts/mcaps97700b11998514dc</td>
-          </tr>
-          <!-- 以下略、最大30件まで -->
-        </tbody>
-      </table>
-    </article>
-  </section>
 </main>
+
 <footer>
   AI-Generated Report | Generated by GitHub Actions + AI API | 2026-07-20
 </footer>
+
 <!-- MACHINE_EVIDENCE
 {
-  "generatedAt": "2026-07-20T11:12:03.2148569+00:00",
+  "generatedAt": "2026-07-20T14:29:20.6508961+00:00",
   "metrics": {
     "resourcesTotal": 84,
     "resourceGroups": 7,
@@ -584,40 +539,23 @@
   "samples": {
     "riskyNsgRules": [],
     "defenderUnhealthy": [
-      {
-        "DisplayName": "Update libcurl3-gnutls_for_linux",
-        "Severity": "Medium",
-        "Status": "Unhealthy",
-        "ResourceType": "Microsoft.Compute/virtualMachines",
-        "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe"
-      },
-      {
-        "DisplayName": "Update python3.10-minimal_for_linux",
-        "Severity": "High",
-        "Status": "Unhealthy",
-        "ResourceType": "Microsoft.Compute/virtualMachines",
-        "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe"
-      }
-      /* 省略 */
+      {"DisplayName":"Update libcurl3-gnutls_for_linux","Severity":"Medium","Status":"Unhealthy","ResourceType":"Microsoft.Compute/virtualMachines","ResourceId":"/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe"},
+      {"DisplayName":"Update python3.10-minimal_for_linux","Severity":"High","Status":"Unhealthy","ResourceType":"Microsoft.Compute/virtualMachines","ResourceId":"/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe"},
+      {"DisplayName":"Update gzip_for_linux","Severity":"High","Status":"Unhealthy","ResourceType":"Microsoft.Compute/virtualMachines","ResourceId":"/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe"},
+      {"DisplayName":"Update xxd_for_linux","Severity":"High","Status":"Unhealthy","ResourceType":"Microsoft.Compute/virtualMachines","ResourceId":"/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe"},
+      {"DisplayName":"Update libsqlite3-0_for_linux","Severity":"High","Status":"Unhealthy","ResourceType":"Microsoft.Compute/virtualMachines","ResourceId":"/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe"},
+      {"DisplayName":"Update python3.10_for_linux","Severity":"High","Status":"Unhealthy","ResourceType":"Microsoft.Compute/virtualMachines","ResourceId":"/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe"},
+      {"DisplayName":"Update libpython3.10-minimal_for_linux","Severity":"High","Status":"Unhealthy","ResourceType":"Microsoft.Compute/virtualMachines","ResourceId":"/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe"},
+      {"DisplayName":"Update vim-runtime_for_linux","Severity":"High","Status":"Unhealthy","ResourceType":"Microsoft.Compute/virtualMachines","ResourceId":"/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe"},
+      {"DisplayName":"Update libxml2_for_linux","Severity":"High","Status":"Unhealthy","ResourceType":"Microsoft.Compute/virtualMachines","ResourceId":"/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe"},
+      {"DisplayName":"Update libnss3_for_linux","Severity":"Medium","Status":"Unhealthy","ResourceType":"Microsoft.Compute/virtualMachines","ResourceId":"/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NWRI-JPE-20260709/providers/Microsoft.Compute/virtualMachines/vm-nwri-src-jpe"}
     ],
     "advisor": [
-      {
-        "Category": "Security",
-        "Impact": "Medium",
-        "Problem": "Email notification to subscription owner for high severity alerts should be enabled",
-        "Solution": "Email notification to subscription owner for high severity alerts should be enabled",
-        "ResourceType": "Microsoft.Subscriptions/subscriptions",
-        "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc"
-      },
-      {
-        "Category": "Security",
-        "Impact": "High",
-        "Problem": "Microsoft Defender CSPM should be enabled",
-        "Solution": "Microsoft Defender CSPM should be enabled",
-        "ResourceType": "Microsoft.Subscriptions/subscriptions",
-        "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc"
-      }
-      /* 省略 */
+      {"Category":"Security","Impact":"Medium","Problem":"Email notification to subscription owner for high severity alerts should be enabled","Solution":"Email notification to subscription owner for high severity alerts should be enabled","ResourceType":"Microsoft.Subscriptions/subscriptions","ResourceId":"/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc"},
+      {"Category":"Security","Impact":"High","Problem":"Microsoft Defender CSPM should be enabled","Solution":"Microsoft Defender CSPM should be enabled","ResourceType":"Microsoft.Subscriptions/subscriptions","ResourceId":"/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc"},
+      {"Category":"Security","Impact":"Low","Problem":"Email notification for high severity alerts should be enabled","Solution":"Email notification for high severity alerts should be enabled","ResourceType":"Microsoft.Subscriptions/subscriptions","ResourceId":"/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc"},
+      {"Category":"Security","Impact":"High","Problem":"Microsoft Defender for Storage plan should be enabled with Malware Scanning and Sensitive Data Threat Detection","Solution":"Microsoft Defender for Storage plan should be enabled with Malware Scanning and Sensitive Data Threat Detection","ResourceType":"Microsoft.Subscriptions/subscriptions","ResourceId":"/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc"},
+      {"Category":"HighAvailability","Impact":"High","Problem":"Create an Azure Service Health alert","Solution":"Create an Azure Service Health alert","ResourceType":"Microsoft.Subscriptions/subscriptions","ResourceId":"/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc"}
     ]
   }
 }
