@@ -110,7 +110,9 @@ VS Code + GitHub Copilot Chat 環境では、以下の prompt を使って一連
 - 生成HTML名: `comprehensive-report.html`
 - `reports/latest` / `reports/history` への保存
 
-- ワークフロー: `.github/workflows/azure-report-public.yml`
+- 収集ワークフロー: `.github/workflows/azure-report-public.yml`
+- 分析ワークフロー: `.github/workflows/azure-report-api-generate.yml`
+- 公開ワークフロー: `.github/workflows/azure-report-api-publish.yml`
 - AI 生成スクリプト: `scripts/New-AzComprehensiveAdminReportWithAi.ps1`
 - 検証スクリプト: `scripts/Test-AzComprehensiveAdminReport.ps1`
 - 生成物:
@@ -119,12 +121,11 @@ VS Code + GitHub Copilot Chat 環境では、以下の prompt を使って一連
 	- `reports/latest/comprehensive-report.html`
 	- `reports/history/{yyyy-MM-dd}/comprehensive-report.html`
 
-ジョブ構成は以下です。
+本番経路は、Azure 収集、API 経由のAI分析、公開を別workflowへ分離しています。
 
-1. `collect-data`: Azure の各種データを収集（resources/rbac/nsg/defender/advisor）
-2. `generate-report`: compact input からAPI経由でAI HTMLを生成
-3. `validate-report`: 必須セクション・危険タグ・主要数値の整合性を検証
-4. `publish-report`: `reports/latest` / `reports/history` / Pages 用 `_site` を更新
+1. `Azure 棚卸しレポート - API 1/3 収集`: Azure OIDC でログインし、5ドメインのrawデータを収集する
+2. `Azure 棚卸しレポート - API 2/3 分析`: 収集Artifactを取得し、API経由でAI HTMLを生成して検証する
+3. `Azure 棚卸しレポート - API 3/3 公開`: 検証済みArtifactを `reports/latest` / `reports/history` / Pages 用 `_site` へ反映する
 
 必要な設定:
 
@@ -135,7 +136,7 @@ VS Code + GitHub Copilot Chat 環境では、以下の prompt を使って一連
 	- `AI_REPORT_MODEL`
 	- `ENABLE_GITHUB_PAGES`（`true` のときのみ Pages デプロイ）
 
-`workflow_dispatch` の `report_mode` で生成モードを選択できます。
+`Azure 棚卸しレポート - API 1/3 収集` の `workflow_dispatch` で `report_mode` を選択できます。選択値は `workflow-metadata.json` として収集Artifactに保存され、後続の分析workflowへ引き継がれます。
 
 - `auto`（既定）: AI を試行し、失敗または Secret 未設定時は rule-based にフォールバック
 - `ai-only`: AI 生成のみ実行。失敗時はジョブ失敗
@@ -145,6 +146,12 @@ VS Code + GitHub Copilot Chat 環境では、以下の prompt を使って一連
 > - AI 生成が失敗した場合は、既存のルールベース HTML 生成 (`New-AzComprehensiveAdminReport.ps1`) にフォールバックして処理を継続します。
 > - `output/report-evidence.json` に `generation_method=api-ai` または `generation_method=rule-based-fallback` を記録します。
 > - `azure-comprehensive-report.prompt.md` を seed として利用し、API呼び出し時のプロンプトで事実拘束ルールを適用します。
+
+権限境界:
+
+- Azure OIDC の `id-token: write` は収集workflowだけに付与
+- GitHub Models / AI API 呼び出しとレポート検証は分析workflowで実行
+- `contents: write` と Pages 公開権限は公開workflowだけに付与
 
 ## セキュリティと取り扱い上の注意
 
