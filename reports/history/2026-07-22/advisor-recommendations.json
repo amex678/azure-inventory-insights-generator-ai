@@ -2272,22 +2272,6 @@
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/4040f196eeb71160b2ef07b5fe704ce0bd1bc75947f90ff27e08eb51e58ff961"
   },
   {
-    "Category": "Cost",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Consider virtual machine reserved instance to save over the on-demand costs",
-    "Solution": "Consider virtual machine reserved instance to save over the on-demand costs",
-    "ImpactedField": "Microsoft.Subscriptions/subscriptions",
-    "ImpactedValue": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceType": "Microsoft.Subscriptions/subscriptions",
-    "ResourceGroupName": "",
-    "LastUpdated": "2026-07-19T14:55:07.8626383Z",
-    "RecommendationId": "ff741cd9bdf05cec58001684823c9dff0d9a8b04b037d5b450bdd00cf2c0085a",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/ff741cd9bdf05cec58001684823c9dff0d9a8b04b037d5b450bdd00cf2c0085a"
-  },
-  {
     "Category": "Security",
     "Impact": "Medium",
     "Risk": null,
