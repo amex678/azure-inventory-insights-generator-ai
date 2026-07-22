@@ -1,8 +1,8 @@
 {
   "generation_method": "api-ai",
-  "runId": "29888821128",
+  "runId": "29897540720",
   "repository": "amex678/azure-inventory-insights-generator-ai",
-  "generatedAt": "2026-07-22T03:37:15.7730893+00:00",
+  "generatedAt": "2026-07-22T06:43:52.2550094+00:00",
   "model": "openai/gpt-4.1-mini",
   "endpoint": "https://models.github.ai/inference/chat/completions",
   "metrics": {
@@ -20,12 +20,12 @@
   },
   "usage": {
     "promptTokens": 7335,
-    "completionTokens": 7978,
-    "totalTokens": 15313
+    "completionTokens": 8062,
+    "totalTokens": 15397
   },
-  "sourceRunId": "29888696707",
-  "sourceRunUrl": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/29888696707",
-  "sourceHeadSha": "cfe4cd10dde0d0d0986ab01b9aedcefabc3a0f5f",
-  "analysisRunId": "29888821128",
-  "analysisRunUrl": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/29888821128"
+  "sourceRunId": "29897373084",
+  "sourceRunUrl": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/29897373084",
+  "sourceHeadSha": "cfeadb149309b49d248eb74e61d60feedfdf5da9",
+  "analysisRunId": "29897540720",
+  "analysisRunUrl": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/29897540720"
 }
