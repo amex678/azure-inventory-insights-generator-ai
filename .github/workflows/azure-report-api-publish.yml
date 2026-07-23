@@ -44,6 +44,15 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           run-id: ${{ github.event.workflow_run.id }}
 
+      - name: Add repository link
+        shell: pwsh
+        env:
+          REPOSITORY_URL: ${{ github.server_url }}/${{ github.repository }}
+        run: |
+          ./scripts/Add-RepositoryLinkToHtml.ps1 `
+            -HtmlPath 'output/comprehensive-report.html' `
+            -RepositoryUrl $env:REPOSITORY_URL
+
       - name: Prepare report outputs for repository and Pages
         shell: pwsh
         run: |
