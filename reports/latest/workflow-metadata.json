@@ -1,7 +1,7 @@
 {
   "report_mode": "auto",
-  "source_workflow_run_id": "30030371194",
-  "source_workflow_run_url": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/30030371194",
-  "source_head_sha": "62f2ac8ee2aa8d74fffb116175c9a453f05ef8e2",
-  "collected_at": "2026-07-23T17:42:22.8329139+00:00"
+  "source_workflow_run_id": "30045402319",
+  "source_workflow_run_url": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/30045402319",
+  "source_head_sha": "e066b52b6d68dba307dad5c793cc7f9f7b14037a",
+  "collected_at": "2026-07-23T21:17:02.2827382+00:00"
 }
