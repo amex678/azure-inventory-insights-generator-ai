@@ -3179,7 +3179,7 @@
     "ResourceName": "vm-amig-ubu-001",
     "ResourceType": "Microsoft.Compute/virtualMachines",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-07-23T22:24:21.4576109Z",
+    "LastUpdated": "2026-07-24T13:34:49.7512588Z",
     "RecommendationId": "4528626f4d030a995b98a656bac22cac0f75b4c815e0d30fce3cc56ec153b8b4",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-ubu-001/providers/Microsoft.Advisor/recommendations/4528626f4d030a995b98a656bac22cac0f75b4c815e0d30fce3cc56ec153b8b4"
   },
