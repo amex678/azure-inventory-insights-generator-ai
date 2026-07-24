@@ -872,11 +872,11 @@
     "Name": "amig-demo-project",
     "ResourceType": "Microsoft.Migrate/migrateprojects",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "Location": "centralus",
+    "Location": "japaneast",
     "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
     "Sku": null,
     "Kind": null,
-    "Tags": "",
+    "Tags": "Migrate Project=amig-demo-project",
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-migrate-demo-je-001/providers/Microsoft.Migrate/migrateprojects/amig-demo-project"
   },
   {
@@ -924,28 +924,6 @@
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-migrate-demo-je-001/providers/Microsoft.EventGrid/systemTopics/stamiguctnhzjq4unu2-050514de-a7f0-4a36-ae99-21f6f9f8e74e"
   },
   {
-    "Name": "test01",
-    "ResourceType": "Microsoft.Migrate/migrateprojects",
-    "ResourceGroupName": "rg-migrate-demo-je-001",
-    "Location": "southeastasia",
-    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "Sku": null,
-    "Kind": null,
-    "Tags": "Migrate Project=test01",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-migrate-demo-je-001/providers/Microsoft.Migrate/migrateprojects/test01"
-  },
-  {
-    "Name": "test02",
-    "ResourceType": "Microsoft.Migrate/migrateprojects",
-    "ResourceGroupName": "rg-migrate-demo-je-001",
-    "Location": "japaneast",
-    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "Sku": null,
-    "Kind": null,
-    "Tags": "Migrate Project=test02",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-migrate-demo-je-001/providers/Microsoft.Migrate/migrateprojects/test02"
-  },
-  {
     "Name": "test02a4cbproject",
     "ResourceType": "Microsoft.Migrate/assessmentProjects",
     "ResourceGroupName": "rg-migrate-demo-je-001",
@@ -977,5 +955,38 @@
     "Kind": "Migrate",
     "Tags": "Migrate Project=test02",
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-migrate-demo-je-001/providers/microsoft.offazure/MasterSites/test028545masterSite"
+  },
+  {
+    "Name": "amigdemoprojectc059rvToolsSite",
+    "ResourceType": "microsoft.offazure/ImportSites",
+    "ResourceGroupName": "rg-migrate-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-migrate-demo-je-001/providers/microsoft.offazure/ImportSites/amigdemoprojectc059rvToolsSite"
+  },
+  {
+    "Name": "amig-demo-projectdfdfproject",
+    "ResourceType": "Microsoft.Migrate/assessmentProjects",
+    "ResourceGroupName": "rg-migrate-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": "Migrate",
+    "Tags": "",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-migrate-demo-je-001/providers/Microsoft.Migrate/assessmentProjects/amig-demo-projectdfdfproject"
+  },
+  {
+    "Name": "amig-demo-proj4709masterSite",
+    "ResourceType": "microsoft.offazure/MasterSites",
+    "ResourceGroupName": "rg-migrate-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": "Migrate",
+    "Tags": "Migrate Project=amig-demo-project",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-migrate-demo-je-001/providers/microsoft.offazure/MasterSites/amig-demo-proj4709masterSite"
   }
 ]
