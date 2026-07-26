@@ -3680,38 +3680,6 @@
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-win-001/providers/Microsoft.Advisor/recommendations/f5c98e658d68b657f933e81d5b54ba745a9b3186f1f0e5dd134b3cdf0e4aa020"
   },
   {
-    "Category": "HighAvailability",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Use Availability zones for better resiliency and availability",
-    "Solution": "Use Availability zones for better resiliency and availability",
-    "ImpactedField": "Microsoft.Compute/virtualMachines",
-    "ImpactedValue": "vm-nwri-dst-jpe",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.compute/virtualmachines/vm-nwri-dst-jpe",
-    "ResourceName": "vm-nwri-dst-jpe",
-    "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "rg-nwri-jpe-20260709",
-    "LastUpdated": "2026-07-21T05:27:36.7969358Z",
-    "RecommendationId": "3bd993fee262fc6aa3f2d3b20217af4231611c552f7cc66095c2a87380f03988",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.compute/virtualmachines/vm-nwri-dst-jpe/providers/Microsoft.Advisor/recommendations/3bd993fee262fc6aa3f2d3b20217af4231611c552f7cc66095c2a87380f03988"
-  },
-  {
-    "Category": "HighAvailability",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Use Availability zones for better resiliency and availability",
-    "Solution": "Use Availability zones for better resiliency and availability",
-    "ImpactedField": "Microsoft.Compute/virtualMachines",
-    "ImpactedValue": "vm-nwri-src-jpe",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.compute/virtualmachines/vm-nwri-src-jpe",
-    "ResourceName": "vm-nwri-src-jpe",
-    "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "rg-nwri-jpe-20260709",
-    "LastUpdated": "2026-07-21T05:27:34.8036554Z",
-    "RecommendationId": "96705ec6589ea0b45783c3c51bf51f3580b2d53dc753df20ae6e8e2f83b8670e",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.compute/virtualmachines/vm-nwri-src-jpe/providers/Microsoft.Advisor/recommendations/96705ec6589ea0b45783c3c51bf51f3580b2d53dc753df20ae6e8e2f83b8670e"
-  },
-  {
     "Category": "Security",
     "Impact": "Medium",
     "Risk": null,
