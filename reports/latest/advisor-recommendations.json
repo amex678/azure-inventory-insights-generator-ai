@@ -3152,22 +3152,6 @@
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-appl-001/providers/Microsoft.Advisor/recommendations/d0f1019d9d31e28bf341899fe9fd0d1c2918c10f015fd9e3556ec8d8a4de4fb7"
   },
   {
-    "Category": "HighAvailability",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Use Availability zones for better resiliency and availability",
-    "Solution": "Use Availability zones for better resiliency and availability",
-    "ImpactedField": "Microsoft.Compute/virtualMachines",
-    "ImpactedValue": "vmprovjpe202607091459",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-vmprov-jpe-20260709-1459/providers/microsoft.compute/virtualmachines/vmprovjpe202607091459",
-    "ResourceName": "vmprovjpe202607091459",
-    "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "rg-vmprov-jpe-20260709-1459",
-    "LastUpdated": "2026-07-17T21:33:31.8160057Z",
-    "RecommendationId": "1a887abecf1086c67e7e8f73908490c5d6f90c9913b827ec0394537be1229ed9",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-vmprov-jpe-20260709-1459/providers/microsoft.compute/virtualmachines/vmprovjpe202607091459/providers/Microsoft.Advisor/recommendations/1a887abecf1086c67e7e8f73908490c5d6f90c9913b827ec0394537be1229ed9"
-  },
-  {
     "Category": "Security",
     "Impact": "High",
     "Risk": null,
