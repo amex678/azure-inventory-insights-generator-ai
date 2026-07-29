@@ -1,9 +1,9 @@
 {
   "generation_method": "rule-based-fallback",
-  "runId": "30445161374",
+  "runId": "30461096428",
   "repository": "amex678/azure-inventory-insights-generator-ai",
-  "generatedAt": "2026-07-29T10:49:48.1637917+00:00",
-  "fallbackReason": "Response status code does not indicate success: 429 (Too Many Requests).",
+  "generatedAt": "2026-07-29T14:32:39.0137283+00:00",
+  "fallbackReason": "The request was canceled due to the configured HttpClient.Timeout of 180 seconds elapsing.",
   "metrics": {
     "resourcesTotal": 90,
     "resourceGroups": 7,
@@ -17,9 +17,9 @@
     "advisorHigh": 77,
     "tagCoverage": 43.3
   },
-  "sourceRunId": "30444985491",
-  "sourceRunUrl": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/30444985491",
-  "sourceHeadSha": "34b3f14b9312c526ef598344b115381c9824e22e",
-  "analysisRunId": "30445161374",
-  "analysisRunUrl": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/30445161374"
+  "sourceRunId": "30460863030",
+  "sourceRunUrl": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/30460863030",
+  "sourceHeadSha": "c4a9de9a2412d52457d2c9e4315d2a6991db0613",
+  "analysisRunId": "30461096428",
+  "analysisRunUrl": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/30461096428"
 }
