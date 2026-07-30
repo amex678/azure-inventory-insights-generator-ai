@@ -1,10 +1,9 @@
 {
-  "generation_method": "api-ai",
-  "runId": "30567404202",
+  "generation_method": "rule-based-fallback",
+  "runId": "30583083787",
   "repository": "amex678/azure-inventory-insights-generator-ai",
-  "generatedAt": "2026-07-30T17:48:26.7493232+00:00",
-  "model": "openai/gpt-4.1-mini",
-  "endpoint": "https://models.github.ai/inference/chat/completions",
+  "generatedAt": "2026-07-30T21:22:18.9728592+00:00",
+  "fallbackReason": "Response status code does not indicate success: 410 (Gone).",
   "metrics": {
     "resourcesTotal": 90,
     "resourceGroups": 7,
@@ -18,14 +17,9 @@
     "advisorHigh": 77,
     "tagCoverage": 43.3
   },
-  "usage": {
-    "promptTokens": 7326,
-    "completionTokens": 8354,
-    "totalTokens": 15680
-  },
-  "sourceRunId": "30567173572",
-  "sourceRunUrl": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/30567173572",
-  "sourceHeadSha": "eb5b053a841e394aafe7342325e062e07b773a62",
-  "analysisRunId": "30567404202",
-  "analysisRunUrl": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/30567404202"
+  "sourceRunId": "30582850146",
+  "sourceRunUrl": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/30582850146",
+  "sourceHeadSha": "2fc4299f6765fc6597bba921f2c7ca6cb6116cab",
+  "analysisRunId": "30583083787",
+  "analysisRunUrl": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/30583083787"
 }
