@@ -3710,5 +3710,21 @@
     "LastUpdated": "2026-07-21T05:44:42.6357928Z",
     "RecommendationId": "dbae0a3556c16e6d4a05f98642a257678552de69519b74a523229a605ae6f034",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-appl-001/providers/Microsoft.Advisor/recommendations/dbae0a3556c16e6d4a05f98642a257678552de69519b74a523229a605ae6f034"
+  },
+  {
+    "Category": "Security",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Machines should have a vulnerability assessment solution",
+    "Solution": "Machines should have a vulnerability assessment solution",
+    "ImpactedField": "Microsoft.Compute/virtualMachines",
+    "ImpactedValue": "vm-pw-ops-dev-jpw-27161",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-pw-ops-dev-jpe-27161/providers/microsoft.compute/virtualmachines/vm-pw-ops-dev-jpw-27161",
+    "ResourceName": "vm-pw-ops-dev-jpw-27161",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "rg-pw-ops-dev-jpe-27161",
+    "LastUpdated": "2026-08-04T10:47:27.1824499Z",
+    "RecommendationId": "d14020cd46020f6eb7b88c19d03aedd9a77b09d595a67a234c0fe8e73f235f5a",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-pw-ops-dev-jpe-27161/providers/microsoft.compute/virtualmachines/vm-pw-ops-dev-jpw-27161/providers/Microsoft.Advisor/recommendations/d14020cd46020f6eb7b88c19d03aedd9a77b09d595a67a234c0fe8e73f235f5a"
   }
 ]
