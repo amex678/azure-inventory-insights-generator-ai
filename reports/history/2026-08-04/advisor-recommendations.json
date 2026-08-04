@@ -2123,7 +2123,7 @@
     "ResourceName": "vm-pw-ops-dev-jpw-27161",
     "ResourceType": "Microsoft.Compute/virtualMachines",
     "ResourceGroupName": "rg-pw-ops-dev-jpe-27161",
-    "LastUpdated": "2026-07-02T20:47:06.9963978Z",
+    "LastUpdated": "2026-08-04T14:34:46.3750445Z",
     "RecommendationId": "2394795cd3cf2f5f11923eaed07691261387dd65f0d97126a23de774c9c61017",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-pw-ops-dev-jpe-27161/providers/microsoft.compute/virtualmachines/vm-pw-ops-dev-jpw-27161/providers/Microsoft.Advisor/recommendations/2394795cd3cf2f5f11923eaed07691261387dd65f0d97126a23de774c9c61017"
   },
@@ -2539,7 +2539,7 @@
     "ResourceName": "vm-nwri-src-jpe",
     "ResourceType": "Microsoft.Compute/virtualMachines",
     "ResourceGroupName": "rg-nwri-jpe-20260709",
-    "LastUpdated": "2026-07-10T03:43:43.6201418Z",
+    "LastUpdated": "2026-08-04T14:35:09.675519Z",
     "RecommendationId": "1a7d1134f4d4587b144023fabb6d8fa3e913288cd40ed18f21ca97cdb9767c98",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.compute/virtualmachines/vm-nwri-src-jpe/providers/Microsoft.Advisor/recommendations/1a7d1134f4d4587b144023fabb6d8fa3e913288cd40ed18f21ca97cdb9767c98"
   },
