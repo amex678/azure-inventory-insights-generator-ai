@@ -77,7 +77,7 @@
 </nav>
 <header>
   <h1>Azure 総合レポート <span class="badge">管理者向け</span> <span class="badge">AI Insights</span> <span class="badge">横断分析</span></h1>
-  <div class="sub">サブスクリプション: (unknown) ((unknown)) ／ 生成日時: 2026-08-04 21:23:37 ／ 入力: resources (90) · rbac (42) · nsg (12) · defender (416) · advisor (233)</div>
+  <div class="sub">サブスクリプション: (unknown) ((unknown)) ／ 生成日時: 2026-08-05 03:26:54 ／ 入力: resources (90) · rbac (43) · nsg (12) · defender (416) · advisor (233)</div>
 </header>
 <main>
 
@@ -85,7 +85,7 @@
     <div class="tab-nav" role="tablist">
       <button class="tab-btn active" type="button" role="tab" data-tab="overview">概要</button>
       <button class="tab-btn" type="button" role="tab" data-tab="resources">リソース <span class="cnt">90</span></button>
-      <button class="tab-btn" type="button" role="tab" data-tab="rbac">RBAC <span class="cnt">42</span></button>
+      <button class="tab-btn" type="button" role="tab" data-tab="rbac">RBAC <span class="cnt">43</span></button>
       <button class="tab-btn" type="button" role="tab" data-tab="nsg">NSG <span class="cnt">12</span></button>
       <button class="tab-btn" type="button" role="tab" data-tab="defender">Defender <span class="cnt">232</span></button>
       <button class="tab-btn" type="button" role="tab" data-tab="advisor">Advisor <span class="cnt">233</span></button>
@@ -105,16 +105,16 @@
 <div class="kpi-grid"><div class='kpi'><div class='kpi-label'>リソース総数</div><div class='kpi-value' style='color:var(--accent)'>90<span class='kpi-unit'>件</span></div><div class='kpi-sub'>7 RG / 5 リージョン</div></div>
 <div class='kpi'><div class='kpi-label'>Defender High</div><div class='kpi-value' style='color:var(--high)'>93<span class='kpi-unit'>件</span></div><div class='kpi-sub'>Unhealthy 計 232 件</div></div>
 <div class='kpi'><div class='kpi-label'>Advisor High Impact</div><div class='kpi-value' style='color:var(--high)'>77<span class='kpi-unit'>件</span></div><div class='kpi-sub'>総推奨 233 件</div></div>
-<div class='kpi'><div class='kpi-label'>Owner 割り当て</div><div class='kpi-value' style='color:var(--high)'>13<span class='kpi-unit'>件</span></div><div class='kpi-sub'>孤児候補 42 件</div></div>
+<div class='kpi'><div class='kpi-label'>Owner 割り当て</div><div class='kpi-value' style='color:var(--high)'>13<span class='kpi-unit'>件</span></div><div class='kpi-sub'>孤児候補 43 件</div></div>
 <div class='kpi'><div class='kpi-label'>タグ付与率</div><div class='kpi-value' style='color:var(--high)'>43.3<span class='kpi-unit'>%</span></div><div class='kpi-sub'>未付与 51 件</div></div></div>
 
-<p class='exec-narrative'>本サブスクリプションは 90 リソース・7 リソースグループ・5 リージョンで構成された中規模環境です。 Defender High が 93 件・Advisor High Impact が 77 件と双方に積み残しが多く、セキュリティ態勢と運用品質の両面で早急な是正が求められます。 孤児候補ロールが 42 件と多く、削除済みアカウントへの権限残存が常態化していると推察されます。Owner 13 件も恒久付与を避け PIM へ移行すべきです。 タグ付与率が 43.3% と低水準で、コスト按分・所有者特定・ライフサイクル管理の基盤が整っていません。Azure Policy によるタグ必須化が急務です。</p>
+<p class='exec-narrative'>本サブスクリプションは 90 リソース・7 リソースグループ・5 リージョンで構成された中規模環境です。 Defender High が 93 件・Advisor High Impact が 77 件と双方に積み残しが多く、セキュリティ態勢と運用品質の両面で早急な是正が求められます。 孤児候補ロールが 43 件と多く、削除済みアカウントへの権限残存が常態化していると推察されます。Owner 13 件も恒久付与を避け PIM へ移行すべきです。 タグ付与率が 43.3% と低水準で、コスト按分・所有者特定・ライフサイクル管理の基盤が整っていません。Azure Policy によるタグ必須化が急務です。</p>
 
 <div class="exec-cols">
   <div class="exec-col exec-concern">
     <h3>&#128680; 主要な懸念事項</h3>
     <ul><li><strong>特権境界:</strong> 管理グループ スコープへの <strong>Owner 付与が 10 件</strong>。配下の全サブスクへ権限が波及。</li>
-<li><strong>監査追跡性:</strong> 削除済み ID とみられる孤児候補のロール割り当てが <strong>42 件</strong> 残存。</li>
+<li><strong>監査追跡性:</strong> 削除済み ID とみられる孤児候補のロール割り当てが <strong>43 件</strong> 残存。</li>
 <li><strong>セキュリティ態勢:</strong> Defender High Severity 推奨事項 <strong>93 件</strong>（Secure Score 35.6%）。<em>暗号化未有効と特権ロール過剰付与が主因。</em></li>
 <li><strong>最適化機会:</strong> Advisor High Impact <strong>77 件</strong>（HA 49 / Sec 162 / Op 22）。同一 VM 群に重複指摘 → デプロイ テンプレート不備。</li>
 <li><strong>ガバナンス:</strong> タグ付与率 <strong>43.3%</strong>。所有者・コスト按分・連絡先の特定が困難。</li>
@@ -145,9 +145,9 @@
           <tbody><tr><td><span class='dom dom-リソース'>リソース</span></td><td>総リソース数 / タイプ数 / RG 数 / リージョン数</td><td class='num'>90 / 20 / 7 / 5</td></tr>
 <tr><td><span class='dom dom-リソース'>リソース</span></td><td>VM / Storage (うちLRS) / Public IP</td><td class='num'>11 / 4 (4 LRS) / 3</td></tr>
 <tr><td><span class='dom dom-リソース'>リソース</span></td><td>タグ付与率</td><td class='num'>43.3% (未付与 51)</td></tr>
-<tr><td><span class='dom dom-rbac'>RBAC</span></td><td>総割り当て / User / SP</td><td class='num'>42 / 4 / 38</td></tr>
+<tr><td><span class='dom dom-rbac'>RBAC</span></td><td>総割り当て / User / SP</td><td class='num'>43 / 5 / 38</td></tr>
 <tr><td><span class='dom dom-rbac'>RBAC</span></td><td>Owner / UAA / MG スコープ / MG スコープの Owner</td><td class='num'>13 / 2 / 13 / 10</td></tr>
-<tr><td><span class='dom dom-rbac'>RBAC</span></td><td>孤児候補（DisplayName=null）</td><td class='num'>42</td></tr>
+<tr><td><span class='dom dom-rbac'>RBAC</span></td><td>孤児候補（DisplayName=null）</td><td class='num'>43</td></tr>
 <tr><td><span class='dom dom-nsg'>NSG</span></td><td>NSG 数 / 総ルール / Inbound Allow / 高リスク</td><td class='num'>8 / 12 / 7 / 0</td></tr>
 <tr><td><span class='dom dom-defender'>Defender</span></td><td>総評価 / Unhealthy (High/Med/Low) / Healthy / NA</td><td class='num'>416 / 232 (93 / 108 / 31) / 128 / 56</td></tr>
 <tr><td><span class='dom dom-defender'>Defender</span></td><td>簡易 Secure Score (Healthy / 評価対象)</td><td class='num'>35.6% (128 / 360)</td></tr>
@@ -179,7 +179,7 @@
     <h3>特権ロールの恒久付与と blast radius 拡大</h3>
   </header>
   <div class="risk-body">
-    <div class="row"><div class="lbl">観察事実</div><div class="val">Owner 13 件（MG スコープ 10）、UAA 2 件、サービス プリンシパル 38 件、表示名なし（孤児候補）42 件。</div></div>
+    <div class="row"><div class="lbl">観察事実</div><div class="val">Owner 13 件（MG スコープ 10）、UAA 2 件、サービス プリンシパル 38 件、表示名なし（孤児候補）43 件。</div></div>
     <div class="row"><div class="lbl">リスク理由</div><div class="val">Owner と UAA は権限変更まで可能な最強ロールで、管理グループ スコープに付与すると配下全サブスクへ波及します。SP に Owner が恒久付与され、孤児（削除済み ID）の割り当てが残存している状態は、侵害時の影響範囲・監査追跡性・最小権限原則のすべてに違反します。</div></div>
     <div class="row"><div class="lbl">推奨対応</div><div class="val">Owner / UAA は <strong>PIM によるオンデマンド昇格</strong> に移行し、恒久付与を停止。SP は <strong>マネージド ID / Workload Identity Federation</strong> に切替え、孤児割り当ては <code>Remove-AzRoleAssignment</code> で削除。<strong>Access Review</strong> を四半期で自動化する。</div></div>
     <div class="row"><div class="lbl">公式ドキュメント</div><div class="val"><ul class="links"><li><a href='https://learn.microsoft.com/ja-jp/entra/id-governance/privileged-identity-management/pim-configure' target='_blank' rel='noopener'>Privileged Identity Management</a></li><li><a href='https://learn.microsoft.com/ja-jp/entra/identity/managed-identities-azure-resources/overview' target='_blank' rel='noopener'>マネージド ID の概要</a></li><li><a href='https://learn.microsoft.com/ja-jp/azure/role-based-access-control/best-practices' target='_blank' rel='noopener'>RBAC ベスト プラクティス</a></li></ul></div></div>
@@ -335,9 +335,9 @@
     <div class="tab-panel" id="tab-rbac" role="tabpanel">
       <h2><span class="dom dom-rbac">RBAC</span> ロール割り当て詳細 <span class="ai">AI</span></h2>
       <div class="insight" style="padding:14px 18px; border-radius:8px; margin-bottom:16px;">
-        <p>RBAC は合計 <strong>42 件</strong>（User 4 / SP 38）。特権ロールは <strong>Owner 13 / UAA 2</strong>、管理グループ スコープへの割り当ては 13 件、うち Owner 直接付与が <strong>10 件</strong>です。</p>
+        <p>RBAC は合計 <strong>43 件</strong>（User 5 / SP 38）。特権ロールは <strong>Owner 13 / UAA 2</strong>、管理グループ スコープへの割り当ては 13 件、うち Owner 直接付与が <strong>10 件</strong>です。</p>
 <p><strong>所見:</strong></p>
-<ul style="line-height:1.8;"><li>管理グループ スコープへの <strong>Owner 付与が 10 件</strong>。配下全サブスクリプションへ権限が波及するため、影響範囲が最も大きい構成です。</li><li>Owner ロールの恒久付与が <strong>13 件</strong>と多めです。Owner は権限変更含めた最強権限で、恒久付与は最小権限原則に反します。</li><li>User Access Administrator (UAA) が <strong>2 件</strong>。UAA は他者の権限を変更可能なため、PIM 必須化が望まれます。</li><li>DisplayName が解決できない <strong>孤児候補が 42 件</strong>。削除済み ID への権限残存は、監査追跡性と最小権限原則の両方に違反します。</li><li>サービス プリンシパル (SP) への割り当てが <strong>38 件</strong>。シークレット ベースの SP はマネージド ID / Workload Identity Federation への切替が推奨されます。</li></ul>
+<ul style="line-height:1.8;"><li>管理グループ スコープへの <strong>Owner 付与が 10 件</strong>。配下全サブスクリプションへ権限が波及するため、影響範囲が最も大きい構成です。</li><li>Owner ロールの恒久付与が <strong>13 件</strong>と多めです。Owner は権限変更含めた最強権限で、恒久付与は最小権限原則に反します。</li><li>User Access Administrator (UAA) が <strong>2 件</strong>。UAA は他者の権限を変更可能なため、PIM 必須化が望まれます。</li><li>DisplayName が解決できない <strong>孤児候補が 43 件</strong>。削除済み ID への権限残存は、監査追跡性と最小権限原則の両方に違反します。</li><li>サービス プリンシパル (SP) への割り当てが <strong>38 件</strong>。シークレット ベースの SP はマネージド ID / Workload Identity Federation への切替が推奨されます。</li></ul>
 <p><strong>推奨アクション:</strong> Owner / UAA は <strong>PIM によるオンデマンド昇格</strong> に移行（恒久付与停止）、SP は <strong>マネージド ID / Workload Identity Federation</strong> に切替、孤児割り当ては <code>Remove-AzRoleAssignment</code> で削除し、四半期毎の <strong>Access Review</strong> を自動化。</p>
       </div>
       <div class="grid2">
@@ -352,14 +352,14 @@
 <tr><td>Defender Kubernetes API Access</td><td class='num'>2</td></tr>
 <tr><td>User Access Administrator</td><td class='num'>2</td></tr>
 <tr><td>Azure Migrate Service Reader</td><td class='num'>1</td></tr>
+<tr><td>Role Based Access Control Administrator</td><td class='num'>1</td></tr>
 <tr><td>Managed Identity Operator</td><td class='num'>1</td></tr>
 <tr><td>Managed Identity Federated Identity Credential Contributor</td><td class='num'>1</td></tr>
 <tr><td>Log Analytics Contributor</td><td class='num'>1</td></tr>
 <tr><td>Kubernetes Agent Subscription Level Operator</td><td class='num'>1</td></tr>
 <tr><td>Defender Serverless Scanner</td><td class='num'>1</td></tr>
 <tr><td>Defender Sensitive Data Discovery</td><td class='num'>1</td></tr>
-<tr><td>Defender for Storage Scanner Operator</td><td class='num'>1</td></tr>
-<tr><td>Defender for Storage Data Scanner</td><td class='num'>1</td></tr></tbody>
+<tr><td>Defender for Storage Scanner Operator</td><td class='num'>1</td></tr></tbody>
           </table></div>
         </div>
         <div>
@@ -367,7 +367,7 @@
           <table>
             <thead><tr><th>Object Type</th><th class="num">件数</th></tr></thead>
             <tbody><tr><td>ServicePrincipal</td><td class='num'>38</td></tr>
-<tr><td>User</td><td class='num'>4</td></tr></tbody>
+<tr><td>User</td><td class='num'>5</td></tr></tbody>
           </table>
         </div>
       </div>
@@ -411,18 +411,18 @@
 <tr><td>Log Analytics Contributor</td><td><code>ae960fd0-e64e-4360-9bf9-1fa5339636a5</code></td><td>ServicePrincipal</td><td>Subscription</td></tr>
 <tr><td>Managed Identity Federated Identity Credential Contributor</td><td><code>0600fd0e-b32a-4cf4-b23d-a1d9820262fd</code></td><td>ServicePrincipal</td><td>Subscription</td></tr>
 <tr><td>Managed Identity Operator</td><td><code>ae960fd0-e64e-4360-9bf9-1fa5339636a5</code></td><td>ServicePrincipal</td><td>Subscription</td></tr>
-<tr><td>Owner</td><td><code>7d2b69ae-0735-4d79-a919-08568005bdc2</code></td><td>ServicePrincipal</td><td>ManagementGroup</td></tr>
 <tr><td>Owner</td><td><code>b01499e0-e5d7-4803-9cf2-6cfc4798ee12</code></td><td>ServicePrincipal</td><td>ManagementGroup</td></tr>
-<tr><td>Owner</td><td><code>c5d412de-12a4-466d-a690-90bc54788445</code></td><td>ServicePrincipal</td><td>ManagementGroup</td></tr>
 <tr><td>Owner</td><td><code>20e6886f-4173-4981-b07b-7ba835e2f94e</code></td><td>ServicePrincipal</td><td>ManagementGroup</td></tr>
+<tr><td>Owner</td><td><code>7d2b69ae-0735-4d79-a919-08568005bdc2</code></td><td>ServicePrincipal</td><td>ManagementGroup</td></tr>
 <tr><td>Owner</td><td><code>e820a82b-00ca-4be8-872b-bc4722daf8c9</code></td><td>ServicePrincipal</td><td>ManagementGroup</td></tr>
 <tr><td>Owner</td><td><code>50e49ef0-b31d-4c1a-9413-74a9359d7366</code></td><td>User</td><td>ManagementGroup</td></tr>
 <tr><td>Owner</td><td><code>14f720fd-fd42-429c-b3e1-b865c7f3bf93</code></td><td>User</td><td>ManagementGroup</td></tr>
 <tr><td>Owner</td><td><code>d901980f-43b1-42fb-895a-3e69530491eb</code></td><td>ServicePrincipal</td><td>ManagementGroup</td></tr>
+<tr><td>Owner</td><td><code>c5d412de-12a4-466d-a690-90bc54788445</code></td><td>ServicePrincipal</td><td>ManagementGroup</td></tr>
 <tr><td>Owner</td><td><code>7d2b69ae-0735-4d79-a919-08568005bdc2</code></td><td>ServicePrincipal</td><td>Subscription</td></tr>
+<tr><td>Owner</td><td><code>a6505c31-53bd-435a-9503-8cec7b0490f9</code></td><td>ServicePrincipal</td><td>ManagementGroup</td></tr>
 <tr><td>Owner</td><td><code>74ed1bb9-5cf2-4965-a110-02c57f17b32a</code></td><td>ServicePrincipal</td><td>ManagementGroup</td></tr>
-<tr><td>Owner</td><td><code>14f720fd-fd42-429c-b3e1-b865c7f3bf93</code></td><td>User</td><td>Subscription</td></tr>
-<tr><td>Owner</td><td><code>d901980f-43b1-42fb-895a-3e69530491eb</code></td><td>ServicePrincipal</td><td>Subscription</td></tr></tbody>
+<tr><td>Owner</td><td><code>14f720fd-fd42-429c-b3e1-b865c7f3bf93</code></td><td>User</td><td>Subscription</td></tr></tbody>
       </table></div>
     </div>
 
