@@ -1,8 +1,8 @@
 {
   "generation_method": "rule-based-fallback",
-  "runId": "31094839970",
+  "runId": "31111399528",
   "repository": "amex678/azure-inventory-insights-generator-ai",
-  "generatedAt": "2026-08-06T10:50:48.3658737+00:00",
+  "generatedAt": "2026-08-06T14:33:35.4115043+00:00",
   "fallbackReason": "Response status code does not indicate success: 410 (Gone).",
   "metrics": {
     "resourcesTotal": 90,
@@ -17,9 +17,9 @@
     "advisorHigh": 43,
     "tagCoverage": 43.3
   },
-  "sourceRunId": "31094618985",
-  "sourceRunUrl": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/31094618985",
-  "sourceHeadSha": "e27d4fef2298838ac48c76c6aad9f760c315cd71",
-  "analysisRunId": "31094839970",
-  "analysisRunUrl": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/31094839970"
+  "sourceRunId": "31111096272",
+  "sourceRunUrl": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/31111096272",
+  "sourceHeadSha": "dc0cdeaa54842f4779828ec7219caaa3bc604b55",
+  "analysisRunId": "31111399528",
+  "analysisRunUrl": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/31111399528"
 }
