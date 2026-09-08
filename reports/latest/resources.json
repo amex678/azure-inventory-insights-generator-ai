@@ -1188,17 +1188,6 @@
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-srepoc-workload-aue/providers/Microsoft.Network/publicIPAddresses/pip-nat-srepoc-6h2ve7"
   },
   {
-    "Name": "id-srepoc-agent-6h2ve7",
-    "ResourceType": "Microsoft.ManagedIdentity/userAssignedIdentities",
-    "ResourceGroupName": "rg-srepoc-agent-aue",
-    "Location": "australiaeast",
-    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "Sku": null,
-    "Kind": null,
-    "Tags": "purpose=sre-agent-poc;environment=demo;lifecycle=manual-retention;createdBy=bicep",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-srepoc-agent-aue/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-srepoc-agent-6h2ve7"
-  },
-  {
     "Name": "nsg-srepoc-6h2ve7",
     "ResourceType": "Microsoft.Network/networkSecurityGroups",
     "ResourceGroupName": "rg-srepoc-workload-aue",
@@ -1208,6 +1197,17 @@
     "Kind": null,
     "Tags": "purpose=sre-agent-poc;environment=demo;lifecycle=manual-retention;createdBy=bicep",
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-srepoc-workload-aue/providers/Microsoft.Network/networkSecurityGroups/nsg-srepoc-6h2ve7"
+  },
+  {
+    "Name": "id-srepoc-agent-6h2ve7",
+    "ResourceType": "Microsoft.ManagedIdentity/userAssignedIdentities",
+    "ResourceGroupName": "rg-srepoc-agent-aue",
+    "Location": "australiaeast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "purpose=sre-agent-poc;environment=demo;lifecycle=manual-retention;createdBy=bicep",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-srepoc-agent-aue/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-srepoc-agent-6h2ve7"
   },
   {
     "Name": "vnet-srepoc-6h2ve7",
