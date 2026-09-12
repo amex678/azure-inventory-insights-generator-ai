@@ -1,23 +1,5 @@
 [
   {
-    "AssessmentName": "fab4ce6d-77b1-7d24-5206-02b8a774c3c5",
-    "DisplayName": "Update windows_server_2025",
-    "Severity": "High",
-    "Status": "Unhealthy",
-    "StatusCause": null,
-    "StatusDescription": null,
-    "SecurityIssue": "Vulnerability",
-    "SecurityCategories": "Vulnerabilities",
-    "RecommendationCategory": "SoftwareUpdate",
-    "Description": null,
-    "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-SREPOC-WORKLOAD-AUE/providers/Microsoft.Compute/virtualMachines/vm-srepoc-6h2ve7",
-    "ResourceName": "vm-srepoc-6h2ve7",
-    "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-SREPOC-WORKLOAD-AUE",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-SREPOC-WORKLOAD-AUE/providers/Microsoft.Compute/virtualMachines/vm-srepoc-6h2ve7/providers/Microsoft.Security/assessments/fab4ce6d-77b1-7d24-5206-02b8a774c3c5"
-  },
-  {
     "AssessmentName": "06e3a6db-6c0c-4ad9-943f-31d9d73ecf6c",
     "DisplayName": "EDR solution should be installed on Virtual Machines",
     "Severity": "High",
