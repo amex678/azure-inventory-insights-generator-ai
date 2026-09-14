@@ -1232,6 +1232,72 @@
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-avnm-capture-jpe-20260910/providers/Microsoft.Network/networkSecurityGroups/vnet-avnm-capture-b-snet-demo-nsg-japaneast"
   },
   {
+    "Name": "gal_aib_win2025_demo",
+    "ResourceType": "Microsoft.Compute/galleries",
+    "ResourceGroupName": "rg-aib-win2025-demo",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "purpose=aib-screenshot-demo;environment=lab;expiresOn=2026-09-30",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-aib-win2025-demo/providers/Microsoft.Compute/galleries/gal_aib_win2025_demo"
+  },
+  {
+    "Name": "id-aib-win2025-demo",
+    "ResourceType": "Microsoft.ManagedIdentity/userAssignedIdentities",
+    "ResourceGroupName": "rg-aib-win2025-demo",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "purpose=aib-screenshot-demo;environment=lab;expiresOn=2026-09-30",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-aib-win2025-demo/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-aib-win2025-demo"
+  },
+  {
+    "Name": "gal_aib_win2025_demo/win2025-azure-baseline",
+    "ResourceType": "Microsoft.Compute/galleries/images",
+    "ResourceGroupName": "rg-aib-win2025-demo",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "purpose=aib-screenshot-demo;environment=lab;expiresOn=2026-09-30",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-aib-win2025-demo/providers/Microsoft.Compute/galleries/gal_aib_win2025_demo/images/win2025-azure-baseline"
+  },
+  {
+    "Name": "it-aib-win2025-demo",
+    "ResourceType": "Microsoft.VirtualMachineImages/imageTemplates",
+    "ResourceGroupName": "rg-aib-win2025-demo",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "environment=lab;expiresOn=2026-09-30;purpose=aib-screenshot-demo",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-aib-win2025-demo/providers/Microsoft.VirtualMachineImages/imageTemplates/it-aib-win2025-demo"
+  },
+  {
+    "Name": "wgmt28j57d9877uautoq4ujd",
+    "ResourceType": "Microsoft.Storage/storageAccounts",
+    "ResourceGroupName": "IT_rg-aib-win2025-demo_it-aib-win2025-demo_a448c843-0259-4273-a179-5fc8a2adce5f",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": "Standard_ZRS",
+    "Kind": "StorageV2",
+    "Tags": "createdby=AzureVMImageBuilder;imageTemplateName=it-aib-win2025-demo;imageTemplateResourceGroupName=rg-aib-win2025-demo;magicvalue=0d819542a3774a2a8709401a7cd09eb8",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/IT_rg-aib-win2025-demo_it-aib-win2025-demo_a448c843-0259-4273-a179-5fc8a2adce5f/providers/Microsoft.Storage/storageAccounts/wgmt28j57d9877uautoq4ujd"
+  },
+  {
+    "Name": "gal_aib_win2025_demo/win2025-azure-baseline/1.0.0",
+    "ResourceType": "Microsoft.Compute/galleries/images/versions",
+    "ResourceGroupName": "rg-aib-win2025-demo",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "VMImageBuilderSource=PlatformImage MicrosoftWindowsServer::WindowsServer::2025-datacenter-azure-edition::latest (26100.33438.260905);correlationId=5374bae6-e89a-4f8c-9275-1b7a5d61ef5e;environment=lab;purpose=aib-screenshot-demo",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-aib-win2025-demo/providers/Microsoft.Compute/galleries/gal_aib_win2025_demo/images/win2025-azure-baseline/versions/1.0.0"
+  },
+  {
     "Name": "pip-nat-srepoc-6h2ve7",
     "ResourceType": "Microsoft.Network/publicIPAddresses",
     "ResourceGroupName": "rg-srepoc-workload-aue",
@@ -1243,17 +1309,6 @@
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-srepoc-workload-aue/providers/Microsoft.Network/publicIPAddresses/pip-nat-srepoc-6h2ve7"
   },
   {
-    "Name": "id-srepoc-agent-6h2ve7",
-    "ResourceType": "Microsoft.ManagedIdentity/userAssignedIdentities",
-    "ResourceGroupName": "rg-srepoc-agent-aue",
-    "Location": "australiaeast",
-    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "Sku": null,
-    "Kind": null,
-    "Tags": "purpose=sre-agent-poc;environment=demo;lifecycle=manual-retention;createdBy=bicep",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-srepoc-agent-aue/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-srepoc-agent-6h2ve7"
-  },
-  {
     "Name": "nsg-srepoc-6h2ve7",
     "ResourceType": "Microsoft.Network/networkSecurityGroups",
     "ResourceGroupName": "rg-srepoc-workload-aue",
@@ -1263,6 +1318,17 @@
     "Kind": null,
     "Tags": "purpose=sre-agent-poc;environment=demo;lifecycle=manual-retention;createdBy=bicep",
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-srepoc-workload-aue/providers/Microsoft.Network/networkSecurityGroups/nsg-srepoc-6h2ve7"
+  },
+  {
+    "Name": "id-srepoc-agent-6h2ve7",
+    "ResourceType": "Microsoft.ManagedIdentity/userAssignedIdentities",
+    "ResourceGroupName": "rg-srepoc-agent-aue",
+    "Location": "australiaeast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "purpose=sre-agent-poc;environment=demo;lifecycle=manual-retention;createdBy=bicep",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-srepoc-agent-aue/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-srepoc-agent-6h2ve7"
   },
   {
     "Name": "vnet-srepoc-6h2ve7",
