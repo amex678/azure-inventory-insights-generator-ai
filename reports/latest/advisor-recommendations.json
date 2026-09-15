@@ -2606,5 +2606,21 @@
     "LastUpdated": "2026-09-15T08:18:56.0422661Z",
     "RecommendationId": "8dcef3bb37763015e186afd9fb3e854aeffa37181e023c0360be422d8a149dcd",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.compute/virtualmachines/vm-aib-verify01/providers/Microsoft.Advisor/recommendations/8dcef3bb37763015e186afd9fb3e854aeffa37181e023c0360be422d8a149dcd"
+  },
+  {
+    "Category": "Security",
+    "Impact": "High",
+    "Risk": null,
+    "Problem": "Windows virtual machines should enable Azure Disk Encryption or EncryptionAtHost.",
+    "Solution": "Windows virtual machines should enable Azure Disk Encryption or EncryptionAtHost.",
+    "ImpactedField": "Microsoft.Compute/virtualMachines",
+    "ImpactedValue": "vm-aib-verify01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.compute/virtualmachines/vm-aib-verify01",
+    "ResourceName": "vm-aib-verify01",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "rg-aib-win2025-demo",
+    "LastUpdated": "2026-09-15T22:45:12.4933234Z",
+    "RecommendationId": "314643c622896bcf5880fb316b800e7145e60b0298db5d9676f2d439813c9888",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.compute/virtualmachines/vm-aib-verify01/providers/Microsoft.Advisor/recommendations/314643c622896bcf5880fb316b800e7145e60b0298db5d9676f2d439813c9888"
   }
 ]
