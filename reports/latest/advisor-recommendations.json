@@ -2590,5 +2590,21 @@
     "LastUpdated": "2026-09-15T03:05:12.4309552Z",
     "RecommendationId": "5b570dceacd6721fcf2d8adabeeeb99427653e8d89c4cfad743d3bf72849d4a2",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.network/virtualnetworks/vnet-japaneast-1/providers/Microsoft.Advisor/recommendations/5b570dceacd6721fcf2d8adabeeeb99427653e8d89c4cfad743d3bf72849d4a2"
+  },
+  {
+    "Category": "HighAvailability",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Migrate workload to Virtual Machine Scale Sets Flex",
+    "Solution": "Migrate workload to Virtual Machine Scale Sets Flex",
+    "ImpactedField": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
+    "ImpactedValue": "vm-aib-verify01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.compute/virtualmachines/vm-aib-verify01",
+    "ResourceName": "vm-aib-verify01",
+    "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
+    "ResourceGroupName": "rg-aib-win2025-demo",
+    "LastUpdated": "2026-09-15T08:18:56.0422661Z",
+    "RecommendationId": "8dcef3bb37763015e186afd9fb3e854aeffa37181e023c0360be422d8a149dcd",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.compute/virtualmachines/vm-aib-verify01/providers/Microsoft.Advisor/recommendations/8dcef3bb37763015e186afd9fb3e854aeffa37181e023c0360be422d8a149dcd"
   }
 ]
