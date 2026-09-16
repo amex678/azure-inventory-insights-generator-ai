@@ -2702,5 +2702,21 @@
     "LastUpdated": "2026-09-16T13:45:49.4796009Z",
     "RecommendationId": "30a2eff1dbbc1fa122ae4035e80d858da57b24c0ed1b8748ce3274b6c5ae3822",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/30a2eff1dbbc1fa122ae4035e80d858da57b24c0ed1b8748ce3274b6c5ae3822"
+  },
+  {
+    "Category": "Security",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "VM Image Builder templates should use private link",
+    "Solution": "VM Image Builder templates should use private link",
+    "ImpactedField": "Microsoft.VirtualMachineImages/imageTemplates",
+    "ImpactedValue": "it-aib-win2025-demo",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.virtualmachineimages/imagetemplates/it-aib-win2025-demo",
+    "ResourceName": "it-aib-win2025-demo",
+    "ResourceType": "Microsoft.VirtualMachineImages/imageTemplates",
+    "ResourceGroupName": "rg-aib-win2025-demo",
+    "LastUpdated": "2026-09-16T21:51:39.9697214Z",
+    "RecommendationId": "67f67637b23aba4aa8d608579bbe18a9edef5bf2c482262ab3fe48e81a5ffbad",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.virtualmachineimages/imagetemplates/it-aib-win2025-demo/providers/Microsoft.Advisor/recommendations/67f67637b23aba4aa8d608579bbe18a9edef5bf2c482262ab3fe48e81a5ffbad"
   }
 ]
