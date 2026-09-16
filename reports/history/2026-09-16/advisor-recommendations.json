@@ -2670,5 +2670,37 @@
     "LastUpdated": "2026-09-16T10:16:22.7351656Z",
     "RecommendationId": "b45a6549ef2c385b128c99ef7a52c524f7facd9b3e7a449d2771019d50a63a6d",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.compute/disks/vm-aib-verify01_osdisk_1_77c8df65f0e944ca84388db36939575d/providers/Microsoft.Advisor/recommendations/b45a6549ef2c385b128c99ef7a52c524f7facd9b3e7a449d2771019d50a63a6d"
+  },
+  {
+    "Category": "Cost",
+    "Impact": "High",
+    "Risk": null,
+    "Problem": "Consider purchasing a savings plan to unlock lower prices",
+    "Solution": "Consider purchasing a savings plan to unlock lower prices",
+    "ImpactedField": "Microsoft.Subscriptions/subscriptions",
+    "ImpactedValue": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "ResourceType": "Microsoft.Subscriptions/subscriptions",
+    "ResourceGroupName": "",
+    "LastUpdated": "2026-09-16T13:45:51.7273406Z",
+    "RecommendationId": "9533d8f4532826c52ed0f40fedbea4dbc739975f8dd42dfaa059c7e678bb7099",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/9533d8f4532826c52ed0f40fedbea4dbc739975f8dd42dfaa059c7e678bb7099"
+  },
+  {
+    "Category": "Cost",
+    "Impact": "High",
+    "Risk": null,
+    "Problem": "Consider purchasing a savings plan to unlock lower prices",
+    "Solution": "Consider purchasing a savings plan to unlock lower prices",
+    "ImpactedField": "Microsoft.Subscriptions/subscriptions",
+    "ImpactedValue": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "ResourceType": "Microsoft.Subscriptions/subscriptions",
+    "ResourceGroupName": "",
+    "LastUpdated": "2026-09-16T13:45:49.4796009Z",
+    "RecommendationId": "30a2eff1dbbc1fa122ae4035e80d858da57b24c0ed1b8748ce3274b6c5ae3822",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/30a2eff1dbbc1fa122ae4035e80d858da57b24c0ed1b8748ce3274b6c5ae3822"
   }
 ]
