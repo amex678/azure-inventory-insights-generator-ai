@@ -2638,5 +2638,37 @@
     "LastUpdated": "2026-09-16T02:50:02.8080847Z",
     "RecommendationId": "5e5f30ac6a84634a1606a55fd8b167c7bf19991e5321d0f38d95a1322d542771",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.compute/virtualmachines/vm-aib-verify01/providers/Microsoft.Advisor/recommendations/5e5f30ac6a84634a1606a55fd8b167c7bf19991e5321d0f38d95a1322d542771"
+  },
+  {
+    "Category": "Security",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Virtual machines and virtual machine scale sets should have encryption at host enabled",
+    "Solution": "Virtual machines and virtual machine scale sets should have encryption at host enabled",
+    "ImpactedField": "Microsoft.Compute/virtualMachines",
+    "ImpactedValue": "vm-aib-verify01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.compute/virtualmachines/vm-aib-verify01",
+    "ResourceName": "vm-aib-verify01",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "rg-aib-win2025-demo",
+    "LastUpdated": "2026-09-16T05:54:04.3217542Z",
+    "RecommendationId": "a7f7286477d50faa8f3782a937f1c56366c61139c79e8e112ff03814408be2a7",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.compute/virtualmachines/vm-aib-verify01/providers/Microsoft.Advisor/recommendations/a7f7286477d50faa8f3782a937f1c56366c61139c79e8e112ff03814408be2a7"
+  },
+  {
+    "Category": "HighAvailability",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Migrate Standard HDD OS Disks to SSD",
+    "Solution": "Migrate Standard HDD OS Disks to SSD",
+    "ImpactedField": "MICROSOFT.COMPUTE/DISKS",
+    "ImpactedValue": "vm-aib-verify01_osdisk_1_77c8df65f0e944ca84388db36939575d",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.compute/disks/vm-aib-verify01_osdisk_1_77c8df65f0e944ca84388db36939575d",
+    "ResourceName": "vm-aib-verify01_osdisk_1_77c8df65f0e944ca84388db36939575d",
+    "ResourceType": "MICROSOFT.COMPUTE/DISKS",
+    "ResourceGroupName": "rg-aib-win2025-demo",
+    "LastUpdated": "2026-09-16T10:16:22.7351656Z",
+    "RecommendationId": "b45a6549ef2c385b128c99ef7a52c524f7facd9b3e7a449d2771019d50a63a6d",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.compute/disks/vm-aib-verify01_osdisk_1_77c8df65f0e944ca84388db36939575d/providers/Microsoft.Advisor/recommendations/b45a6549ef2c385b128c99ef7a52c524f7facd9b3e7a449d2771019d50a63a6d"
   }
 ]
