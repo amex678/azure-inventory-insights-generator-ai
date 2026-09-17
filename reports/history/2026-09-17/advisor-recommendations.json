@@ -2750,5 +2750,21 @@
     "LastUpdated": "2026-09-17T04:11:54.3800771Z",
     "RecommendationId": "2b430666147a13214de15bb09239f2c4db1c0174708ab77de105966decc41a18",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.compute/virtualmachines/vm-aib-verify01/providers/Microsoft.Advisor/recommendations/2b430666147a13214de15bb09239f2c4db1c0174708ab77de105966decc41a18"
+  },
+  {
+    "Category": "HighAvailability",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Enable Soft Delete to protect your blob data",
+    "Solution": "Enable Soft Delete to protect your blob data",
+    "ImpactedField": "Microsoft.Storage/storageAccounts",
+    "ImpactedValue": "wgmt28j57d9877uautoq4ujd",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/it_rg-aib-win2025-demo_it-aib-win2025-demo_a448c843-0259-4273-a179-5fc8a2adce5f/providers/microsoft.storage/storageaccounts/wgmt28j57d9877uautoq4ujd",
+    "ResourceName": "wgmt28j57d9877uautoq4ujd",
+    "ResourceType": "Microsoft.Storage/storageAccounts",
+    "ResourceGroupName": "it_rg-aib-win2025-demo_it-aib-win2025-demo_a448c843-0259-4273-a179-5fc8a2adce5f",
+    "LastUpdated": "2026-09-17T16:32:40.722959Z",
+    "RecommendationId": "3d011421ba6328928d6ca03b780736327ea9f050a3722e963352454208c87f5f",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/it_rg-aib-win2025-demo_it-aib-win2025-demo_a448c843-0259-4273-a179-5fc8a2adce5f/providers/microsoft.storage/storageaccounts/wgmt28j57d9877uautoq4ujd/providers/Microsoft.Advisor/recommendations/3d011421ba6328928d6ca03b780736327ea9f050a3722e963352454208c87f5f"
   }
 ]
