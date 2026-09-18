@@ -2560,22 +2560,6 @@
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-avnm-capture-jpe-20260910/providers/microsoft.network/virtualnetworks/vnet-avnm-capture-a/providers/Microsoft.Advisor/recommendations/3449857cb1ef8fbe06b13a74d9805fe2203c2d42a03a4bb14f11350c0e1ccc3e"
   },
   {
-    "Category": "Security",
-    "Impact": "Low",
-    "Risk": null,
-    "Problem": "Access to storage accounts with firewall and virtual network configurations should be restricted",
-    "Solution": "Access to storage accounts with firewall and virtual network configurations should be restricted",
-    "ImpactedField": "Microsoft.Storage/storageAccounts",
-    "ImpactedValue": "wgmt28j57d9877uautoq4ujd",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/it_rg-aib-win2025-demo_it-aib-win2025-demo_a448c843-0259-4273-a179-5fc8a2adce5f/providers/microsoft.storage/storageaccounts/wgmt28j57d9877uautoq4ujd",
-    "ResourceName": "wgmt28j57d9877uautoq4ujd",
-    "ResourceType": "Microsoft.Storage/storageAccounts",
-    "ResourceGroupName": "it_rg-aib-win2025-demo_it-aib-win2025-demo_a448c843-0259-4273-a179-5fc8a2adce5f",
-    "LastUpdated": "2026-09-15T00:06:20.9874019Z",
-    "RecommendationId": "5e6a8d2c237453d0e0aa7e4b681686a866f91e258361d1b99f1e0b1d294a2f05",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/it_rg-aib-win2025-demo_it-aib-win2025-demo_a448c843-0259-4273-a179-5fc8a2adce5f/providers/microsoft.storage/storageaccounts/wgmt28j57d9877uautoq4ujd/providers/Microsoft.Advisor/recommendations/5e6a8d2c237453d0e0aa7e4b681686a866f91e258361d1b99f1e0b1d294a2f05"
-  },
-  {
     "Category": "HighAvailability",
     "Impact": "Medium",
     "Risk": null,
