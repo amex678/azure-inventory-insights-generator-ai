@@ -2747,7 +2747,7 @@
     "ResourceName": "wgmt28j57d9877uautoq4ujd",
     "ResourceType": "Microsoft.Storage/storageAccounts",
     "ResourceGroupName": "it_rg-aib-win2025-demo_it-aib-win2025-demo_a448c843-0259-4273-a179-5fc8a2adce5f",
-    "LastUpdated": "2026-09-17T16:32:40.722959Z",
+    "LastUpdated": "2026-09-19T10:02:09.6204878Z",
     "RecommendationId": "3d011421ba6328928d6ca03b780736327ea9f050a3722e963352454208c87f5f",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/it_rg-aib-win2025-demo_it-aib-win2025-demo_a448c843-0259-4273-a179-5fc8a2adce5f/providers/microsoft.storage/storageaccounts/wgmt28j57d9877uautoq4ujd/providers/Microsoft.Advisor/recommendations/3d011421ba6328928d6ca03b780736327ea9f050a3722e963352454208c87f5f"
   },
