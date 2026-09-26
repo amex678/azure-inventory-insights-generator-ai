@@ -2750,5 +2750,21 @@
     "LastUpdated": "2026-09-18T03:15:52.2883466Z",
     "RecommendationId": "df573627eac1a8a021d413c5d5bd1b91066f8967c7038ae2252e30c2a2cf2acb",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/it_rg-aib-win2025-demo_it-aib-win2025-demo_a448c843-0259-4273-a179-5fc8a2adce5f/providers/microsoft.storage/storageaccounts/wgmt28j57d9877uautoq4ujd/providers/Microsoft.Advisor/recommendations/df573627eac1a8a021d413c5d5bd1b91066f8967c7038ae2252e30c2a2cf2acb"
+  },
+  {
+    "Category": "HighAvailability",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Upgrade your application to use the latest API version from Azure OpenAI",
+    "Solution": "Upgrade your application to use the latest API version from Azure OpenAI",
+    "ImpactedField": "MICROSOFT.COGNITIVESERVICES/ACCOUNTS",
+    "ImpactedValue": "aoai-browserext-20260926-1ace",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-browser-extension-ai-20260926/providers/microsoft.cognitiveservices/accounts/aoai-browserext-20260926-1ace",
+    "ResourceName": "aoai-browserext-20260926-1ace",
+    "ResourceType": "MICROSOFT.COGNITIVESERVICES/ACCOUNTS",
+    "ResourceGroupName": "rg-browser-extension-ai-20260926",
+    "LastUpdated": "2026-09-26T18:46:58.5194408Z",
+    "RecommendationId": "12a36b000a887897926f14343835bfe114255d2667754ea5926ffbe1b7a0258c",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-browser-extension-ai-20260926/providers/microsoft.cognitiveservices/accounts/aoai-browserext-20260926-1ace/providers/Microsoft.Advisor/recommendations/12a36b000a887897926f14343835bfe114255d2667754ea5926ffbe1b7a0258c"
   }
 ]
