@@ -2782,5 +2782,21 @@
     "LastUpdated": "2026-09-27T01:50:46.7557767Z",
     "RecommendationId": "6c6ffab1d03e9dbd66bde7b0829fc315d5132737c819201f6b5d244bc86a36ac",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-browser-extension-ai-20260926/providers/microsoft.cognitiveservices/accounts/aoai-browserext-20260926-1ace/providers/Microsoft.Advisor/recommendations/6c6ffab1d03e9dbd66bde7b0829fc315d5132737c819201f6b5d244bc86a36ac"
+  },
+  {
+    "Category": "Security",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Microsoft Foundry resources should use Azure Private Link",
+    "Solution": "Microsoft Foundry resources should use Azure Private Link",
+    "ImpactedField": "Microsoft.CognitiveServices/accounts",
+    "ImpactedValue": "aoai-browserext-20260926-1ace",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-browser-extension-ai-20260926/providers/microsoft.cognitiveservices/accounts/aoai-browserext-20260926-1ace",
+    "ResourceName": "aoai-browserext-20260926-1ace",
+    "ResourceType": "Microsoft.CognitiveServices/accounts",
+    "ResourceGroupName": "rg-browser-extension-ai-20260926",
+    "LastUpdated": "2026-09-27T09:17:44.1558962Z",
+    "RecommendationId": "f27f393e69abf78ca329813b49d7ac9b17056377bd5b364c2545809980ee0483",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-browser-extension-ai-20260926/providers/microsoft.cognitiveservices/accounts/aoai-browserext-20260926-1ace/providers/Microsoft.Advisor/recommendations/f27f393e69abf78ca329813b49d7ac9b17056377bd5b364c2545809980ee0483"
   }
 ]
