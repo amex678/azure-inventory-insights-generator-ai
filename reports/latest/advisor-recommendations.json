@@ -2798,5 +2798,37 @@
     "LastUpdated": "2026-09-27T09:17:44.1558962Z",
     "RecommendationId": "f27f393e69abf78ca329813b49d7ac9b17056377bd5b364c2545809980ee0483",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-browser-extension-ai-20260926/providers/microsoft.cognitiveservices/accounts/aoai-browserext-20260926-1ace/providers/Microsoft.Advisor/recommendations/f27f393e69abf78ca329813b49d7ac9b17056377bd5b364c2545809980ee0483"
+  },
+  {
+    "Category": "Security",
+    "Impact": "High",
+    "Risk": null,
+    "Problem": "Anti-Virus component of your EDR uses outdated signatures",
+    "Solution": "Anti-Virus component of your EDR uses outdated signatures",
+    "ImpactedField": "Microsoft.Compute/virtualMachines",
+    "ImpactedValue": "vm-amig-win-001",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-win-001",
+    "ResourceName": "vm-amig-win-001",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "rg-migrate-demo-je-001",
+    "LastUpdated": "2026-09-29T18:59:25.6938644Z",
+    "RecommendationId": "ac78bc4b0ad83e8663abd1737efa57a0bfb0769a67880c27b770d07338b65391",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-win-001/providers/Microsoft.Advisor/recommendations/ac78bc4b0ad83e8663abd1737efa57a0bfb0769a67880c27b770d07338b65391"
+  },
+  {
+    "Category": "Security",
+    "Impact": "High",
+    "Risk": null,
+    "Problem": "Anti-Virus scans of your EDR are out of 7 days",
+    "Solution": "Anti-Virus scans of your EDR are out of 7 days",
+    "ImpactedField": "Microsoft.Compute/virtualMachines",
+    "ImpactedValue": "vm-amig-win-001",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-win-001",
+    "ResourceName": "vm-amig-win-001",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "rg-migrate-demo-je-001",
+    "LastUpdated": "2026-09-29T21:31:00.6501566Z",
+    "RecommendationId": "fcd7275c35abe6c6405d184413163910199dad799a8325b202f4dc44c617edb6",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-win-001/providers/Microsoft.Advisor/recommendations/fcd7275c35abe6c6405d184413163910199dad799a8325b202f4dc44c617edb6"
   }
 ]
