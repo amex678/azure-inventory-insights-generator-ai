@@ -2862,5 +2862,21 @@
     "LastUpdated": "2026-10-01T13:32:57.6559291Z",
     "RecommendationId": "4f55a3fe8cd300dc3085d9ca0d8ee31e05a9ece2a2cf16573ac2bd913585d673",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/4f55a3fe8cd300dc3085d9ca0d8ee31e05a9ece2a2cf16573ac2bd913585d673"
+  },
+  {
+    "Category": "HighAvailability",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Migrate from DCsv3, DCdsv3 series to DCesv6, ECesv6 virtual machines",
+    "Solution": "Migrate from DCsv3, DCdsv3 series to DCesv6, ECesv6 virtual machines",
+    "ImpactedField": "Microsoft.Compute/virtualMachines",
+    "ImpactedValue": "vm-srepoc-6h2ve7",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-srepoc-workload-aue/providers/microsoft.compute/virtualmachines/vm-srepoc-6h2ve7",
+    "ResourceName": "vm-srepoc-6h2ve7",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "rg-srepoc-workload-aue",
+    "LastUpdated": "2026-10-01T20:48:46.2464031Z",
+    "RecommendationId": "7692e1d62135119bfd0c3a4e4ccfae7627396f860519509f9e8bcb97909ba63a",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-srepoc-workload-aue/providers/microsoft.compute/virtualmachines/vm-srepoc-6h2ve7/providers/Microsoft.Advisor/recommendations/7692e1d62135119bfd0c3a4e4ccfae7627396f860519509f9e8bcb97909ba63a"
   }
 ]
