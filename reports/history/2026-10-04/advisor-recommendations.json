@@ -1152,38 +1152,6 @@
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-pw-ops-dev-jpe-27161/providers/microsoft.compute/disks/vm-pw-ops-dev-jpw-27161_osdisk_1_d208705db396475a997b7edc60a576f9/providers/Microsoft.Advisor/recommendations/091474a3a01853bab7a25ae10ae9c13e8cfdeaf0caff8506fcf21f10495f4ff8"
   },
   {
-    "Category": "Cost",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Consider virtual machine reserved instance to save over the on-demand costs",
-    "Solution": "Consider virtual machine reserved instance to save over the on-demand costs",
-    "ImpactedField": "Microsoft.Subscriptions/subscriptions",
-    "ImpactedValue": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceType": "Microsoft.Subscriptions/subscriptions",
-    "ResourceGroupName": "",
-    "LastUpdated": "2026-10-01T13:34:00.9303382Z",
-    "RecommendationId": "6c59df907364b3ac3bab6fdabbe801c000c1d401d601bda84e3ed0c96fda7c00",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/6c59df907364b3ac3bab6fdabbe801c000c1d401d601bda84e3ed0c96fda7c00"
-  },
-  {
-    "Category": "Cost",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Consider virtual machine reserved instance to save over the on-demand costs",
-    "Solution": "Consider virtual machine reserved instance to save over the on-demand costs",
-    "ImpactedField": "Microsoft.Subscriptions/subscriptions",
-    "ImpactedValue": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceType": "Microsoft.Subscriptions/subscriptions",
-    "ResourceGroupName": "",
-    "LastUpdated": "2026-10-01T13:33:46.4493325Z",
-    "RecommendationId": "4040f196eeb71160b2ef07b5fe704ce0bd1bc75947f90ff27e08eb51e58ff961",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/4040f196eeb71160b2ef07b5fe704ce0bd1bc75947f90ff27e08eb51e58ff961"
-  },
-  {
     "Category": "Security",
     "Impact": "Low",
     "Risk": null,
@@ -2846,22 +2814,6 @@
     "LastUpdated": "2026-09-29T21:31:00.6501566Z",
     "RecommendationId": "fcd7275c35abe6c6405d184413163910199dad799a8325b202f4dc44c617edb6",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-win-001/providers/Microsoft.Advisor/recommendations/fcd7275c35abe6c6405d184413163910199dad799a8325b202f4dc44c617edb6"
-  },
-  {
-    "Category": "Cost",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Consider virtual machine reserved instance to save over the on-demand costs",
-    "Solution": "Consider virtual machine reserved instance to save over the on-demand costs",
-    "ImpactedField": "Microsoft.Subscriptions/subscriptions",
-    "ImpactedValue": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceType": "Microsoft.Subscriptions/subscriptions",
-    "ResourceGroupName": "",
-    "LastUpdated": "2026-10-01T13:32:57.6559291Z",
-    "RecommendationId": "4f55a3fe8cd300dc3085d9ca0d8ee31e05a9ece2a2cf16573ac2bd913585d673",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/4f55a3fe8cd300dc3085d9ca0d8ee31e05a9ece2a2cf16573ac2bd913585d673"
   },
   {
     "Category": "HighAvailability",
