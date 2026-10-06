@@ -2862,5 +2862,21 @@
     "LastUpdated": "2026-10-05T02:28:08.3606343Z",
     "RecommendationId": "072c7d432d9ff7d7f71e28626f80a80cb28c4881a7a20003154991f39faf4527",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/microsoft.security/pricings/cloudposture/securityentitydata/3d1ac6a4-347a-43f7-90e7-495250e78fde/providers/Microsoft.Advisor/recommendations/072c7d432d9ff7d7f71e28626f80a80cb28c4881a7a20003154991f39faf4527"
+  },
+  {
+    "Category": "OperationalExcellence",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Manage your virtual networks with IP Address Manager.",
+    "Solution": "Manage your virtual networks with IP Address Manager.",
+    "ImpactedField": "",
+    "ImpactedValue": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "ResourceType": "Subscription",
+    "ResourceGroupName": "",
+    "LastUpdated": "2026-10-06T03:17:25.4194735Z",
+    "RecommendationId": "f5183a0038caaa4429ad7f01f8103ecb3dca952892bef8dca0a15aefc1ee0329",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/f5183a0038caaa4429ad7f01f8103ecb3dca952892bef8dca0a15aefc1ee0329"
   }
 ]
