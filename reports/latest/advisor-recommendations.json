@@ -2894,5 +2894,37 @@
     "LastUpdated": "2026-10-06T20:11:16.993185Z",
     "RecommendationId": "ddc1bc8f0b766f9492122a8781c823ad19c40a4d59651cfddb7b781ac0f94de6",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.network/virtualnetworks/vnet-amig-demo-je-001/providers/Microsoft.Advisor/recommendations/ddc1bc8f0b766f9492122a8781c823ad19c40a4d59651cfddb7b781ac0f94de6"
+  },
+  {
+    "Category": "OperationalExcellence",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Manage virtual network with IP Address Manager.",
+    "Solution": "Manage virtual network with IP Address Manager.",
+    "ImpactedField": "Microsoft.Network/virtualNetworks",
+    "ImpactedValue": "vnet-avnm-capture-b",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-avnm-capture-jpe-20260910/providers/microsoft.network/virtualnetworks/vnet-avnm-capture-b",
+    "ResourceName": "vnet-avnm-capture-b",
+    "ResourceType": "Microsoft.Network/virtualNetworks",
+    "ResourceGroupName": "rg-avnm-capture-jpe-20260910",
+    "LastUpdated": "2026-10-07T08:31:07.0501652Z",
+    "RecommendationId": "26c3cd3dbc4a53fba8ec7b0da7ada1ae3af2dbd57234ddd9d6f6c11b6ad4ee5a",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-avnm-capture-jpe-20260910/providers/microsoft.network/virtualnetworks/vnet-avnm-capture-b/providers/Microsoft.Advisor/recommendations/26c3cd3dbc4a53fba8ec7b0da7ada1ae3af2dbd57234ddd9d6f6c11b6ad4ee5a"
+  },
+  {
+    "Category": "OperationalExcellence",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Manage virtual network with IP Address Manager.",
+    "Solution": "Manage virtual network with IP Address Manager.",
+    "ImpactedField": "Microsoft.Network/virtualNetworks",
+    "ImpactedValue": "vnet-nwri-jpe",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.network/virtualnetworks/vnet-nwri-jpe",
+    "ResourceName": "vnet-nwri-jpe",
+    "ResourceType": "Microsoft.Network/virtualNetworks",
+    "ResourceGroupName": "rg-nwri-jpe-20260709",
+    "LastUpdated": "2026-10-07T08:31:14.6265663Z",
+    "RecommendationId": "12d0e392e10fde749f19154f1a12e92021046836848ac7fb2028bcc7aea1628e",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.network/virtualnetworks/vnet-nwri-jpe/providers/Microsoft.Advisor/recommendations/12d0e392e10fde749f19154f1a12e92021046836848ac7fb2028bcc7aea1628e"
   }
 ]
