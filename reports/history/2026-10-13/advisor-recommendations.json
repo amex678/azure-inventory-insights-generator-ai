@@ -337,6 +337,22 @@
   },
   {
     "Category": "HighAvailability",
+    "Impact": "Low",
+    "Risk": null,
+    "Problem": "Convert Standard to Premium disk for higher uptime",
+    "Solution": "Convert Standard to Premium disk for higher uptime",
+    "ImpactedField": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
+    "ImpactedValue": "vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-inventory-demo/providers/microsoft.compute/virtualmachines/vm-demo-web-01",
+    "ResourceName": "vm-demo-web-01",
+    "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
+    "ResourceGroupName": "rg-inventory-demo",
+    "LastUpdated": "2026-10-13T15:18:23.4212368Z",
+    "RecommendationId": "27875979b76bfdf4c89807f3ffb5058471830f3241ab615279edd89833df9542",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-inventory-demo/providers/microsoft.compute/virtualmachines/vm-demo-web-01/providers/Microsoft.Advisor/recommendations/27875979b76bfdf4c89807f3ffb5058471830f3241ab615279edd89833df9542"
+  },
+  {
+    "Category": "HighAvailability",
     "Impact": "Medium",
     "Risk": null,
     "Problem": "Migrate workload to Virtual Machine Scale Sets Flex",
