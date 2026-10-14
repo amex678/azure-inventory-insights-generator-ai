@@ -3054,5 +3054,53 @@
     "LastUpdated": "2026-10-09T16:58:06.3923425Z",
     "RecommendationId": "2d2b49ec3fe2e40ea853c4507bc3dcf5cbd3d70917416ca2be2bfb4c37869488",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.compute/virtualmachines/vm-nwri-dst-jpe/providers/Microsoft.Advisor/recommendations/2d2b49ec3fe2e40ea853c4507bc3dcf5cbd3d70917416ca2be2bfb4c37869488"
+  },
+  {
+    "Category": "Security",
+    "Impact": "High",
+    "Risk": null,
+    "Problem": "Anti-Virus component in your EDR is off or partially configured",
+    "Solution": "Anti-Virus component in your EDR is off or partially configured",
+    "ImpactedField": "Microsoft.Compute/virtualMachines",
+    "ImpactedValue": "vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-inventory-demo/providers/microsoft.compute/virtualmachines/vm-demo-web-01",
+    "ResourceName": "vm-demo-web-01",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "rg-inventory-demo",
+    "LastUpdated": "2026-10-14T00:43:05.9075738Z",
+    "RecommendationId": "5433fd3e76bf2618a7e2b489b34d05bb1ec5e59680a0094b577eee427a9ffeb8",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-inventory-demo/providers/microsoft.compute/virtualmachines/vm-demo-web-01/providers/Microsoft.Advisor/recommendations/5433fd3e76bf2618a7e2b489b34d05bb1ec5e59680a0094b577eee427a9ffeb8"
+  },
+  {
+    "Category": "Security",
+    "Impact": "High",
+    "Risk": null,
+    "Problem": "Anti-Virus scans of your EDR are out of 7 days",
+    "Solution": "Anti-Virus scans of your EDR are out of 7 days",
+    "ImpactedField": "Microsoft.Compute/virtualMachines",
+    "ImpactedValue": "vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-inventory-demo/providers/microsoft.compute/virtualmachines/vm-demo-web-01",
+    "ResourceName": "vm-demo-web-01",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "rg-inventory-demo",
+    "LastUpdated": "2026-10-14T01:05:08.1319566Z",
+    "RecommendationId": "ea081c7c484633bdb12d1cce931f659b8e0b54e1c96f258b8079c91ca5f0238f",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-inventory-demo/providers/microsoft.compute/virtualmachines/vm-demo-web-01/providers/Microsoft.Advisor/recommendations/ea081c7c484633bdb12d1cce931f659b8e0b54e1c96f258b8079c91ca5f0238f"
+  },
+  {
+    "Category": "Security",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Azure overprovisioned identities should have only the necessary permissions",
+    "Solution": "Azure overprovisioned identities should have only the necessary permissions",
+    "ImpactedField": "Microsoft.Subscriptions/subscriptions",
+    "ImpactedValue": "314a4ee8-e67c-4fa9-9ba9-a5198c301418",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/microsoft.security/pricings/cloudposture/securityentitydata/314a4ee8-e67c-4fa9-9ba9-a5198c301418",
+    "ResourceName": "314a4ee8-e67c-4fa9-9ba9-a5198c301418",
+    "ResourceType": "Microsoft.Subscriptions/subscriptions",
+    "ResourceGroupName": "",
+    "LastUpdated": "2026-10-14T01:26:07.4221823Z",
+    "RecommendationId": "5fadce85e19d07d3759f483fc776149a14158302a2d5e898e1721d7d0dd2731e",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/microsoft.security/pricings/cloudposture/securityentitydata/314a4ee8-e67c-4fa9-9ba9-a5198c301418/providers/Microsoft.Advisor/recommendations/5fadce85e19d07d3759f483fc776149a14158302a2d5e898e1721d7d0dd2731e"
   }
 ]
