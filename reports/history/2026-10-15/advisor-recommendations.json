@@ -3102,5 +3102,21 @@
     "LastUpdated": "2026-10-14T01:26:07.4221823Z",
     "RecommendationId": "5fadce85e19d07d3759f483fc776149a14158302a2d5e898e1721d7d0dd2731e",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/microsoft.security/pricings/cloudposture/securityentitydata/314a4ee8-e67c-4fa9-9ba9-a5198c301418/providers/Microsoft.Advisor/recommendations/5fadce85e19d07d3759f483fc776149a14158302a2d5e898e1721d7d0dd2731e"
+  },
+  {
+    "Category": "Cost",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Standard SSD disks billing caps",
+    "Solution": "Standard SSD disks billing caps",
+    "ImpactedField": "MICROSOFT.COMPUTE/DISKS",
+    "ImpactedValue": "vm-demo-web-01_osdisk_1_2392e93e7c42432894a9e1d1ba5e26ce",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-inventory-demo/providers/microsoft.compute/disks/vm-demo-web-01_osdisk_1_2392e93e7c42432894a9e1d1ba5e26ce",
+    "ResourceName": "vm-demo-web-01_osdisk_1_2392e93e7c42432894a9e1d1ba5e26ce",
+    "ResourceType": "MICROSOFT.COMPUTE/DISKS",
+    "ResourceGroupName": "rg-inventory-demo",
+    "LastUpdated": "2026-10-15T13:21:58.4515035Z",
+    "RecommendationId": "49f9f885a7c6f674416b39b0b6cabdc211d14960a50cf7e73b0b318915750649",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-inventory-demo/providers/microsoft.compute/disks/vm-demo-web-01_osdisk_1_2392e93e7c42432894a9e1d1ba5e26ce/providers/Microsoft.Advisor/recommendations/49f9f885a7c6f674416b39b0b6cabdc211d14960a50cf7e73b0b318915750649"
   }
 ]
