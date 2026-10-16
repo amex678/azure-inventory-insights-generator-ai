@@ -11,11 +11,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/1b2b5d36-a43d-1520-0f2b-39560768372a"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/1b2b5d36-a43d-1520-0f2b-39560768372a"
   },
   {
     "AssessmentName": "83fe5c99-f0a9-bff8-8abb-dcd77a292f0e",
@@ -29,11 +29,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/83fe5c99-f0a9-bff8-8abb-dcd77a292f0e"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/83fe5c99-f0a9-bff8-8abb-dcd77a292f0e"
   },
   {
     "AssessmentName": "92ebb570-59f2-acda-cd20-46ed0f577452",
@@ -47,11 +47,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/92ebb570-59f2-acda-cd20-46ed0f577452"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/92ebb570-59f2-acda-cd20-46ed0f577452"
   },
   {
     "AssessmentName": "1e153b47-a58d-c7fe-067c-e7673dfc76fe",
@@ -65,11 +65,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/1e153b47-a58d-c7fe-067c-e7673dfc76fe"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/1e153b47-a58d-c7fe-067c-e7673dfc76fe"
   },
   {
     "AssessmentName": "150c470e-8ffb-23c2-b798-1a50763b2a44",
@@ -83,11 +83,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/150c470e-8ffb-23c2-b798-1a50763b2a44"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/150c470e-8ffb-23c2-b798-1a50763b2a44"
   },
   {
     "AssessmentName": "0f9eb39d-4210-943e-37d1-724737e35d8d",
@@ -101,11 +101,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/0f9eb39d-4210-943e-37d1-724737e35d8d"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/0f9eb39d-4210-943e-37d1-724737e35d8d"
   },
   {
     "AssessmentName": "dcf5c35a-a669-ac11-a6c0-56c1c2fa66a5",
@@ -119,11 +119,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/dcf5c35a-a669-ac11-a6c0-56c1c2fa66a5"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/dcf5c35a-a669-ac11-a6c0-56c1c2fa66a5"
   },
   {
     "AssessmentName": "5ded5b64-c337-393a-ca2e-3741f029a07d",
@@ -137,11 +137,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/5ded5b64-c337-393a-ca2e-3741f029a07d"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/5ded5b64-c337-393a-ca2e-3741f029a07d"
   },
   {
     "AssessmentName": "86188004-4d17-98bf-b4b8-3c742202dbbc",
@@ -155,11 +155,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/86188004-4d17-98bf-b4b8-3c742202dbbc"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/86188004-4d17-98bf-b4b8-3c742202dbbc"
   },
   {
     "AssessmentName": "4490cbb5-7c85-9f41-8e79-45e7bc88da03",
@@ -173,11 +173,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/4490cbb5-7c85-9f41-8e79-45e7bc88da03"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/4490cbb5-7c85-9f41-8e79-45e7bc88da03"
   },
   {
     "AssessmentName": "892456cd-354a-0bd3-9396-ee46a62e50e0",
@@ -191,11 +191,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/892456cd-354a-0bd3-9396-ee46a62e50e0"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/892456cd-354a-0bd3-9396-ee46a62e50e0"
   },
   {
     "AssessmentName": "74cccb8a-96d7-f987-b1b5-99c3c97ee30e",
@@ -209,11 +209,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/74cccb8a-96d7-f987-b1b5-99c3c97ee30e"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/74cccb8a-96d7-f987-b1b5-99c3c97ee30e"
   },
   {
     "AssessmentName": "0175f750-851c-6095-1ef5-2a3848a25bd1",
@@ -227,11 +227,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/0175f750-851c-6095-1ef5-2a3848a25bd1"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/0175f750-851c-6095-1ef5-2a3848a25bd1"
   },
   {
     "AssessmentName": "d6d2d78a-5bbe-63e7-173d-c10cce1ce946",
@@ -245,11 +245,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/d6d2d78a-5bbe-63e7-173d-c10cce1ce946"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/d6d2d78a-5bbe-63e7-173d-c10cce1ce946"
   },
   {
     "AssessmentName": "1990969e-55d1-c803-31ae-140065e250a6",
@@ -263,11 +263,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/1990969e-55d1-c803-31ae-140065e250a6"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/1990969e-55d1-c803-31ae-140065e250a6"
   },
   {
     "AssessmentName": "9c87e44b-3112-810f-1cbc-a0e4542e91cc",
@@ -281,11 +281,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/9c87e44b-3112-810f-1cbc-a0e4542e91cc"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/9c87e44b-3112-810f-1cbc-a0e4542e91cc"
   },
   {
     "AssessmentName": "a99451e0-0282-0aed-8a57-2320182ff302",
@@ -299,11 +299,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/a99451e0-0282-0aed-8a57-2320182ff302"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/a99451e0-0282-0aed-8a57-2320182ff302"
   },
   {
     "AssessmentName": "ca91941e-7e2a-9e40-17d8-ec5910d8a8d2",
@@ -317,11 +317,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/ca91941e-7e2a-9e40-17d8-ec5910d8a8d2"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/ca91941e-7e2a-9e40-17d8-ec5910d8a8d2"
   },
   {
     "AssessmentName": "a29cdcc2-8923-bdd3-1ce6-3947c9fa7b11",
@@ -335,11 +335,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/a29cdcc2-8923-bdd3-1ce6-3947c9fa7b11"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/a29cdcc2-8923-bdd3-1ce6-3947c9fa7b11"
   },
   {
     "AssessmentName": "cee89f9b-082a-af50-36e9-9c81a15ad377",
@@ -353,11 +353,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/cee89f9b-082a-af50-36e9-9c81a15ad377"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/cee89f9b-082a-af50-36e9-9c81a15ad377"
   },
   {
     "AssessmentName": "21e3552d-b768-37a5-aa05-f373b2e8e3d2",
@@ -371,11 +371,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/21e3552d-b768-37a5-aa05-f373b2e8e3d2"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/21e3552d-b768-37a5-aa05-f373b2e8e3d2"
   },
   {
     "AssessmentName": "f2c4c27a-5d2d-efe6-2999-55f491094c3e",
@@ -389,11 +389,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/f2c4c27a-5d2d-efe6-2999-55f491094c3e"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/f2c4c27a-5d2d-efe6-2999-55f491094c3e"
   },
   {
     "AssessmentName": "a6bc6701-fb34-6867-45ca-1413bf594c68",
@@ -407,11 +407,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/a6bc6701-fb34-6867-45ca-1413bf594c68"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/a6bc6701-fb34-6867-45ca-1413bf594c68"
   },
   {
     "AssessmentName": "d26a69f4-9c9f-af13-75fa-615f67884b0b",
@@ -425,11 +425,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/d26a69f4-9c9f-af13-75fa-615f67884b0b"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/d26a69f4-9c9f-af13-75fa-615f67884b0b"
   },
   {
     "AssessmentName": "0eb43387-0e67-e2b5-4e77-d4fde3118af8",
@@ -443,11 +443,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/0eb43387-0e67-e2b5-4e77-d4fde3118af8"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/0eb43387-0e67-e2b5-4e77-d4fde3118af8"
   },
   {
     "AssessmentName": "5796a2c8-0673-25ea-a7a1-ac801f5480ef",
@@ -461,11 +461,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/5796a2c8-0673-25ea-a7a1-ac801f5480ef"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/5796a2c8-0673-25ea-a7a1-ac801f5480ef"
   },
   {
     "AssessmentName": "c1b716ec-cc7a-f077-6259-054d18c16e02",
@@ -479,11 +479,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/c1b716ec-cc7a-f077-6259-054d18c16e02"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/c1b716ec-cc7a-f077-6259-054d18c16e02"
   },
   {
     "AssessmentName": "af08af03-e065-79c2-b19e-8fa8f92e7250",
@@ -497,11 +497,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/af08af03-e065-79c2-b19e-8fa8f92e7250"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/af08af03-e065-79c2-b19e-8fa8f92e7250"
   },
   {
     "AssessmentName": "97d35ba2-a572-f226-33ed-e8bb3df7c595",
@@ -515,11 +515,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/97d35ba2-a572-f226-33ed-e8bb3df7c595"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/97d35ba2-a572-f226-33ed-e8bb3df7c595"
   },
   {
     "AssessmentName": "eb9b2480-c126-dd6f-e69a-974f1b24c5ad",
@@ -533,11 +533,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/eb9b2480-c126-dd6f-e69a-974f1b24c5ad"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/eb9b2480-c126-dd6f-e69a-974f1b24c5ad"
   },
   {
     "AssessmentName": "3f01f791-5c88-2aec-ac2d-835e5dbf1c8a",
@@ -551,11 +551,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/3f01f791-5c88-2aec-ac2d-835e5dbf1c8a"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/3f01f791-5c88-2aec-ac2d-835e5dbf1c8a"
   },
   {
     "AssessmentName": "cc236e65-c4b8-4e4a-a284-2d1965badacf",
@@ -569,11 +569,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/cc236e65-c4b8-4e4a-a284-2d1965badacf"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/cc236e65-c4b8-4e4a-a284-2d1965badacf"
   },
   {
     "AssessmentName": "f2ff65b7-358b-2b0b-19ef-c67ffd05f0d2",
@@ -587,11 +587,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/f2ff65b7-358b-2b0b-19ef-c67ffd05f0d2"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/f2ff65b7-358b-2b0b-19ef-c67ffd05f0d2"
   },
   {
     "AssessmentName": "921cd121-04aa-cddf-792f-a422e04bdd69",
@@ -605,11 +605,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/921cd121-04aa-cddf-792f-a422e04bdd69"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/921cd121-04aa-cddf-792f-a422e04bdd69"
   },
   {
     "AssessmentName": "36fc4c8b-6f83-2286-bd18-a8dee06246cc",
@@ -623,11 +623,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/36fc4c8b-6f83-2286-bd18-a8dee06246cc"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/36fc4c8b-6f83-2286-bd18-a8dee06246cc"
   },
   {
     "AssessmentName": "e82c270a-fcc9-a487-3c85-edd04a1e2b71",
@@ -641,11 +641,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/e82c270a-fcc9-a487-3c85-edd04a1e2b71"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/e82c270a-fcc9-a487-3c85-edd04a1e2b71"
   },
   {
     "AssessmentName": "a3dfc2b4-39cb-2d95-3a9a-93bdb229bb2f",
@@ -659,11 +659,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/a3dfc2b4-39cb-2d95-3a9a-93bdb229bb2f"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/a3dfc2b4-39cb-2d95-3a9a-93bdb229bb2f"
   },
   {
     "AssessmentName": "96e25b87-e920-8dfb-50a9-bb38d8ba4c4c",
@@ -677,11 +677,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/96e25b87-e920-8dfb-50a9-bb38d8ba4c4c"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/96e25b87-e920-8dfb-50a9-bb38d8ba4c4c"
   },
   {
     "AssessmentName": "342f71e0-8e97-536d-3ce7-4eb97a2a852b",
@@ -695,11 +695,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/342f71e0-8e97-536d-3ce7-4eb97a2a852b"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/342f71e0-8e97-536d-3ce7-4eb97a2a852b"
   },
   {
     "AssessmentName": "86fdf214-edaa-ef89-54e8-397093633dda",
@@ -713,11 +713,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/86fdf214-edaa-ef89-54e8-397093633dda"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/86fdf214-edaa-ef89-54e8-397093633dda"
   },
   {
     "AssessmentName": "ae4e2306-81fd-49c0-ab3e-7a5ba864f6c9",
@@ -731,11 +731,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/ae4e2306-81fd-49c0-ab3e-7a5ba864f6c9"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/ae4e2306-81fd-49c0-ab3e-7a5ba864f6c9"
   },
   {
     "AssessmentName": "73472eed-8cb6-7764-670b-d10e3a3f2f41",
@@ -749,11 +749,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/73472eed-8cb6-7764-670b-d10e3a3f2f41"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/73472eed-8cb6-7764-670b-d10e3a3f2f41"
   },
   {
     "AssessmentName": "b0ebffef-5d5b-6d93-6746-425db35f4853",
@@ -767,11 +767,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/b0ebffef-5d5b-6d93-6746-425db35f4853"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/b0ebffef-5d5b-6d93-6746-425db35f4853"
   },
   {
     "AssessmentName": "d9f20225-3ab5-14df-d857-301fb42b0877",
@@ -785,11 +785,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/d9f20225-3ab5-14df-d857-301fb42b0877"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/d9f20225-3ab5-14df-d857-301fb42b0877"
   },
   {
     "AssessmentName": "df7d1ef9-e60f-3aca-15b6-18d2ffc782b5",
@@ -803,11 +803,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/df7d1ef9-e60f-3aca-15b6-18d2ffc782b5"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/df7d1ef9-e60f-3aca-15b6-18d2ffc782b5"
   },
   {
     "AssessmentName": "ea4c320e-09a2-cfe7-7e7b-090879e38942",
@@ -821,11 +821,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/ea4c320e-09a2-cfe7-7e7b-090879e38942"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/ea4c320e-09a2-cfe7-7e7b-090879e38942"
   },
   {
     "AssessmentName": "ff7dfefc-bf8e-f37f-3630-64fecbd7ce53",
@@ -839,11 +839,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/ff7dfefc-bf8e-f37f-3630-64fecbd7ce53"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/ff7dfefc-bf8e-f37f-3630-64fecbd7ce53"
   },
   {
     "AssessmentName": "dfe6c0bc-8ac0-a5a9-544f-b0ceebb1aedc",
@@ -857,11 +857,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/dfe6c0bc-8ac0-a5a9-544f-b0ceebb1aedc"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/dfe6c0bc-8ac0-a5a9-544f-b0ceebb1aedc"
   },
   {
     "AssessmentName": "771a1d46-b6e9-3335-c85f-25f48eb55e89",
@@ -875,11 +875,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/771a1d46-b6e9-3335-c85f-25f48eb55e89"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/771a1d46-b6e9-3335-c85f-25f48eb55e89"
   },
   {
     "AssessmentName": "5229d9b4-01c9-817c-6259-8dd73fcb23c4",
@@ -893,11 +893,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/5229d9b4-01c9-817c-6259-8dd73fcb23c4"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/5229d9b4-01c9-817c-6259-8dd73fcb23c4"
   },
   {
     "AssessmentName": "e6a1ddca-74f5-9e9f-8396-49caa23a5110",
@@ -911,11 +911,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/e6a1ddca-74f5-9e9f-8396-49caa23a5110"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/e6a1ddca-74f5-9e9f-8396-49caa23a5110"
   },
   {
     "AssessmentName": "24f39537-bd7b-7141-2e74-2fca3ab8a677",
@@ -929,11 +929,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/24f39537-bd7b-7141-2e74-2fca3ab8a677"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/24f39537-bd7b-7141-2e74-2fca3ab8a677"
   },
   {
     "AssessmentName": "b70558fb-48d9-931b-8b44-e6de0924738c",
@@ -947,11 +947,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/b70558fb-48d9-931b-8b44-e6de0924738c"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/b70558fb-48d9-931b-8b44-e6de0924738c"
   },
   {
     "AssessmentName": "c853e688-21f8-d59a-cf57-af9a791cba01",
@@ -965,11 +965,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/c853e688-21f8-d59a-cf57-af9a791cba01"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/c853e688-21f8-d59a-cf57-af9a791cba01"
   },
   {
     "AssessmentName": "bc32b348-22d5-f414-33e5-d5727b7cfd01",
@@ -983,11 +983,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/bc32b348-22d5-f414-33e5-d5727b7cfd01"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/bc32b348-22d5-f414-33e5-d5727b7cfd01"
   },
   {
     "AssessmentName": "0e0d5419-f22e-23a4-9504-e44e2c412d19",
@@ -1001,11 +1001,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/0e0d5419-f22e-23a4-9504-e44e2c412d19"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/0e0d5419-f22e-23a4-9504-e44e2c412d19"
   },
   {
     "AssessmentName": "ed1e4d25-bdec-e530-33df-bc3c5ff2a9a1",
@@ -1019,11 +1019,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/ed1e4d25-bdec-e530-33df-bc3c5ff2a9a1"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/ed1e4d25-bdec-e530-33df-bc3c5ff2a9a1"
   },
   {
     "AssessmentName": "464967b9-bbc2-c1f7-0b3c-0cb7855e67c3",
@@ -1037,11 +1037,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/464967b9-bbc2-c1f7-0b3c-0cb7855e67c3"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/464967b9-bbc2-c1f7-0b3c-0cb7855e67c3"
   },
   {
     "AssessmentName": "f446fdc4-cd37-c36c-bd22-cb242c3b1090",
@@ -1055,11 +1055,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/f446fdc4-cd37-c36c-bd22-cb242c3b1090"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/f446fdc4-cd37-c36c-bd22-cb242c3b1090"
   },
   {
     "AssessmentName": "2138c8d4-da80-f0da-8349-6b76bf9a5bff",
@@ -1073,11 +1073,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/2138c8d4-da80-f0da-8349-6b76bf9a5bff"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/2138c8d4-da80-f0da-8349-6b76bf9a5bff"
   },
   {
     "AssessmentName": "27d94a0d-eab6-5c61-aebd-5b1c348d88e2",
@@ -1091,11 +1091,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/27d94a0d-eab6-5c61-aebd-5b1c348d88e2"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/27d94a0d-eab6-5c61-aebd-5b1c348d88e2"
   },
   {
     "AssessmentName": "d64674e3-56aa-0a11-2f42-7edd2e62d50c",
@@ -1109,11 +1109,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/d64674e3-56aa-0a11-2f42-7edd2e62d50c"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/d64674e3-56aa-0a11-2f42-7edd2e62d50c"
   },
   {
     "AssessmentName": "79c83b76-d552-f0fe-88cd-5ee16d74c31d",
@@ -1127,11 +1127,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/79c83b76-d552-f0fe-88cd-5ee16d74c31d"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/79c83b76-d552-f0fe-88cd-5ee16d74c31d"
   },
   {
     "AssessmentName": "470ed1d5-60c9-75d7-f1b7-d9f0be497509",
@@ -1145,11 +1145,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/470ed1d5-60c9-75d7-f1b7-d9f0be497509"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/470ed1d5-60c9-75d7-f1b7-d9f0be497509"
   },
   {
     "AssessmentName": "24cff57a-6191-a04e-dc6f-457d299851d8",
@@ -1163,11 +1163,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/24cff57a-6191-a04e-dc6f-457d299851d8"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/24cff57a-6191-a04e-dc6f-457d299851d8"
   },
   {
     "AssessmentName": "dc38d8ea-8013-1133-4c55-2c55ab296f8e",
@@ -1181,11 +1181,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/dc38d8ea-8013-1133-4c55-2c55ab296f8e"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/dc38d8ea-8013-1133-4c55-2c55ab296f8e"
   },
   {
     "AssessmentName": "ea36e392-14db-924e-bcec-54bda84557a1",
@@ -1199,11 +1199,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/ea36e392-14db-924e-bcec-54bda84557a1"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/ea36e392-14db-924e-bcec-54bda84557a1"
   },
   {
     "AssessmentName": "35a4f7ce-35cc-ad94-f148-9602b2c466e3",
@@ -1217,11 +1217,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/35a4f7ce-35cc-ad94-f148-9602b2c466e3"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/35a4f7ce-35cc-ad94-f148-9602b2c466e3"
   },
   {
     "AssessmentName": "8b492261-3a05-1d3a-41ac-693d817bdf96",
@@ -1235,11 +1235,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/8b492261-3a05-1d3a-41ac-693d817bdf96"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/8b492261-3a05-1d3a-41ac-693d817bdf96"
   },
   {
     "AssessmentName": "30ecd67e-91fd-6c79-829f-a2888e6dc8e5",
@@ -1253,11 +1253,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/30ecd67e-91fd-6c79-829f-a2888e6dc8e5"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/30ecd67e-91fd-6c79-829f-a2888e6dc8e5"
   },
   {
     "AssessmentName": "3bd8fce2-eb09-dd5c-d59c-98ecde99c51b",
@@ -1271,11 +1271,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/3bd8fce2-eb09-dd5c-d59c-98ecde99c51b"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/3bd8fce2-eb09-dd5c-d59c-98ecde99c51b"
   },
   {
     "AssessmentName": "f3c10408-1e45-1c05-bf4b-8656b2b9b7e0",
@@ -1289,11 +1289,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/f3c10408-1e45-1c05-bf4b-8656b2b9b7e0"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/f3c10408-1e45-1c05-bf4b-8656b2b9b7e0"
   },
   {
     "AssessmentName": "d818c91f-dbab-f845-0d0c-0f95b3da3bfa",
@@ -1307,11 +1307,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/d818c91f-dbab-f845-0d0c-0f95b3da3bfa"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/d818c91f-dbab-f845-0d0c-0f95b3da3bfa"
   },
   {
     "AssessmentName": "42e6960a-a67e-6f30-3359-e22ac053fa93",
@@ -1325,11 +1325,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/42e6960a-a67e-6f30-3359-e22ac053fa93"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/42e6960a-a67e-6f30-3359-e22ac053fa93"
   },
   {
     "AssessmentName": "40461ecc-979a-3eeb-2ceb-cc87150573ad",
@@ -1343,11 +1343,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/40461ecc-979a-3eeb-2ceb-cc87150573ad"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/40461ecc-979a-3eeb-2ceb-cc87150573ad"
   },
   {
     "AssessmentName": "d620e6a9-74b8-7ebd-5417-5839f5ec8005",
@@ -1361,11 +1361,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/d620e6a9-74b8-7ebd-5417-5839f5ec8005"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/d620e6a9-74b8-7ebd-5417-5839f5ec8005"
   },
   {
     "AssessmentName": "6d861925-78d3-15f2-2aac-3049ba97faeb",
@@ -1379,11 +1379,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/6d861925-78d3-15f2-2aac-3049ba97faeb"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/6d861925-78d3-15f2-2aac-3049ba97faeb"
   },
   {
     "AssessmentName": "666d6810-b6b9-88cd-7c10-d294a39c9928",
@@ -1397,11 +1397,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/666d6810-b6b9-88cd-7c10-d294a39c9928"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/666d6810-b6b9-88cd-7c10-d294a39c9928"
   },
   {
     "AssessmentName": "6c057420-59ce-efbb-93a9-5aa130ccfdcb",
@@ -1415,11 +1415,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/6c057420-59ce-efbb-93a9-5aa130ccfdcb"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/6c057420-59ce-efbb-93a9-5aa130ccfdcb"
   },
   {
     "AssessmentName": "de092140-06ce-6c05-b5d9-87e7ed5930ad",
@@ -1433,11 +1433,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/de092140-06ce-6c05-b5d9-87e7ed5930ad"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/de092140-06ce-6c05-b5d9-87e7ed5930ad"
   },
   {
     "AssessmentName": "1e96fb4c-a06c-4e24-db54-262df3b6eba0",
@@ -1451,11 +1451,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/1e96fb4c-a06c-4e24-db54-262df3b6eba0"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/1e96fb4c-a06c-4e24-db54-262df3b6eba0"
   },
   {
     "AssessmentName": "10eb9459-7cba-ee61-0394-9885dae4ad36",
@@ -1469,11 +1469,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/10eb9459-7cba-ee61-0394-9885dae4ad36"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/10eb9459-7cba-ee61-0394-9885dae4ad36"
   },
   {
     "AssessmentName": "974a200f-7107-76a1-7b05-a4d359906fa1",
@@ -1487,11 +1487,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/974a200f-7107-76a1-7b05-a4d359906fa1"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/974a200f-7107-76a1-7b05-a4d359906fa1"
   },
   {
     "AssessmentName": "4adf4942-c8af-4553-617f-136fbee49d5a",
@@ -1505,11 +1505,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/4adf4942-c8af-4553-617f-136fbee49d5a"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/4adf4942-c8af-4553-617f-136fbee49d5a"
   },
   {
     "AssessmentName": "64056b21-d2b8-1280-6b20-ff6e2cb29d3c",
@@ -1523,11 +1523,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/64056b21-d2b8-1280-6b20-ff6e2cb29d3c"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/64056b21-d2b8-1280-6b20-ff6e2cb29d3c"
   },
   {
     "AssessmentName": "413a7e67-b200-463f-2019-664b93f2c1dd",
@@ -1541,11 +1541,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/413a7e67-b200-463f-2019-664b93f2c1dd"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/413a7e67-b200-463f-2019-664b93f2c1dd"
   },
   {
     "AssessmentName": "c7736caf-94a2-b25f-3f1b-5c910310b125",
@@ -1559,11 +1559,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/c7736caf-94a2-b25f-3f1b-5c910310b125"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/c7736caf-94a2-b25f-3f1b-5c910310b125"
   },
   {
     "AssessmentName": "0bbc261e-0cda-4d27-25d8-6f48031f78bb",
@@ -1577,11 +1577,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/0bbc261e-0cda-4d27-25d8-6f48031f78bb"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/0bbc261e-0cda-4d27-25d8-6f48031f78bb"
   },
   {
     "AssessmentName": "873a92fe-177e-1721-9a6b-d3da4119f225",
@@ -1595,11 +1595,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/873a92fe-177e-1721-9a6b-d3da4119f225"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/873a92fe-177e-1721-9a6b-d3da4119f225"
   },
   {
     "AssessmentName": "16efc50a-e197-95c2-8561-15c21f117e1b",
@@ -1613,11 +1613,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/16efc50a-e197-95c2-8561-15c21f117e1b"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/16efc50a-e197-95c2-8561-15c21f117e1b"
   },
   {
     "AssessmentName": "46f041d3-d4a3-58a3-2a40-bf486365f1e1",
@@ -1631,11 +1631,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/46f041d3-d4a3-58a3-2a40-bf486365f1e1"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/46f041d3-d4a3-58a3-2a40-bf486365f1e1"
   },
   {
     "AssessmentName": "312d27f8-9140-2f75-38b0-01ae2e7b6840",
@@ -1649,11 +1649,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/312d27f8-9140-2f75-38b0-01ae2e7b6840"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/312d27f8-9140-2f75-38b0-01ae2e7b6840"
   },
   {
     "AssessmentName": "c9c6686b-531d-c006-7dce-d20e28b553e5",
@@ -1667,11 +1667,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/c9c6686b-531d-c006-7dce-d20e28b553e5"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/c9c6686b-531d-c006-7dce-d20e28b553e5"
   },
   {
     "AssessmentName": "1ff83dc8-e1ae-ddae-abeb-4a127d89acfd",
@@ -1685,11 +1685,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/1ff83dc8-e1ae-ddae-abeb-4a127d89acfd"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/1ff83dc8-e1ae-ddae-abeb-4a127d89acfd"
   },
   {
     "AssessmentName": "5b63378c-8388-796d-ab0d-0b1fa1d87085",
@@ -1703,11 +1703,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/5b63378c-8388-796d-ab0d-0b1fa1d87085"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/5b63378c-8388-796d-ab0d-0b1fa1d87085"
   },
   {
     "AssessmentName": "cbc0dd2b-9723-401e-e6df-674e87f94a61",
@@ -1721,11 +1721,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/cbc0dd2b-9723-401e-e6df-674e87f94a61"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/cbc0dd2b-9723-401e-e6df-674e87f94a61"
   },
   {
     "AssessmentName": "a4dce7cf-4e9c-a8ed-f5bb-d7489349f3a9",
@@ -1739,11 +1739,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/a4dce7cf-4e9c-a8ed-f5bb-d7489349f3a9"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/a4dce7cf-4e9c-a8ed-f5bb-d7489349f3a9"
   },
   {
     "AssessmentName": "3aa49535-91bc-e60e-48f0-7ffbb256ba71",
@@ -1757,11 +1757,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/3aa49535-91bc-e60e-48f0-7ffbb256ba71"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/3aa49535-91bc-e60e-48f0-7ffbb256ba71"
   },
   {
     "AssessmentName": "502d04f7-af1d-8294-4576-cb662a7c8343",
@@ -1775,11 +1775,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/502d04f7-af1d-8294-4576-cb662a7c8343"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/502d04f7-af1d-8294-4576-cb662a7c8343"
   },
   {
     "AssessmentName": "dea03f5b-9ac6-26f9-b54b-517bb128541e",
@@ -1793,11 +1793,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/dea03f5b-9ac6-26f9-b54b-517bb128541e"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/dea03f5b-9ac6-26f9-b54b-517bb128541e"
   },
   {
     "AssessmentName": "cf6f5f11-a0a0-6247-8032-e527f83ced87",
@@ -1811,11 +1811,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/cf6f5f11-a0a0-6247-8032-e527f83ced87"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/cf6f5f11-a0a0-6247-8032-e527f83ced87"
   },
   {
     "AssessmentName": "e8a0d4df-aa1b-65a7-4ebe-7a953f4ec990",
@@ -1829,11 +1829,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/e8a0d4df-aa1b-65a7-4ebe-7a953f4ec990"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/e8a0d4df-aa1b-65a7-4ebe-7a953f4ec990"
   },
   {
     "AssessmentName": "8edb90f9-9475-154b-715b-2dfced01f691",
@@ -1847,11 +1847,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/8edb90f9-9475-154b-715b-2dfced01f691"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/8edb90f9-9475-154b-715b-2dfced01f691"
   },
   {
     "AssessmentName": "4f98d320-1618-7c02-9f37-a12c69c57961",
@@ -1865,11 +1865,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/4f98d320-1618-7c02-9f37-a12c69c57961"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/4f98d320-1618-7c02-9f37-a12c69c57961"
   },
   {
     "AssessmentName": "f2aca0a8-7e15-dfe3-e6c9-69e210a4fd15",
@@ -1883,11 +1883,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/f2aca0a8-7e15-dfe3-e6c9-69e210a4fd15"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/f2aca0a8-7e15-dfe3-e6c9-69e210a4fd15"
   },
   {
     "AssessmentName": "f441c515-342c-8c7a-3d14-77fedfb8df60",
@@ -1901,11 +1901,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/f441c515-342c-8c7a-3d14-77fedfb8df60"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/f441c515-342c-8c7a-3d14-77fedfb8df60"
   },
   {
     "AssessmentName": "e41d2913-a3e0-a477-1468-c987f74e9881",
@@ -1919,11 +1919,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/e41d2913-a3e0-a477-1468-c987f74e9881"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/e41d2913-a3e0-a477-1468-c987f74e9881"
   },
   {
     "AssessmentName": "52b1666d-df15-1b00-4c16-88e5880bf9f3",
@@ -1937,11 +1937,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/52b1666d-df15-1b00-4c16-88e5880bf9f3"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/52b1666d-df15-1b00-4c16-88e5880bf9f3"
   },
   {
     "AssessmentName": "e5a3fcfa-a98b-198b-c2fe-49e4ae6abcc7",
@@ -1955,11 +1955,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/e5a3fcfa-a98b-198b-c2fe-49e4ae6abcc7"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/e5a3fcfa-a98b-198b-c2fe-49e4ae6abcc7"
   },
   {
     "AssessmentName": "af173089-8961-467f-5e21-9ca1b9a0a796",
@@ -1973,11 +1973,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/af173089-8961-467f-5e21-9ca1b9a0a796"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/af173089-8961-467f-5e21-9ca1b9a0a796"
   },
   {
     "AssessmentName": "0a5966c8-99ae-42e0-8c72-566e919f5f7c",
@@ -1991,11 +1991,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/0a5966c8-99ae-42e0-8c72-566e919f5f7c"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/0a5966c8-99ae-42e0-8c72-566e919f5f7c"
   },
   {
     "AssessmentName": "cf79d0b8-e078-856a-0f8a-11456ed558f7",
@@ -2009,11 +2009,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/cf79d0b8-e078-856a-0f8a-11456ed558f7"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/cf79d0b8-e078-856a-0f8a-11456ed558f7"
   },
   {
     "AssessmentName": "ec3f812f-3b49-eb8f-3144-a6d80a6eaa1c",
@@ -2027,11 +2027,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/ec3f812f-3b49-eb8f-3144-a6d80a6eaa1c"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/ec3f812f-3b49-eb8f-3144-a6d80a6eaa1c"
   },
   {
     "AssessmentName": "a00261f0-f839-f550-e46a-bde700fe78a3",
@@ -2045,11 +2045,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/a00261f0-f839-f550-e46a-bde700fe78a3"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/a00261f0-f839-f550-e46a-bde700fe78a3"
   },
   {
     "AssessmentName": "d57ca60f-27d0-0574-6308-c4410595d3ee",
@@ -2063,11 +2063,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/d57ca60f-27d0-0574-6308-c4410595d3ee"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/d57ca60f-27d0-0574-6308-c4410595d3ee"
   },
   {
     "AssessmentName": "fcdc49f8-6133-db2f-d853-51656ccc8701",
@@ -2081,11 +2081,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/fcdc49f8-6133-db2f-d853-51656ccc8701"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/fcdc49f8-6133-db2f-d853-51656ccc8701"
   },
   {
     "AssessmentName": "4fd0957e-9680-ff9f-b205-4ff61530b03a",
@@ -2099,11 +2099,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/4fd0957e-9680-ff9f-b205-4ff61530b03a"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/4fd0957e-9680-ff9f-b205-4ff61530b03a"
   },
   {
     "AssessmentName": "41ef0ac9-78e8-6d28-9466-b71e61c0223a",
@@ -2117,11 +2117,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/41ef0ac9-78e8-6d28-9466-b71e61c0223a"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/41ef0ac9-78e8-6d28-9466-b71e61c0223a"
   },
   {
     "AssessmentName": "a4788d6c-5b57-58e1-dcab-04d89bf91ecb",
@@ -2135,11 +2135,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/a4788d6c-5b57-58e1-dcab-04d89bf91ecb"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/a4788d6c-5b57-58e1-dcab-04d89bf91ecb"
   },
   {
     "AssessmentName": "cc2262a0-7b05-f0e3-dbeb-00c0c9d377c2",
@@ -2153,11 +2153,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/cc2262a0-7b05-f0e3-dbeb-00c0c9d377c2"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/cc2262a0-7b05-f0e3-dbeb-00c0c9d377c2"
   },
   {
     "AssessmentName": "3707db07-535d-d557-2dc9-63e5637cabec",
@@ -2171,11 +2171,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/3707db07-535d-d557-2dc9-63e5637cabec"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/3707db07-535d-d557-2dc9-63e5637cabec"
   },
   {
     "AssessmentName": "e559dcfe-c3a7-6481-3767-3c1a001f4efb",
@@ -2189,11 +2189,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/e559dcfe-c3a7-6481-3767-3c1a001f4efb"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/e559dcfe-c3a7-6481-3767-3c1a001f4efb"
   },
   {
     "AssessmentName": "a5c9012a-9409-610b-e509-80b7c0d71df2",
@@ -2207,11 +2207,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/a5c9012a-9409-610b-e509-80b7c0d71df2"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/a5c9012a-9409-610b-e509-80b7c0d71df2"
   },
   {
     "AssessmentName": "3f5b9c6a-c683-3719-fbef-14dea425191a",
@@ -2225,11 +2225,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/3f5b9c6a-c683-3719-fbef-14dea425191a"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/3f5b9c6a-c683-3719-fbef-14dea425191a"
   },
   {
     "AssessmentName": "2196a0b5-a34a-8628-d4a7-c773f9bb89a1",
@@ -2243,11 +2243,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/2196a0b5-a34a-8628-d4a7-c773f9bb89a1"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/2196a0b5-a34a-8628-d4a7-c773f9bb89a1"
   },
   {
     "AssessmentName": "840e3e06-6319-a49e-0424-ecd86cf1d512",
@@ -2261,11 +2261,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/840e3e06-6319-a49e-0424-ecd86cf1d512"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/840e3e06-6319-a49e-0424-ecd86cf1d512"
   },
   {
     "AssessmentName": "5efa7fb6-cede-a673-0181-833c04ffa6e4",
@@ -2279,11 +2279,11 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/5efa7fb6-cede-a673-0181-833c04ffa6e4"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/5efa7fb6-cede-a673-0181-833c04ffa6e4"
   },
   {
     "AssessmentName": "9a078545-896d-da06-ec01-1d151384ebe3",
@@ -2297,11 +2297,29 @@
     "RecommendationCategory": "SoftwareUpdate",
     "Description": null,
     "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
     "ResourceName": "vm-demo-web-01",
     "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "RG-INVENTORY-DEMO",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-INVENTORY-DEMO/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/9a078545-896d-da06-ec01-1d151384ebe3"
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/9a078545-896d-da06-ec01-1d151384ebe3"
+  },
+  {
+    "AssessmentName": "a85f0cec-307a-cc08-d5d7-193187b7932e",
+    "DisplayName": "Update python3-urllib3",
+    "Severity": "Medium",
+    "Status": "Unhealthy",
+    "StatusCause": null,
+    "StatusDescription": null,
+    "SecurityIssue": "BestPractices",
+    "SecurityCategories": "Misconfigurations",
+    "RecommendationCategory": "SystemUpdate",
+    "Description": null,
+    "Remediation": null,
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-inventory-demo/providers/microsoft.compute/virtualmachines/vm-demo-web-01",
+    "ResourceName": "vm-demo-web-01",
+    "ResourceType": "microsoft.compute/virtualmachines",
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-inventory-demo/providers/microsoft.compute/virtualmachines/vm-demo-web-01/providers/Microsoft.Security/assessments/a85f0cec-307a-cc08-d5d7-193187b7932e"
   },
   {
     "AssessmentName": "665a2d68-918a-0a2b-7571-3a85da8204f0",
