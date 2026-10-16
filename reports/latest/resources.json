@@ -1452,6 +1452,17 @@
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-wb-demo-202610/providers/Microsoft.Insights/workbooks/8851be3c-8ce4-48eb-9144-f1f45376fac0"
   },
   {
+    "Name": "3CAB1B40-F1CC-4FF2-BA68-7F79888FCD50",
+    "ResourceType": "microsoft.insights/workbooks",
+    "ResourceGroupName": "rg-wb-procedure-demo-202610",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": "shared",
+    "Tags": "hidden-title=test",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-wb-procedure-demo-202610/providers/microsoft.insights/workbooks/3CAB1B40-F1CC-4FF2-BA68-7F79888FCD50"
+  },
+  {
     "Name": "pip-nat-srepoc-6h2ve7",
     "ResourceType": "Microsoft.Network/publicIPAddresses",
     "ResourceGroupName": "rg-srepoc-workload-aue",
