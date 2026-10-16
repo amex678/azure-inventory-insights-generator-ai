@@ -176,17 +176,6 @@
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Network/networkInterfaces/nic-vm-demo-db-01"
   },
   {
-    "Name": "nic-vm-demo-app-01",
-    "ResourceType": "Microsoft.Network/networkInterfaces",
-    "ResourceGroupName": "rg-inventory-demo",
-    "Location": "japaneast",
-    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "Sku": null,
-    "Kind": null,
-    "Tags": "project=AzureInventoryDemo;env=demo;owner=demo",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Network/networkInterfaces/nic-vm-demo-app-01"
-  },
-  {
     "Name": "nic-vm-demo-app-02",
     "ResourceType": "Microsoft.Network/networkInterfaces",
     "ResourceGroupName": "rg-inventory-demo",
@@ -196,6 +185,17 @@
     "Kind": null,
     "Tags": "project=AzureInventoryDemo;env=demo;owner=demo",
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Network/networkInterfaces/nic-vm-demo-app-02"
+  },
+  {
+    "Name": "nic-vm-demo-app-01",
+    "ResourceType": "Microsoft.Network/networkInterfaces",
+    "ResourceGroupName": "rg-inventory-demo",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "project=AzureInventoryDemo;env=demo;owner=demo",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Network/networkInterfaces/nic-vm-demo-app-01"
   },
   {
     "Name": "nic-vm-demo-web-01",
@@ -528,17 +528,6 @@
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-nwri-jpe-20260709/providers/Microsoft.Network/virtualNetworks/vnet-nwri-jpe"
   },
   {
-    "Name": "vm-nwri-dst-jpe-nic",
-    "ResourceType": "Microsoft.Network/networkInterfaces",
-    "ResourceGroupName": "rg-nwri-jpe-20260709",
-    "Location": "japaneast",
-    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "Sku": null,
-    "Kind": null,
-    "Tags": "purpose=demo;owner=csa;demoTheme=network-watcher-rule-impact;createdBy=GitHubCopilotBrowserAutomation;deleteAfter=2026-07-31",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-nwri-jpe-20260709/providers/Microsoft.Network/networkInterfaces/vm-nwri-dst-jpe-nic"
-  },
-  {
     "Name": "vm-nwri-src-jpe-nic",
     "ResourceType": "Microsoft.Network/networkInterfaces",
     "ResourceGroupName": "rg-nwri-jpe-20260709",
@@ -548,6 +537,17 @@
     "Kind": null,
     "Tags": "purpose=demo;owner=csa;demoTheme=network-watcher-rule-impact;createdBy=GitHubCopilotBrowserAutomation;deleteAfter=2026-07-31",
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-nwri-jpe-20260709/providers/Microsoft.Network/networkInterfaces/vm-nwri-src-jpe-nic"
+  },
+  {
+    "Name": "vm-nwri-dst-jpe-nic",
+    "ResourceType": "Microsoft.Network/networkInterfaces",
+    "ResourceGroupName": "rg-nwri-jpe-20260709",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "purpose=demo;owner=csa;demoTheme=network-watcher-rule-impact;createdBy=GitHubCopilotBrowserAutomation;deleteAfter=2026-07-31",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-nwri-jpe-20260709/providers/Microsoft.Network/networkInterfaces/vm-nwri-dst-jpe-nic"
   },
   {
     "Name": "vm-nwri-dst-jpe",
@@ -1461,6 +1461,17 @@
     "Kind": "shared",
     "Tags": "hidden-title=test",
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-wb-procedure-demo-202610/providers/microsoft.insights/workbooks/3CAB1B40-F1CC-4FF2-BA68-7F79888FCD50"
+  },
+  {
+    "Name": "23AA78BB-1244-4821-B36D-46DF15505B82",
+    "ResourceType": "microsoft.insights/workbooks",
+    "ResourceGroupName": "rg-wb-demo-202610",
+    "Location": "eastus",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": "shared",
+    "Tags": "hidden-title=リピータ デモ",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-wb-demo-202610/providers/microsoft.insights/workbooks/23AA78BB-1244-4821-B36D-46DF15505B82"
   },
   {
     "Name": "pip-nat-srepoc-6h2ve7",
