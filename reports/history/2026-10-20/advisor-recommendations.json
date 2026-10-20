@@ -3086,5 +3086,21 @@
     "LastUpdated": "2026-10-14T01:26:07.4221823Z",
     "RecommendationId": "5fadce85e19d07d3759f483fc776149a14158302a2d5e898e1721d7d0dd2731e",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/microsoft.security/pricings/cloudposture/securityentitydata/314a4ee8-e67c-4fa9-9ba9-a5198c301418/providers/Microsoft.Advisor/recommendations/5fadce85e19d07d3759f483fc776149a14158302a2d5e898e1721d7d0dd2731e"
+  },
+  {
+    "Category": "OperationalExcellence",
+    "Impact": "High",
+    "Risk": null,
+    "Problem": "Monitor Azure Firewall Metrics",
+    "Solution": "Monitor Azure Firewall Metrics",
+    "ImpactedField": "MICROSOFT.NETWORK/AZUREFIREWALLS",
+    "ImpactedValue": "afw-fwscale-lab-jpe-001",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-fwscale-lab-jpe-001/providers/microsoft.network/azurefirewalls/afw-fwscale-lab-jpe-001",
+    "ResourceName": "afw-fwscale-lab-jpe-001",
+    "ResourceType": "MICROSOFT.NETWORK/AZUREFIREWALLS",
+    "ResourceGroupName": "rg-fwscale-lab-jpe-001",
+    "LastUpdated": "2026-10-20T13:30:53.7875706Z",
+    "RecommendationId": "80687a75d5f202dec2cc7371f79cc15982cf5db3faf2756eea39c01034b9283e",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-fwscale-lab-jpe-001/providers/microsoft.network/azurefirewalls/afw-fwscale-lab-jpe-001/providers/Microsoft.Advisor/recommendations/80687a75d5f202dec2cc7371f79cc15982cf5db3faf2756eea39c01034b9283e"
   }
 ]
