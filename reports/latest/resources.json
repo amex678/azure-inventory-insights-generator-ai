@@ -176,17 +176,6 @@
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Network/networkInterfaces/nic-vm-demo-db-01"
   },
   {
-    "Name": "nic-vm-demo-app-01",
-    "ResourceType": "Microsoft.Network/networkInterfaces",
-    "ResourceGroupName": "rg-inventory-demo",
-    "Location": "japaneast",
-    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "Sku": null,
-    "Kind": null,
-    "Tags": "project=AzureInventoryDemo;env=demo;owner=demo",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Network/networkInterfaces/nic-vm-demo-app-01"
-  },
-  {
     "Name": "nic-vm-demo-app-02",
     "ResourceType": "Microsoft.Network/networkInterfaces",
     "ResourceGroupName": "rg-inventory-demo",
@@ -196,6 +185,17 @@
     "Kind": null,
     "Tags": "project=AzureInventoryDemo;env=demo;owner=demo",
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Network/networkInterfaces/nic-vm-demo-app-02"
+  },
+  {
+    "Name": "nic-vm-demo-app-01",
+    "ResourceType": "Microsoft.Network/networkInterfaces",
+    "ResourceGroupName": "rg-inventory-demo",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "project=AzureInventoryDemo;env=demo;owner=demo",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Network/networkInterfaces/nic-vm-demo-app-01"
   },
   {
     "Name": "nic-vm-demo-web-01",
@@ -528,17 +528,6 @@
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-nwri-jpe-20260709/providers/Microsoft.Network/virtualNetworks/vnet-nwri-jpe"
   },
   {
-    "Name": "vm-nwri-dst-jpe-nic",
-    "ResourceType": "Microsoft.Network/networkInterfaces",
-    "ResourceGroupName": "rg-nwri-jpe-20260709",
-    "Location": "japaneast",
-    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "Sku": null,
-    "Kind": null,
-    "Tags": "purpose=demo;owner=csa;demoTheme=network-watcher-rule-impact;createdBy=GitHubCopilotBrowserAutomation;deleteAfter=2026-07-31",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-nwri-jpe-20260709/providers/Microsoft.Network/networkInterfaces/vm-nwri-dst-jpe-nic"
-  },
-  {
     "Name": "vm-nwri-src-jpe-nic",
     "ResourceType": "Microsoft.Network/networkInterfaces",
     "ResourceGroupName": "rg-nwri-jpe-20260709",
@@ -548,6 +537,17 @@
     "Kind": null,
     "Tags": "purpose=demo;owner=csa;demoTheme=network-watcher-rule-impact;createdBy=GitHubCopilotBrowserAutomation;deleteAfter=2026-07-31",
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-nwri-jpe-20260709/providers/Microsoft.Network/networkInterfaces/vm-nwri-src-jpe-nic"
+  },
+  {
+    "Name": "vm-nwri-dst-jpe-nic",
+    "ResourceType": "Microsoft.Network/networkInterfaces",
+    "ResourceGroupName": "rg-nwri-jpe-20260709",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "purpose=demo;owner=csa;demoTheme=network-watcher-rule-impact;createdBy=GitHubCopilotBrowserAutomation;deleteAfter=2026-07-31",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-nwri-jpe-20260709/providers/Microsoft.Network/networkInterfaces/vm-nwri-dst-jpe-nic"
   },
   {
     "Name": "vm-nwri-dst-jpe",
@@ -1474,6 +1474,50 @@
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-wb-demo-202610/providers/microsoft.insights/workbooks/23AA78BB-1244-4821-B36D-46DF15505B82"
   },
   {
+    "Name": "pip-fwscale-lab-jpe-001",
+    "ResourceType": "Microsoft.Network/publicIPAddresses",
+    "ResourceGroupName": "rg-fwscale-lab-jpe-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": "Standard",
+    "Kind": null,
+    "Tags": "environment=lab;workload=fwscale;purpose=azure-firewall-prescaling",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-fwscale-lab-jpe-001/providers/Microsoft.Network/publicIPAddresses/pip-fwscale-lab-jpe-001"
+  },
+  {
+    "Name": "afwp-fwscale-lab-jpe-001",
+    "ResourceType": "Microsoft.Network/firewallPolicies",
+    "ResourceGroupName": "rg-fwscale-lab-jpe-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "environment=lab;workload=fwscale;purpose=azure-firewall-prescaling",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-fwscale-lab-jpe-001/providers/Microsoft.Network/firewallPolicies/afwp-fwscale-lab-jpe-001"
+  },
+  {
+    "Name": "vnet-fwscale-lab-jpe-001",
+    "ResourceType": "Microsoft.Network/virtualNetworks",
+    "ResourceGroupName": "rg-fwscale-lab-jpe-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "environment=lab;workload=fwscale;purpose=azure-firewall-prescaling",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-fwscale-lab-jpe-001/providers/Microsoft.Network/virtualNetworks/vnet-fwscale-lab-jpe-001"
+  },
+  {
+    "Name": "afw-fwscale-lab-jpe-001",
+    "ResourceType": "Microsoft.Network/azureFirewalls",
+    "ResourceGroupName": "rg-fwscale-lab-jpe-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "environment=lab;workload=fwscale;purpose=azure-firewall-prescaling",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-fwscale-lab-jpe-001/providers/Microsoft.Network/azureFirewalls/afw-fwscale-lab-jpe-001"
+  },
+  {
     "Name": "pip-nat-srepoc-6h2ve7",
     "ResourceType": "Microsoft.Network/publicIPAddresses",
     "ResourceGroupName": "rg-srepoc-workload-aue",
@@ -1485,17 +1529,6 @@
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-srepoc-workload-aue/providers/Microsoft.Network/publicIPAddresses/pip-nat-srepoc-6h2ve7"
   },
   {
-    "Name": "id-srepoc-agent-6h2ve7",
-    "ResourceType": "Microsoft.ManagedIdentity/userAssignedIdentities",
-    "ResourceGroupName": "rg-srepoc-agent-aue",
-    "Location": "australiaeast",
-    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "Sku": null,
-    "Kind": null,
-    "Tags": "purpose=sre-agent-poc;environment=demo;lifecycle=manual-retention;createdBy=bicep",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-srepoc-agent-aue/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-srepoc-agent-6h2ve7"
-  },
-  {
     "Name": "nsg-srepoc-6h2ve7",
     "ResourceType": "Microsoft.Network/networkSecurityGroups",
     "ResourceGroupName": "rg-srepoc-workload-aue",
@@ -1505,6 +1538,17 @@
     "Kind": null,
     "Tags": "purpose=sre-agent-poc;environment=demo;lifecycle=manual-retention;createdBy=bicep",
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-srepoc-workload-aue/providers/Microsoft.Network/networkSecurityGroups/nsg-srepoc-6h2ve7"
+  },
+  {
+    "Name": "id-srepoc-agent-6h2ve7",
+    "ResourceType": "Microsoft.ManagedIdentity/userAssignedIdentities",
+    "ResourceGroupName": "rg-srepoc-agent-aue",
+    "Location": "australiaeast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "purpose=sre-agent-poc;environment=demo;lifecycle=manual-retention;createdBy=bicep",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-srepoc-agent-aue/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-srepoc-agent-6h2ve7"
   },
   {
     "Name": "vnet-srepoc-6h2ve7",

@@ -1710,24 +1710,6 @@
     "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/5b63378c-8388-796d-ab0d-0b1fa1d87085"
   },
   {
-    "AssessmentName": "cbc0dd2b-9723-401e-e6df-674e87f94a61",
-    "DisplayName": "Update pyjwt_for_linux",
-    "Severity": "High",
-    "Status": "Unhealthy",
-    "StatusCause": null,
-    "StatusDescription": null,
-    "SecurityIssue": "Vulnerability",
-    "SecurityCategories": "Vulnerabilities",
-    "RecommendationCategory": "SoftwareUpdate",
-    "Description": null,
-    "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
-    "ResourceName": "vm-demo-web-01",
-    "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "rg-inventory-demo",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/cbc0dd2b-9723-401e-e6df-674e87f94a61"
-  },
-  {
     "AssessmentName": "a4dce7cf-4e9c-a8ed-f5bb-d7489349f3a9",
     "DisplayName": "Update libfreetype6_for_linux",
     "Severity": "High",
@@ -2320,6 +2302,24 @@
     "ResourceType": "microsoft.compute/virtualmachines",
     "ResourceGroupName": "rg-inventory-demo",
     "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-inventory-demo/providers/microsoft.compute/virtualmachines/vm-demo-web-01/providers/Microsoft.Security/assessments/a85f0cec-307a-cc08-d5d7-193187b7932e"
+  },
+  {
+    "AssessmentName": "8a804f41-4401-eb83-9db9-3eee6cc686d7",
+    "DisplayName": "Update python3-urllib3_for_linux",
+    "Severity": "Medium",
+    "Status": "Unhealthy",
+    "StatusCause": null,
+    "StatusDescription": null,
+    "SecurityIssue": "Vulnerability",
+    "SecurityCategories": "Vulnerabilities",
+    "RecommendationCategory": "SoftwareUpdate",
+    "Description": null,
+    "Remediation": null,
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceName": "vm-demo-web-01",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/8a804f41-4401-eb83-9db9-3eee6cc686d7"
   },
   {
     "AssessmentName": "665a2d68-918a-0a2b-7571-3a85da8204f0",
