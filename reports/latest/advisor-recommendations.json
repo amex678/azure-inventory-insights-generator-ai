@@ -1611,7 +1611,7 @@
     "ResourceName": "vm-amig-appl-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-10-19T16:41:13.3905325Z",
+    "LastUpdated": "2026-10-20T15:01:13.9536453Z",
     "RecommendationId": "5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-appl-001/providers/Microsoft.Advisor/recommendations/5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7"
   },
@@ -1627,7 +1627,7 @@
     "ResourceName": "vm-amig-win-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-10-19T16:42:29.6030343Z",
+    "LastUpdated": "2026-10-20T15:01:28.2055883Z",
     "RecommendationId": "e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-win-001/providers/Microsoft.Advisor/recommendations/e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c"
   },
@@ -3102,5 +3102,21 @@
     "LastUpdated": "2026-10-20T13:30:53.7875706Z",
     "RecommendationId": "80687a75d5f202dec2cc7371f79cc15982cf5db3faf2756eea39c01034b9283e",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-fwscale-lab-jpe-001/providers/microsoft.network/azurefirewalls/afw-fwscale-lab-jpe-001/providers/Microsoft.Advisor/recommendations/80687a75d5f202dec2cc7371f79cc15982cf5db3faf2756eea39c01034b9283e"
+  },
+  {
+    "Category": "HighAvailability",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Use NAT gateway for outbound connectivity",
+    "Solution": "Use NAT gateway for outbound connectivity",
+    "ImpactedField": "MICROSOFT.NETWORK/VIRTUALNETWORKS",
+    "ImpactedValue": "vnet-fwscale-lab-jpe-001",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-fwscale-lab-jpe-001/providers/microsoft.network/virtualnetworks/vnet-fwscale-lab-jpe-001",
+    "ResourceName": "vnet-fwscale-lab-jpe-001",
+    "ResourceType": "MICROSOFT.NETWORK/VIRTUALNETWORKS",
+    "ResourceGroupName": "rg-fwscale-lab-jpe-001",
+    "LastUpdated": "2026-10-20T14:06:13.1353319Z",
+    "RecommendationId": "50cca00a939849e9338970e78ea6cfe7c390150dd52e00107caf0fb7816440af",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-fwscale-lab-jpe-001/providers/microsoft.network/virtualnetworks/vnet-fwscale-lab-jpe-001/providers/Microsoft.Advisor/recommendations/50cca00a939849e9338970e78ea6cfe7c390150dd52e00107caf0fb7816440af"
   }
 ]
