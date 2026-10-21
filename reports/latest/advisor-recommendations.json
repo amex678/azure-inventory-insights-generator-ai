@@ -1611,7 +1611,7 @@
     "ResourceName": "vm-amig-appl-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-10-21T04:38:40.7611686Z",
+    "LastUpdated": "2026-10-21T18:53:30.1083129Z",
     "RecommendationId": "5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-appl-001/providers/Microsoft.Advisor/recommendations/5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7"
   },
@@ -1627,7 +1627,7 @@
     "ResourceName": "vm-amig-win-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-10-21T04:38:55.7238052Z",
+    "LastUpdated": "2026-10-21T18:54:05.8864559Z",
     "RecommendationId": "e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-win-001/providers/Microsoft.Advisor/recommendations/e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c"
   },
@@ -3198,5 +3198,21 @@
     "LastUpdated": "2026-10-21T12:40:00.93765Z",
     "RecommendationId": "32118438c7fb94d64545bf056ad9f841f5e50dce22f7b25b7a6f7e07f6aec220",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.web/serverfarms/sso-poc-plan-xavlfqq6/providers/Microsoft.Advisor/recommendations/32118438c7fb94d64545bf056ad9f841f5e50dce22f7b25b7a6f7e07f6aec220"
+  },
+  {
+    "Category": "HighAvailability",
+    "Impact": "High",
+    "Risk": null,
+    "Problem": "Use zone-supported App Service Plan",
+    "Solution": "Use zone-supported App Service Plan",
+    "ImpactedField": "Microsoft.Web/serverFarms",
+    "ImpactedValue": "sso-poc-plan-xavlfqq6",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.web/serverfarms/sso-poc-plan-xavlfqq6",
+    "ResourceName": "sso-poc-plan-xavlfqq6",
+    "ResourceType": "Microsoft.Web/serverFarms",
+    "ResourceGroupName": "rg-sso-poc-jpw-20261021",
+    "LastUpdated": "2026-10-21T16:31:32.4124517Z",
+    "RecommendationId": "bf5661342737033f7d01a94a0e9a6c6c0cfee0b1613bc335456a801a0494dc16",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.web/serverfarms/sso-poc-plan-xavlfqq6/providers/Microsoft.Advisor/recommendations/bf5661342737033f7d01a94a0e9a6c6c0cfee0b1613bc335456a801a0494dc16"
   }
 ]
