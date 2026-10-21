@@ -176,17 +176,6 @@
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Network/networkInterfaces/nic-vm-demo-db-01"
   },
   {
-    "Name": "nic-vm-demo-app-01",
-    "ResourceType": "Microsoft.Network/networkInterfaces",
-    "ResourceGroupName": "rg-inventory-demo",
-    "Location": "japaneast",
-    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "Sku": null,
-    "Kind": null,
-    "Tags": "project=AzureInventoryDemo;env=demo;owner=demo",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Network/networkInterfaces/nic-vm-demo-app-01"
-  },
-  {
     "Name": "nic-vm-demo-app-02",
     "ResourceType": "Microsoft.Network/networkInterfaces",
     "ResourceGroupName": "rg-inventory-demo",
@@ -196,6 +185,17 @@
     "Kind": null,
     "Tags": "project=AzureInventoryDemo;env=demo;owner=demo",
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Network/networkInterfaces/nic-vm-demo-app-02"
+  },
+  {
+    "Name": "nic-vm-demo-app-01",
+    "ResourceType": "Microsoft.Network/networkInterfaces",
+    "ResourceGroupName": "rg-inventory-demo",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "project=AzureInventoryDemo;env=demo;owner=demo",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Network/networkInterfaces/nic-vm-demo-app-01"
   },
   {
     "Name": "nic-vm-demo-web-01",
@@ -528,17 +528,6 @@
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-nwri-jpe-20260709/providers/Microsoft.Network/virtualNetworks/vnet-nwri-jpe"
   },
   {
-    "Name": "vm-nwri-dst-jpe-nic",
-    "ResourceType": "Microsoft.Network/networkInterfaces",
-    "ResourceGroupName": "rg-nwri-jpe-20260709",
-    "Location": "japaneast",
-    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "Sku": null,
-    "Kind": null,
-    "Tags": "purpose=demo;owner=csa;demoTheme=network-watcher-rule-impact;createdBy=GitHubCopilotBrowserAutomation;deleteAfter=2026-07-31",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-nwri-jpe-20260709/providers/Microsoft.Network/networkInterfaces/vm-nwri-dst-jpe-nic"
-  },
-  {
     "Name": "vm-nwri-src-jpe-nic",
     "ResourceType": "Microsoft.Network/networkInterfaces",
     "ResourceGroupName": "rg-nwri-jpe-20260709",
@@ -548,6 +537,17 @@
     "Kind": null,
     "Tags": "purpose=demo;owner=csa;demoTheme=network-watcher-rule-impact;createdBy=GitHubCopilotBrowserAutomation;deleteAfter=2026-07-31",
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-nwri-jpe-20260709/providers/Microsoft.Network/networkInterfaces/vm-nwri-src-jpe-nic"
+  },
+  {
+    "Name": "vm-nwri-dst-jpe-nic",
+    "ResourceType": "Microsoft.Network/networkInterfaces",
+    "ResourceGroupName": "rg-nwri-jpe-20260709",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "purpose=demo;owner=csa;demoTheme=network-watcher-rule-impact;createdBy=GitHubCopilotBrowserAutomation;deleteAfter=2026-07-31",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-nwri-jpe-20260709/providers/Microsoft.Network/networkInterfaces/vm-nwri-dst-jpe-nic"
   },
   {
     "Name": "vm-nwri-dst-jpe",
@@ -1723,7 +1723,7 @@
     "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
     "Sku": null,
     "Kind": null,
-    "Tags": "purpose=sso-poc;ownershipId=b452f5bb-e828-4c2b-808d-de311749ca26",
+    "Tags": "ownershipId=b452f5bb-e828-4c2b-808d-de311749ca26;purpose=sso-poc",
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-sso-poc-jpw-20261021/providers/Microsoft.Network/virtualNetworks/sso-poc-vnet-xavlfqq6"
   },
   {
@@ -1758,5 +1758,71 @@
     "Kind": "app,linux",
     "Tags": "purpose=sso-poc;ownershipId=b452f5bb-e828-4c2b-808d-de311749ca26",
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-sso-poc-jpw-20261021/providers/Microsoft.Web/sites/sso-poc-oidc-xavlfqq6"
+  },
+  {
+    "Name": "privatelink.vaultcore.azure.net",
+    "ResourceType": "Microsoft.Network/privateDnsZones",
+    "ResourceGroupName": "rg-sso-poc-jpw-20261021",
+    "Location": "global",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "purpose=sso-poc;ownershipId=b452f5bb-e828-4c2b-808d-de311749ca26",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-sso-poc-jpw-20261021/providers/Microsoft.Network/privateDnsZones/privatelink.vaultcore.azure.net"
+  },
+  {
+    "Name": "sso-poc-vault-pe-xavlfqq6",
+    "ResourceType": "Microsoft.Network/privateEndpoints",
+    "ResourceGroupName": "rg-sso-poc-jpw-20261021",
+    "Location": "japanwest",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "purpose=sso-poc;ownershipId=b452f5bb-e828-4c2b-808d-de311749ca26",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-sso-poc-jpw-20261021/providers/Microsoft.Network/privateEndpoints/sso-poc-vault-pe-xavlfqq6"
+  },
+  {
+    "Name": "sso-poc-vault-pe-xavlfqq6.nic.46a6a7fd-e36a-4fa4-969d-7cd62f52bf9b",
+    "ResourceType": "Microsoft.Network/networkInterfaces",
+    "ResourceGroupName": "rg-sso-poc-jpw-20261021",
+    "Location": "japanwest",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "purpose=sso-poc;ownershipId=b452f5bb-e828-4c2b-808d-de311749ca26",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-sso-poc-jpw-20261021/providers/Microsoft.Network/networkInterfaces/sso-poc-vault-pe-xavlfqq6.nic.46a6a7fd-e36a-4fa4-969d-7cd62f52bf9b"
+  },
+  {
+    "Name": "privatelink.vaultcore.azure.net/sso-poc-vault-link-xavlfqq6",
+    "ResourceType": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "ResourceGroupName": "rg-sso-poc-jpw-20261021",
+    "Location": "global",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "purpose=sso-poc;ownershipId=b452f5bb-e828-4c2b-808d-de311749ca26",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-sso-poc-jpw-20261021/providers/Microsoft.Network/privateDnsZones/privatelink.vaultcore.azure.net/virtualNetworkLinks/sso-poc-vault-link-xavlfqq6"
+  },
+  {
+    "Name": "sso-poc-vnet-xavlfqq6-app-integration-nsg-japanwest",
+    "ResourceType": "Microsoft.Network/networkSecurityGroups",
+    "ResourceGroupName": "rg-sso-poc-jpw-20261021",
+    "Location": "japanwest",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "purpose=sso-poc;ownershipId=b452f5bb-e828-4c2b-808d-de311749ca26",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-sso-poc-jpw-20261021/providers/Microsoft.Network/networkSecurityGroups/sso-poc-vnet-xavlfqq6-app-integration-nsg-japanwest"
+  },
+  {
+    "Name": "sso-poc-vnet-xavlfqq6-private-endpoints-nsg-japanwest",
+    "ResourceType": "Microsoft.Network/networkSecurityGroups",
+    "ResourceGroupName": "rg-sso-poc-jpw-20261021",
+    "Location": "japanwest",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "purpose=sso-poc;ownershipId=b452f5bb-e828-4c2b-808d-de311749ca26",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-sso-poc-jpw-20261021/providers/Microsoft.Network/networkSecurityGroups/sso-poc-vnet-xavlfqq6-private-endpoints-nsg-japanwest"
   }
 ]

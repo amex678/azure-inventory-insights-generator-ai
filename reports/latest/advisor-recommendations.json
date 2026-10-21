@@ -3118,5 +3118,21 @@
     "LastUpdated": "2026-10-20T14:06:13.1353319Z",
     "RecommendationId": "50cca00a939849e9338970e78ea6cfe7c390150dd52e00107caf0fb7816440af",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-fwscale-lab-jpe-001/providers/microsoft.network/virtualnetworks/vnet-fwscale-lab-jpe-001/providers/Microsoft.Advisor/recommendations/50cca00a939849e9338970e78ea6cfe7c390150dd52e00107caf0fb7816440af"
+  },
+  {
+    "Category": "HighAvailability",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Use NAT gateway for outbound connectivity",
+    "Solution": "Use NAT gateway for outbound connectivity",
+    "ImpactedField": "MICROSOFT.NETWORK/VIRTUALNETWORKS",
+    "ImpactedValue": "sso-poc-vnet-xavlfqq6",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.network/virtualnetworks/sso-poc-vnet-xavlfqq6",
+    "ResourceName": "sso-poc-vnet-xavlfqq6",
+    "ResourceType": "MICROSOFT.NETWORK/VIRTUALNETWORKS",
+    "ResourceGroupName": "rg-sso-poc-jpw-20261021",
+    "LastUpdated": "2026-10-21T03:13:34.4254152Z",
+    "RecommendationId": "2b9b955222c58002e16968af2ba5a9f2448d681aabc5b96735d2e712fbfeb6e5",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.network/virtualnetworks/sso-poc-vnet-xavlfqq6/providers/Microsoft.Advisor/recommendations/2b9b955222c58002e16968af2ba5a9f2448d681aabc5b96735d2e712fbfeb6e5"
   }
 ]

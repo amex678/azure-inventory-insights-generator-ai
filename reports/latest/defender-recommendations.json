@@ -10870,5 +10870,41 @@
     "ResourceType": "Microsoft.Compute/virtualMachines",
     "ResourceGroupName": "RG-MIGRATE-DEMO-JE-001",
     "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-MIGRATE-DEMO-JE-001/providers/Microsoft.Compute/virtualMachines/vm-amig-win-001/providers/Microsoft.Security/assessments/506d18a1-d571-4341-aad5-a7d363c5bbd4"
+  },
+  {
+    "AssessmentName": "6dfe6f68-f507-4c6d-915b-cda75e243798",
+    "DisplayName": "Overly permissive permissions should not be configured on Function App, Web App or Logic App",
+    "Severity": "High",
+    "Status": "Healthy",
+    "StatusCause": null,
+    "StatusDescription": null,
+    "SecurityIssue": "BestPractices",
+    "SecurityCategories": "Misconfigurations",
+    "RecommendationCategory": "Unknown",
+    "Description": "Defender for Cloud identified that the Function App, Web App or Logic App managed identity or service principal has overly permissive access policies (privileged administrator roles with wide scope) to other resources in the environment. This poses a risk of significant security exposure by potentially allowing unauthorized access and actions across various resources. In most cases, a function app, web app or logic app does not require such high permissions, as this can enable lateral movement within the environment.",
+    "Remediation": "To remediate overly permissive managed identities:<br>1. Navigate to your Function App, Web App or Logic App in Azure Portal.<br>2. Select 'Identity' under Settings.<br>3. Review both System-assigned and User-assigned identities.<br>4. Click 'Azure role assignments' for each identity.<br>5. Replace high-privilege roles with more specific roles that follow least privilege principles.",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-sso-poc-jpw-20261021/providers/Microsoft.Web/sites/sso-poc-oidc-xavlfqq6",
+    "ResourceName": "sso-poc-oidc-xavlfqq6",
+    "ResourceType": "Microsoft.Web/sites",
+    "ResourceGroupName": "rg-sso-poc-jpw-20261021",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-sso-poc-jpw-20261021/providers/Microsoft.Web/sites/sso-poc-oidc-xavlfqq6/providers/Microsoft.Security/assessments/6dfe6f68-f507-4c6d-915b-cda75e243798"
+  },
+  {
+    "AssessmentName": "6dfe6f68-f507-4c6d-915b-cda75e243798",
+    "DisplayName": "Overly permissive permissions should not be configured on Function App, Web App or Logic App",
+    "Severity": "High",
+    "Status": "Healthy",
+    "StatusCause": null,
+    "StatusDescription": null,
+    "SecurityIssue": "BestPractices",
+    "SecurityCategories": "Misconfigurations",
+    "RecommendationCategory": "Unknown",
+    "Description": "Defender for Cloud identified that the Function App, Web App or Logic App managed identity or service principal has overly permissive access policies (privileged administrator roles with wide scope) to other resources in the environment. This poses a risk of significant security exposure by potentially allowing unauthorized access and actions across various resources. In most cases, a function app, web app or logic app does not require such high permissions, as this can enable lateral movement within the environment.",
+    "Remediation": "To remediate overly permissive managed identities:<br>1. Navigate to your Function App, Web App or Logic App in Azure Portal.<br>2. Select 'Identity' under Settings.<br>3. Review both System-assigned and User-assigned identities.<br>4. Click 'Azure role assignments' for each identity.<br>5. Replace high-privilege roles with more specific roles that follow least privilege principles.",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-sso-poc-jpw-20261021/providers/Microsoft.Web/sites/sso-poc-saml-xavlfqq6",
+    "ResourceName": "sso-poc-saml-xavlfqq6",
+    "ResourceType": "Microsoft.Web/sites",
+    "ResourceGroupName": "rg-sso-poc-jpw-20261021",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-sso-poc-jpw-20261021/providers/Microsoft.Web/sites/sso-poc-saml-xavlfqq6/providers/Microsoft.Security/assessments/6dfe6f68-f507-4c6d-915b-cda75e243798"
   }
 ]
