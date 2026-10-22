@@ -3214,5 +3214,21 @@
     "LastUpdated": "2026-10-21T16:31:32.4124517Z",
     "RecommendationId": "bf5661342737033f7d01a94a0e9a6c6c0cfee0b1613bc335456a801a0494dc16",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.web/serverfarms/sso-poc-plan-xavlfqq6/providers/Microsoft.Advisor/recommendations/bf5661342737033f7d01a94a0e9a6c6c0cfee0b1613bc335456a801a0494dc16"
+  },
+  {
+    "Category": "Security",
+    "Impact": "Low",
+    "Risk": null,
+    "Problem": "Diagnostic logs in Key Vault should be enabled",
+    "Solution": "Diagnostic logs in Key Vault should be enabled",
+    "ImpactedField": "Microsoft.KeyVault/vaults",
+    "ImpactedValue": "sso-poc-kv-xavlfqq6",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.keyvault/vaults/sso-poc-kv-xavlfqq6",
+    "ResourceName": "sso-poc-kv-xavlfqq6",
+    "ResourceType": "Microsoft.KeyVault/vaults",
+    "ResourceGroupName": "rg-sso-poc-jpw-20261021",
+    "LastUpdated": "2026-10-22T02:55:34.1770071Z",
+    "RecommendationId": "9fba7ab0781fe2c19d6ab744470be1306799bd5ee0d3fb594397d29d7308e6ce",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.keyvault/vaults/sso-poc-kv-xavlfqq6/providers/Microsoft.Advisor/recommendations/9fba7ab0781fe2c19d6ab744470be1306799bd5ee0d3fb594397d29d7308e6ce"
   }
 ]
