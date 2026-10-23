@@ -3358,5 +3358,21 @@
     "LastUpdated": "2026-10-23T11:18:45.8928396Z",
     "RecommendationId": "db73022d5aa6ca44003f1862a3a86925a8c9d39d9ce0a8e1d12e44c83500335e",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/db73022d5aa6ca44003f1862a3a86925a8c9d39d9ce0a8e1d12e44c83500335e"
+  },
+  {
+    "Category": "HighAvailability",
+    "Impact": "High",
+    "Risk": null,
+    "Problem": "Use Availability zones for better resiliency and availability",
+    "Solution": "Use Availability zones for better resiliency and availability",
+    "ImpactedField": "Microsoft.Compute/virtualMachines",
+    "ImpactedValue": "vm-demo-web-01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-inventory-demo/providers/microsoft.compute/virtualmachines/vm-demo-web-01",
+    "ResourceName": "vm-demo-web-01",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "rg-inventory-demo",
+    "LastUpdated": "2026-10-23T21:16:37.8370107Z",
+    "RecommendationId": "750d9db2570353a4e2c3bb6b2cc65b2e61e8537faa219a5d6146039fc0552ead",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-inventory-demo/providers/microsoft.compute/virtualmachines/vm-demo-web-01/providers/Microsoft.Advisor/recommendations/750d9db2570353a4e2c3bb6b2cc65b2e61e8537faa219a5d6146039fc0552ead"
   }
 ]
