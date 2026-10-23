@@ -9846,24 +9846,6 @@
     "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-sso-poc-jpw-20261021/providers/Microsoft.Network/virtualNetworks/sso-poc-vnet-xavlfqq6/subnets/private-endpoints/providers/Microsoft.Security/assessments/eade5b56-eefd-444f-95c8-23f29e5d93cb"
   },
   {
-    "AssessmentName": "eade5b56-eefd-444f-95c8-23f29e5d93cb",
-    "DisplayName": "Subnets should be associated with a network security group",
-    "Severity": "Low",
-    "Status": "NotApplicable",
-    "StatusCause": "NsgAssociationNotSupportedOnSubnet",
-    "StatusDescription": "NSG association is not supported on this subnet",
-    "SecurityIssue": "NetworkAccessPolicy",
-    "SecurityCategories": "Misconfigurations",
-    "RecommendationCategory": "Unknown",
-    "Description": "Protect your subnet from potential threats by restricting access to it with a network security group (NSG). NSGs contain a list of Access Control List (ACL) rules that allow or deny network traffic to your subnet. When an NSG is associated with a subnet, the ACL rules apply to all the VM instances and integrated services in that subnet, but don't apply to internal traffic inside the subnet. To secure resources in the same subnet from one another, enable NSG directly on the resources as well.<br>Note that the following subnet types will be listed as not applicable: GatewaySubnet, AzureFirewallSubnet, AzureBastionSubnet.",
-    "Remediation": "To enable Network Security Groups on your subnets:<br>1. Select a subnet to enable NSG on.<br>2. Click the 'Network security group' section.<br>3. Follow the steps and select an existing network security group to attach to this specific subnet.",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-aib-win2025-demo/providers/Microsoft.Network/virtualNetworks/vnet-japaneast-1/subnets/AzureBastionSubnet",
-    "ResourceName": "AzureBastionSubnet",
-    "ResourceType": "Microsoft.Network/virtualNetworks",
-    "ResourceGroupName": "rg-aib-win2025-demo",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-aib-win2025-demo/providers/Microsoft.Network/virtualNetworks/vnet-japaneast-1/subnets/AzureBastionSubnet/providers/Microsoft.Security/assessments/eade5b56-eefd-444f-95c8-23f29e5d93cb"
-  },
-  {
     "AssessmentName": "06e3a6db-6c0c-4ad9-943f-31d9d73ecf6c",
     "DisplayName": "EDR solution should be installed on Virtual Machines",
     "Severity": "High",
