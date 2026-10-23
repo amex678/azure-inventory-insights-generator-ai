@@ -3294,5 +3294,37 @@
     "LastUpdated": "2026-10-22T05:37:55.1269208Z",
     "RecommendationId": "f282bffcbef89f5aaf97ee366a87c3a2574839539bef540003f79643bd39dc3d",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.web/sites/sso-poc-oidc-xavlfqq6/providers/Microsoft.Advisor/recommendations/f282bffcbef89f5aaf97ee366a87c3a2574839539bef540003f79643bd39dc3d"
+  },
+  {
+    "Category": "Cost",
+    "Impact": "High",
+    "Risk": null,
+    "Problem": "Consider virtual machine reserved instance to save over the on-demand costs",
+    "Solution": "Consider virtual machine reserved instance to save over the on-demand costs",
+    "ImpactedField": "Microsoft.Subscriptions/subscriptions",
+    "ImpactedValue": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "ResourceType": "Microsoft.Subscriptions/subscriptions",
+    "ResourceGroupName": "",
+    "LastUpdated": "2026-10-23T02:23:19.8787365Z",
+    "RecommendationId": "4b1780c80796ba519d8428722fc872f251263fae472b8af74d6f3ad5cd640970",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/4b1780c80796ba519d8428722fc872f251263fae472b8af74d6f3ad5cd640970"
+  },
+  {
+    "Category": "Cost",
+    "Impact": "High",
+    "Risk": null,
+    "Problem": "Consider virtual machine reserved instance to save over the on-demand costs",
+    "Solution": "Consider virtual machine reserved instance to save over the on-demand costs",
+    "ImpactedField": "Microsoft.Subscriptions/subscriptions",
+    "ImpactedValue": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "ResourceType": "Microsoft.Subscriptions/subscriptions",
+    "ResourceGroupName": "",
+    "LastUpdated": "2026-10-23T02:20:47.5648676Z",
+    "RecommendationId": "9cc24bc09c087c7f180ae85840fe28526c3945a47f3ad45ceada28a7481ce11d",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/9cc24bc09c087c7f180ae85840fe28526c3945a47f3ad45ceada28a7481ce11d"
   }
 ]
