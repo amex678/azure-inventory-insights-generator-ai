@@ -1611,7 +1611,7 @@
     "ResourceName": "vm-amig-appl-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-10-24T02:58:03.8241908Z",
+    "LastUpdated": "2026-10-24T07:57:46.6024202Z",
     "RecommendationId": "5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-appl-001/providers/Microsoft.Advisor/recommendations/5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7"
   },
@@ -1627,7 +1627,7 @@
     "ResourceName": "vm-amig-win-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-10-24T02:57:49.768818Z",
+    "LastUpdated": "2026-10-24T07:59:18.345367Z",
     "RecommendationId": "e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-win-001/providers/Microsoft.Advisor/recommendations/e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c"
   },
@@ -3094,22 +3094,6 @@
     "Problem": "Use NAT gateway for outbound connectivity",
     "Solution": "Use NAT gateway for outbound connectivity",
     "ImpactedField": "MICROSOFT.NETWORK/VIRTUALNETWORKS",
-    "ImpactedValue": "vnet-fwscale-lab-jpe-001",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-fwscale-lab-jpe-001/providers/microsoft.network/virtualnetworks/vnet-fwscale-lab-jpe-001",
-    "ResourceName": "vnet-fwscale-lab-jpe-001",
-    "ResourceType": "MICROSOFT.NETWORK/VIRTUALNETWORKS",
-    "ResourceGroupName": "rg-fwscale-lab-jpe-001",
-    "LastUpdated": "2026-10-20T14:06:13.1353319Z",
-    "RecommendationId": "50cca00a939849e9338970e78ea6cfe7c390150dd52e00107caf0fb7816440af",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-fwscale-lab-jpe-001/providers/microsoft.network/virtualnetworks/vnet-fwscale-lab-jpe-001/providers/Microsoft.Advisor/recommendations/50cca00a939849e9338970e78ea6cfe7c390150dd52e00107caf0fb7816440af"
-  },
-  {
-    "Category": "HighAvailability",
-    "Impact": "Medium",
-    "Risk": null,
-    "Problem": "Use NAT gateway for outbound connectivity",
-    "Solution": "Use NAT gateway for outbound connectivity",
-    "ImpactedField": "MICROSOFT.NETWORK/VIRTUALNETWORKS",
     "ImpactedValue": "sso-poc-vnet-xavlfqq6",
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.network/virtualnetworks/sso-poc-vnet-xavlfqq6",
     "ResourceName": "sso-poc-vnet-xavlfqq6",
@@ -3291,7 +3275,7 @@
     "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
     "ResourceType": "Microsoft.Subscriptions/subscriptions",
     "ResourceGroupName": "",
-    "LastUpdated": "2026-10-23T11:09:23.7548805Z",
+    "LastUpdated": "2026-10-24T09:37:35.3377706Z",
     "RecommendationId": "4b1780c80796ba519d8428722fc872f251263fae472b8af74d6f3ad5cd640970",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/4b1780c80796ba519d8428722fc872f251263fae472b8af74d6f3ad5cd640970"
   },
@@ -3307,7 +3291,7 @@
     "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
     "ResourceType": "Microsoft.Subscriptions/subscriptions",
     "ResourceGroupName": "",
-    "LastUpdated": "2026-10-23T09:52:47.8794946Z",
+    "LastUpdated": "2026-10-24T09:38:12.6726102Z",
     "RecommendationId": "9cc24bc09c087c7f180ae85840fe28526c3945a47f3ad45ceada28a7481ce11d",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/9cc24bc09c087c7f180ae85840fe28526c3945a47f3ad45ceada28a7481ce11d"
   },
@@ -3323,7 +3307,7 @@
     "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
     "ResourceType": "Microsoft.Subscriptions/subscriptions",
     "ResourceGroupName": "",
-    "LastUpdated": "2026-10-23T09:42:11.5813126Z",
+    "LastUpdated": "2026-10-24T09:38:46.7210482Z",
     "RecommendationId": "d188bf9735a99667d1f267fe7bb78d8d1fc40e89eacafebdc8e5063247920a04",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/d188bf9735a99667d1f267fe7bb78d8d1fc40e89eacafebdc8e5063247920a04"
   },
@@ -3339,7 +3323,7 @@
     "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
     "ResourceType": "Microsoft.Subscriptions/subscriptions",
     "ResourceGroupName": "",
-    "LastUpdated": "2026-10-23T11:18:45.8928396Z",
+    "LastUpdated": "2026-10-24T09:38:15.9093212Z",
     "RecommendationId": "db73022d5aa6ca44003f1862a3a86925a8c9d39d9ce0a8e1d12e44c83500335e",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/db73022d5aa6ca44003f1862a3a86925a8c9d39d9ce0a8e1d12e44c83500335e"
   },
