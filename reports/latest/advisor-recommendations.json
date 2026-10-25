@@ -1611,7 +1611,7 @@
     "ResourceName": "vm-amig-appl-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-10-24T07:57:46.6024202Z",
+    "LastUpdated": "2026-10-24T22:35:03.0466316Z",
     "RecommendationId": "5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-appl-001/providers/Microsoft.Advisor/recommendations/5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7"
   },
@@ -1627,7 +1627,7 @@
     "ResourceName": "vm-amig-win-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-10-24T07:59:18.345367Z",
+    "LastUpdated": "2026-10-24T22:34:57.4648661Z",
     "RecommendationId": "e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-win-001/providers/Microsoft.Advisor/recommendations/e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c"
   },
