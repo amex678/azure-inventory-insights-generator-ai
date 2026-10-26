@@ -1611,7 +1611,7 @@
     "ResourceName": "vm-amig-appl-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-10-25T19:57:49.5582339Z",
+    "LastUpdated": "2026-10-26T02:54:57.4248901Z",
     "RecommendationId": "5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-appl-001/providers/Microsoft.Advisor/recommendations/5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7"
   },
@@ -1627,7 +1627,7 @@
     "ResourceName": "vm-amig-win-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-10-25T19:57:38.8652609Z",
+    "LastUpdated": "2026-10-26T02:54:51.0075135Z",
     "RecommendationId": "e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-win-001/providers/Microsoft.Advisor/recommendations/e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c"
   },
@@ -2784,22 +2784,6 @@
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-browser-extension-ai-20260926/providers/microsoft.cognitiveservices/accounts/aoai-browserext-20260926-1ace/providers/Microsoft.Advisor/recommendations/f27f393e69abf78ca329813b49d7ac9b17056377bd5b364c2545809980ee0483"
   },
   {
-    "Category": "Security",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Anti-Virus component of your EDR uses outdated signatures",
-    "Solution": "Anti-Virus component of your EDR uses outdated signatures",
-    "ImpactedField": "Microsoft.Compute/virtualMachines",
-    "ImpactedValue": "vm-amig-win-001",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-win-001",
-    "ResourceName": "vm-amig-win-001",
-    "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-09-29T18:59:25.6938644Z",
-    "RecommendationId": "ac78bc4b0ad83e8663abd1737efa57a0bfb0769a67880c27b770d07338b65391",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-win-001/providers/Microsoft.Advisor/recommendations/ac78bc4b0ad83e8663abd1737efa57a0bfb0769a67880c27b770d07338b65391"
-  },
-  {
     "Category": "HighAvailability",
     "Impact": "Medium",
     "Risk": null,
@@ -3025,22 +3009,6 @@
   },
   {
     "Category": "Security",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Anti-Virus component in your EDR is off or partially configured",
-    "Solution": "Anti-Virus component in your EDR is off or partially configured",
-    "ImpactedField": "Microsoft.Compute/virtualMachines",
-    "ImpactedValue": "vm-demo-web-01",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-inventory-demo/providers/microsoft.compute/virtualmachines/vm-demo-web-01",
-    "ResourceName": "vm-demo-web-01",
-    "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "rg-inventory-demo",
-    "LastUpdated": "2026-10-14T00:43:05.9075738Z",
-    "RecommendationId": "5433fd3e76bf2618a7e2b489b34d05bb1ec5e59680a0094b577eee427a9ffeb8",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-inventory-demo/providers/microsoft.compute/virtualmachines/vm-demo-web-01/providers/Microsoft.Advisor/recommendations/5433fd3e76bf2618a7e2b489b34d05bb1ec5e59680a0094b577eee427a9ffeb8"
-  },
-  {
-    "Category": "Security",
     "Impact": "Medium",
     "Risk": null,
     "Problem": "Azure overprovisioned identities should have only the necessary permissions",
@@ -3211,7 +3179,7 @@
     "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
     "ResourceType": "Microsoft.Subscriptions/subscriptions",
     "ResourceGroupName": "",
-    "LastUpdated": "2026-10-25T21:44:38.3188577Z",
+    "LastUpdated": "2026-10-26T04:11:44.2540488Z",
     "RecommendationId": "4b1780c80796ba519d8428722fc872f251263fae472b8af74d6f3ad5cd640970",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/4b1780c80796ba519d8428722fc872f251263fae472b8af74d6f3ad5cd640970"
   },
@@ -3227,7 +3195,7 @@
     "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
     "ResourceType": "Microsoft.Subscriptions/subscriptions",
     "ResourceGroupName": "",
-    "LastUpdated": "2026-10-25T21:45:40.7245219Z",
+    "LastUpdated": "2026-10-26T01:58:23.6672963Z",
     "RecommendationId": "9cc24bc09c087c7f180ae85840fe28526c3945a47f3ad45ceada28a7481ce11d",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/9cc24bc09c087c7f180ae85840fe28526c3945a47f3ad45ceada28a7481ce11d"
   },
@@ -3243,7 +3211,7 @@
     "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
     "ResourceType": "Microsoft.Subscriptions/subscriptions",
     "ResourceGroupName": "",
-    "LastUpdated": "2026-10-25T10:06:42.6787711Z",
+    "LastUpdated": "2026-10-26T01:58:57.0794266Z",
     "RecommendationId": "d188bf9735a99667d1f267fe7bb78d8d1fc40e89eacafebdc8e5063247920a04",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/d188bf9735a99667d1f267fe7bb78d8d1fc40e89eacafebdc8e5063247920a04"
   },
@@ -3259,7 +3227,7 @@
     "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
     "ResourceType": "Microsoft.Subscriptions/subscriptions",
     "ResourceGroupName": "",
-    "LastUpdated": "2026-10-25T08:52:27.7480227Z",
+    "LastUpdated": "2026-10-26T01:58:57.0793489Z",
     "RecommendationId": "db73022d5aa6ca44003f1862a3a86925a8c9d39d9ce0a8e1d12e44c83500335e",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/db73022d5aa6ca44003f1862a3a86925a8c9d39d9ce0a8e1d12e44c83500335e"
   },
