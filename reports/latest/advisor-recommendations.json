@@ -3200,38 +3200,6 @@
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/9cc24bc09c087c7f180ae85840fe28526c3945a47f3ad45ceada28a7481ce11d"
   },
   {
-    "Category": "Cost",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Consider virtual machine reserved instance to save over the on-demand costs",
-    "Solution": "Consider virtual machine reserved instance to save over the on-demand costs",
-    "ImpactedField": "Microsoft.Subscriptions/subscriptions",
-    "ImpactedValue": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceType": "Microsoft.Subscriptions/subscriptions",
-    "ResourceGroupName": "",
-    "LastUpdated": "2026-10-26T10:09:48.1105848Z",
-    "RecommendationId": "d188bf9735a99667d1f267fe7bb78d8d1fc40e89eacafebdc8e5063247920a04",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/d188bf9735a99667d1f267fe7bb78d8d1fc40e89eacafebdc8e5063247920a04"
-  },
-  {
-    "Category": "Cost",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Consider virtual machine reserved instance to save over the on-demand costs",
-    "Solution": "Consider virtual machine reserved instance to save over the on-demand costs",
-    "ImpactedField": "Microsoft.Subscriptions/subscriptions",
-    "ImpactedValue": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceType": "Microsoft.Subscriptions/subscriptions",
-    "ResourceGroupName": "",
-    "LastUpdated": "2026-10-26T10:05:20.8489865Z",
-    "RecommendationId": "db73022d5aa6ca44003f1862a3a86925a8c9d39d9ce0a8e1d12e44c83500335e",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/db73022d5aa6ca44003f1862a3a86925a8c9d39d9ce0a8e1d12e44c83500335e"
-  },
-  {
     "Category": "HighAvailability",
     "Impact": "High",
     "Risk": null,
@@ -3246,5 +3214,21 @@
     "LastUpdated": "2026-10-23T21:16:37.8370107Z",
     "RecommendationId": "750d9db2570353a4e2c3bb6b2cc65b2e61e8537faa219a5d6146039fc0552ead",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-inventory-demo/providers/microsoft.compute/virtualmachines/vm-demo-web-01/providers/Microsoft.Advisor/recommendations/750d9db2570353a4e2c3bb6b2cc65b2e61e8537faa219a5d6146039fc0552ead"
+  },
+  {
+    "Category": "HighAvailability",
+    "Impact": "High",
+    "Risk": null,
+    "Problem": "Use Availability zones for better resiliency and availability",
+    "Solution": "Use Availability zones for better resiliency and availability",
+    "ImpactedField": "Microsoft.Compute/virtualMachines",
+    "ImpactedValue": "vm-aib-verify01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.compute/virtualmachines/vm-aib-verify01",
+    "ResourceName": "vm-aib-verify01",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "rg-aib-win2025-demo",
+    "LastUpdated": "2026-10-29T08:49:07.6992426Z",
+    "RecommendationId": "57babeaeed2c083694d12478d3ace1c0660f85d4e78ecdabc54cb316f3374f53",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.compute/virtualmachines/vm-aib-verify01/providers/Microsoft.Advisor/recommendations/57babeaeed2c083694d12478d3ace1c0660f85d4e78ecdabc54cb316f3374f53"
   }
 ]
