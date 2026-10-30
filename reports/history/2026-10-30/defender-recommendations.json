@@ -18,24 +18,6 @@
     "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-aib-win2025-demo/providers/Microsoft.Compute/virtualMachines/vm-aib-verify01/providers/Microsoft.Security/assessments/fab4ce6d-77b1-7d24-5206-02b8a774c3c5"
   },
   {
-    "AssessmentName": "4b5d9550-3120-1f27-8fda-1764c1a66ac3",
-    "DisplayName": "Update openssl",
-    "Severity": "Medium",
-    "Status": "Unhealthy",
-    "StatusCause": null,
-    "StatusDescription": null,
-    "SecurityIssue": "Vulnerability",
-    "SecurityCategories": "Vulnerabilities",
-    "RecommendationCategory": "SoftwareUpdate",
-    "Description": null,
-    "Remediation": null,
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-aib-win2025-demo/providers/Microsoft.Compute/virtualMachines/vm-aib-verify01",
-    "ResourceName": "vm-aib-verify01",
-    "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "rg-aib-win2025-demo",
-    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-aib-win2025-demo/providers/Microsoft.Compute/virtualMachines/vm-aib-verify01/providers/Microsoft.Security/assessments/4b5d9550-3120-1f27-8fda-1764c1a66ac3"
-  },
-  {
     "AssessmentName": "17283187-4403-e070-a9e7-112803c86586",
     "DisplayName": "Update libbrotli1_for_linux",
     "Severity": "Medium",
