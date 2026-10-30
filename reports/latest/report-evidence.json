@@ -1,8 +1,8 @@
 {
   "generation_method": "rule-based-fallback",
-  "runId": "41009294642",
+  "runId": "41076887435",
   "repository": "amex678/azure-inventory-insights-generator-ai",
-  "generatedAt": "2026-10-30T05:35:54.7636073+00:00",
+  "generatedAt": "2026-10-30T15:01:59.5147578+00:00",
   "fallbackReason": "モデル応答から HTML を抽出できませんでした。",
   "metrics": {
     "resourcesTotal": 169,
@@ -14,12 +14,12 @@
     "nsgRisky": 0,
     "defenderUnhealthy": 221,
     "defenderHigh": 83,
-    "advisorHigh": 55,
+    "advisorHigh": 54,
     "tagCoverage": 60.4
   },
-  "sourceRunId": "41008987075",
-  "sourceRunUrl": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/41008987075",
-  "sourceHeadSha": "19167c005ca5e879cf51ff4dfd41446dfd854857",
-  "analysisRunId": "41009294642",
-  "analysisRunUrl": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/41009294642"
+  "sourceRunId": "41076476755",
+  "sourceRunUrl": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/41076476755",
+  "sourceHeadSha": "59b1ad253e57b82ab420e4bbfbdf35b720bfe87e",
+  "analysisRunId": "41076887435",
+  "analysisRunUrl": "https://github.com/amex678/azure-inventory-insights-generator-ai/actions/runs/41076887435"
 }

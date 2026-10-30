@@ -1611,7 +1611,7 @@
     "ResourceName": "vm-amig-appl-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-10-27T20:20:34.0005065Z",
+    "LastUpdated": "2026-10-30T07:53:43.9232247Z",
     "RecommendationId": "5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-appl-001/providers/Microsoft.Advisor/recommendations/5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7"
   },
@@ -1627,7 +1627,7 @@
     "ResourceName": "vm-amig-win-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-10-27T20:20:42.8834884Z",
+    "LastUpdated": "2026-10-30T07:52:43.3754395Z",
     "RecommendationId": "e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-win-001/providers/Microsoft.Advisor/recommendations/e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c"
   },
@@ -3166,22 +3166,6 @@
     "LastUpdated": "2026-10-22T05:37:55.1269208Z",
     "RecommendationId": "f282bffcbef89f5aaf97ee366a87c3a2574839539bef540003f79643bd39dc3d",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.web/sites/sso-poc-oidc-xavlfqq6/providers/Microsoft.Advisor/recommendations/f282bffcbef89f5aaf97ee366a87c3a2574839539bef540003f79643bd39dc3d"
-  },
-  {
-    "Category": "HighAvailability",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Use Availability zones for better resiliency and availability",
-    "Solution": "Use Availability zones for better resiliency and availability",
-    "ImpactedField": "Microsoft.Compute/virtualMachines",
-    "ImpactedValue": "vm-demo-web-01",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-inventory-demo/providers/microsoft.compute/virtualmachines/vm-demo-web-01",
-    "ResourceName": "vm-demo-web-01",
-    "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "rg-inventory-demo",
-    "LastUpdated": "2026-10-23T21:16:37.8370107Z",
-    "RecommendationId": "750d9db2570353a4e2c3bb6b2cc65b2e61e8537faa219a5d6146039fc0552ead",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-inventory-demo/providers/microsoft.compute/virtualmachines/vm-demo-web-01/providers/Microsoft.Advisor/recommendations/750d9db2570353a4e2c3bb6b2cc65b2e61e8537faa219a5d6146039fc0552ead"
   },
   {
     "Category": "HighAvailability",
