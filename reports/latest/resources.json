@@ -176,17 +176,6 @@
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Network/networkInterfaces/nic-vm-demo-db-01"
   },
   {
-    "Name": "nic-vm-demo-app-02",
-    "ResourceType": "Microsoft.Network/networkInterfaces",
-    "ResourceGroupName": "rg-inventory-demo",
-    "Location": "japaneast",
-    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "Sku": null,
-    "Kind": null,
-    "Tags": "project=AzureInventoryDemo;env=demo;owner=demo",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Network/networkInterfaces/nic-vm-demo-app-02"
-  },
-  {
     "Name": "nic-vm-demo-app-01",
     "ResourceType": "Microsoft.Network/networkInterfaces",
     "ResourceGroupName": "rg-inventory-demo",
@@ -196,6 +185,17 @@
     "Kind": null,
     "Tags": "project=AzureInventoryDemo;env=demo;owner=demo",
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Network/networkInterfaces/nic-vm-demo-app-01"
+  },
+  {
+    "Name": "nic-vm-demo-app-02",
+    "ResourceType": "Microsoft.Network/networkInterfaces",
+    "ResourceGroupName": "rg-inventory-demo",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "project=AzureInventoryDemo;env=demo;owner=demo",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Network/networkInterfaces/nic-vm-demo-app-02"
   },
   {
     "Name": "nic-vm-demo-web-01",
@@ -528,17 +528,6 @@
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-nwri-jpe-20260709/providers/Microsoft.Network/virtualNetworks/vnet-nwri-jpe"
   },
   {
-    "Name": "vm-nwri-src-jpe-nic",
-    "ResourceType": "Microsoft.Network/networkInterfaces",
-    "ResourceGroupName": "rg-nwri-jpe-20260709",
-    "Location": "japaneast",
-    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "Sku": null,
-    "Kind": null,
-    "Tags": "purpose=demo;owner=csa;demoTheme=network-watcher-rule-impact;createdBy=GitHubCopilotBrowserAutomation;deleteAfter=2026-07-31",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-nwri-jpe-20260709/providers/Microsoft.Network/networkInterfaces/vm-nwri-src-jpe-nic"
-  },
-  {
     "Name": "vm-nwri-dst-jpe-nic",
     "ResourceType": "Microsoft.Network/networkInterfaces",
     "ResourceGroupName": "rg-nwri-jpe-20260709",
@@ -548,6 +537,17 @@
     "Kind": null,
     "Tags": "purpose=demo;owner=csa;demoTheme=network-watcher-rule-impact;createdBy=GitHubCopilotBrowserAutomation;deleteAfter=2026-07-31",
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-nwri-jpe-20260709/providers/Microsoft.Network/networkInterfaces/vm-nwri-dst-jpe-nic"
+  },
+  {
+    "Name": "vm-nwri-src-jpe-nic",
+    "ResourceType": "Microsoft.Network/networkInterfaces",
+    "ResourceGroupName": "rg-nwri-jpe-20260709",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "purpose=demo;owner=csa;demoTheme=network-watcher-rule-impact;createdBy=GitHubCopilotBrowserAutomation;deleteAfter=2026-07-31",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-nwri-jpe-20260709/providers/Microsoft.Network/networkInterfaces/vm-nwri-src-jpe-nic"
   },
   {
     "Name": "vm-nwri-dst-jpe",
@@ -1505,6 +1505,391 @@
     "Kind": null,
     "Tags": "",
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-AIB-WIN2025-DEMO/providers/Microsoft.Compute/virtualMachines/vm-aib-verify01/extensions/MDE.Windows"
+  },
+  {
+    "Name": "pip-net03-fw",
+    "ResourceType": "Microsoft.Network/publicIPAddresses",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": "Standard",
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/publicIPAddresses/pip-net03-fw"
+  },
+  {
+    "Name": "vnet-net03-hub",
+    "ResourceType": "Microsoft.Network/virtualNetworks",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/virtualNetworks/vnet-net03-hub"
+  },
+  {
+    "Name": "afwp-net03",
+    "ResourceType": "Microsoft.Network/firewallPolicies",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/firewallPolicies/afwp-net03"
+  },
+  {
+    "Name": "afw-net03",
+    "ResourceType": "Microsoft.Network/azureFirewalls",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/azureFirewalls/afw-net03"
+  },
+  {
+    "Name": "rt-net03-server",
+    "ResourceType": "Microsoft.Network/routeTables",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/routeTables/rt-net03-server"
+  },
+  {
+    "Name": "rt-net03-client",
+    "ResourceType": "Microsoft.Network/routeTables",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/routeTables/rt-net03-client"
+  },
+  {
+    "Name": "nsg-net03-server",
+    "ResourceType": "Microsoft.Network/networkSecurityGroups",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/networkSecurityGroups/nsg-net03-server"
+  },
+  {
+    "Name": "nsg-net03-client",
+    "ResourceType": "Microsoft.Network/networkSecurityGroups",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/networkSecurityGroups/nsg-net03-client"
+  },
+  {
+    "Name": "vnet-net03-client",
+    "ResourceType": "Microsoft.Network/virtualNetworks",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/virtualNetworks/vnet-net03-client"
+  },
+  {
+    "Name": "vnet-net03-server",
+    "ResourceType": "Microsoft.Network/virtualNetworks",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/virtualNetworks/vnet-net03-server"
+  },
+  {
+    "Name": "nic-net03-client",
+    "ResourceType": "Microsoft.Network/networkInterfaces",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/networkInterfaces/nic-net03-client"
+  },
+  {
+    "Name": "vm-net03-client",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Compute/virtualMachines/vm-net03-client"
+  },
+  {
+    "Name": "nic-net03-server",
+    "ResourceType": "Microsoft.Network/networkInterfaces",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/networkInterfaces/nic-net03-server"
+  },
+  {
+    "Name": "vm-net03-server",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Compute/virtualMachines/vm-net03-server"
+  },
+  {
+    "Name": "osdisk-net03-client",
+    "ResourceType": "Microsoft.Compute/disks",
+    "ResourceGroupName": "RG-NET03-DEMO-JE-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": "StandardSSD_LRS",
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NET03-DEMO-JE-001/providers/Microsoft.Compute/disks/osdisk-net03-client"
+  },
+  {
+    "Name": "osdisk-net03-server",
+    "ResourceType": "Microsoft.Compute/disks",
+    "ResourceGroupName": "RG-NET03-DEMO-JE-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": "StandardSSD_LRS",
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NET03-DEMO-JE-001/providers/Microsoft.Compute/disks/osdisk-net03-server"
+  },
+  {
+    "Name": "privatelink.ods.opinsights.azure.com",
+    "ResourceType": "Microsoft.Network/privateDnsZones",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "global",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/privateDnsZones/privatelink.ods.opinsights.azure.com"
+  },
+  {
+    "Name": "privatelink.blob.core.windows.net",
+    "ResourceType": "Microsoft.Network/privateDnsZones",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "global",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net"
+  },
+  {
+    "Name": "stnet03b1199852026",
+    "ResourceType": "Microsoft.Storage/storageAccounts",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": "Standard_LRS",
+    "Kind": "StorageV2",
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Storage/storageAccounts/stnet03b1199852026"
+  },
+  {
+    "Name": "privatelink.monitor.azure.com",
+    "ResourceType": "Microsoft.Network/privateDnsZones",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "global",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/privateDnsZones/privatelink.monitor.azure.com"
+  },
+  {
+    "Name": "log-net03",
+    "ResourceType": "Microsoft.OperationalInsights/workspaces",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.OperationalInsights/workspaces/log-net03"
+  },
+  {
+    "Name": "privatelink.agentsvc.azure-automation.net",
+    "ResourceType": "Microsoft.Network/privateDnsZones",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "global",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/privateDnsZones/privatelink.agentsvc.azure-automation.net"
+  },
+  {
+    "Name": "privatelink.oms.opinsights.azure.com",
+    "ResourceType": "Microsoft.Network/privateDnsZones",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "global",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/privateDnsZones/privatelink.oms.opinsights.azure.com"
+  },
+  {
+    "Name": "ampls-net03",
+    "ResourceType": "Microsoft.Insights/privateLinkScopes",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "global",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Insights/privateLinkScopes/ampls-net03"
+  },
+  {
+    "Name": "pe-net03-blob",
+    "ResourceType": "Microsoft.Network/privateEndpoints",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/privateEndpoints/pe-net03-blob"
+  },
+  {
+    "Name": "privatelink.agentsvc.azure-automation.net/link-client",
+    "ResourceType": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "global",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/privateDnsZones/privatelink.agentsvc.azure-automation.net/virtualNetworkLinks/link-client"
+  },
+  {
+    "Name": "privatelink.monitor.azure.com/link-client",
+    "ResourceType": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "global",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/privateDnsZones/privatelink.monitor.azure.com/virtualNetworkLinks/link-client"
+  },
+  {
+    "Name": "privatelink.oms.opinsights.azure.com/link-client",
+    "ResourceType": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "global",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/privateDnsZones/privatelink.oms.opinsights.azure.com/virtualNetworkLinks/link-client"
+  },
+  {
+    "Name": "pe-net03-blob.nic.a0610ac4-299f-4824-981e-361839692004",
+    "ResourceType": "Microsoft.Network/networkInterfaces",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/networkInterfaces/pe-net03-blob.nic.a0610ac4-299f-4824-981e-361839692004"
+  },
+  {
+    "Name": "privatelink.blob.core.windows.net/link-client",
+    "ResourceType": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "global",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net/virtualNetworkLinks/link-client"
+  },
+  {
+    "Name": "pe-net03-monitor",
+    "ResourceType": "Microsoft.Network/privateEndpoints",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/privateEndpoints/pe-net03-monitor"
+  },
+  {
+    "Name": "pe-net03-monitor.nic.48ae7d32-edbe-4ba0-a4ca-b4341a2b8b90",
+    "ResourceType": "Microsoft.Network/networkInterfaces",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/networkInterfaces/pe-net03-monitor.nic.48ae7d32-edbe-4ba0-a4ca-b4341a2b8b90"
+  },
+  {
+    "Name": "privatelink.ods.opinsights.azure.com/link-client",
+    "ResourceType": "Microsoft.Network/privateDnsZones/virtualNetworkLinks",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "global",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/privateDnsZones/privatelink.ods.opinsights.azure.com/virtualNetworkLinks/link-client"
+  },
+  {
+    "Name": "vm-net03-server/MDE.Linux",
+    "ResourceType": "Microsoft.Compute/virtualMachines/extensions",
+    "ResourceGroupName": "RG-NET03-DEMO-JE-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NET03-DEMO-JE-001/providers/Microsoft.Compute/virtualMachines/vm-net03-server/extensions/MDE.Linux"
+  },
+  {
+    "Name": "vm-net03-client/MDE.Linux",
+    "ResourceType": "Microsoft.Compute/virtualMachines/extensions",
+    "ResourceGroupName": "RG-NET03-DEMO-JE-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NET03-DEMO-JE-001/providers/Microsoft.Compute/virtualMachines/vm-net03-client/extensions/MDE.Linux"
   },
   {
     "Name": "pip-nat-srepoc-6h2ve7",
