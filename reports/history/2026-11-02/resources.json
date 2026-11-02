@@ -1666,9 +1666,9 @@
     "ResourceGroupName": "RG-NET03-DEMO-JE-001",
     "Location": "japaneast",
     "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "Sku": "StandardSSD_LRS",
+    "Sku": "Standard_LRS",
     "Kind": null,
-    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "Tags": "",
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NET03-DEMO-JE-001/providers/Microsoft.Compute/disks/osdisk-net03-client"
   },
   {
@@ -1677,9 +1677,9 @@
     "ResourceGroupName": "RG-NET03-DEMO-JE-001",
     "Location": "japaneast",
     "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "Sku": "StandardSSD_LRS",
+    "Sku": "Standard_LRS",
     "Kind": null,
-    "Tags": "workload=azure-mini-study;session=03;environment=demo;expiresOn=2026-11-06",
+    "Tags": "",
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NET03-DEMO-JE-001/providers/Microsoft.Compute/disks/osdisk-net03-server"
   },
   {
@@ -1890,6 +1890,17 @@
     "Kind": null,
     "Tags": "",
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NET03-DEMO-JE-001/providers/Microsoft.Compute/virtualMachines/vm-net03-client/extensions/MDE.Linux"
+  },
+  {
+    "Name": "vnet-net03-client-snet-pe-nsg-japaneast",
+    "ResourceType": "Microsoft.Network/networkSecurityGroups",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "environment=demo;workload=azure-mini-study;expiresOn=2026-11-06;session=03",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/networkSecurityGroups/vnet-net03-client-snet-pe-nsg-japaneast"
   },
   {
     "Name": "pip-nat-srepoc-6h2ve7",
