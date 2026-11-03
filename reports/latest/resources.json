@@ -1903,6 +1903,17 @@
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.Network/networkSecurityGroups/vnet-net03-client-snet-pe-nsg-japaneast"
   },
   {
+    "Name": "stnet03b1199852026-de20b836-5ebf-4efd-9c06-f5ac913a104e",
+    "ResourceType": "Microsoft.EventGrid/systemTopics",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "Location": "japaneast",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": null,
+    "Tags": "",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-net03-demo-je-001/providers/Microsoft.EventGrid/systemTopics/stnet03b1199852026-de20b836-5ebf-4efd-9c06-f5ac913a104e"
+  },
+  {
     "Name": "pip-nat-srepoc-6h2ve7",
     "ResourceType": "Microsoft.Network/publicIPAddresses",
     "ResourceGroupName": "rg-srepoc-workload-aue",
