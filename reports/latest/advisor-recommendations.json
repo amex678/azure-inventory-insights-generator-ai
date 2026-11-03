@@ -3185,22 +3185,6 @@
   },
   {
     "Category": "HighAvailability",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Use Availability zones for better resiliency and availability",
-    "Solution": "Use Availability zones for better resiliency and availability",
-    "ImpactedField": "Microsoft.Compute/virtualMachines",
-    "ImpactedValue": "vm-aib-verify01",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.compute/virtualmachines/vm-aib-verify01",
-    "ResourceName": "vm-aib-verify01",
-    "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "rg-aib-win2025-demo",
-    "LastUpdated": "2026-10-29T08:49:07.6992426Z",
-    "RecommendationId": "57babeaeed2c083694d12478d3ace1c0660f85d4e78ecdabc54cb316f3374f53",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.compute/virtualmachines/vm-aib-verify01/providers/Microsoft.Advisor/recommendations/57babeaeed2c083694d12478d3ace1c0660f85d4e78ecdabc54cb316f3374f53"
-  },
-  {
-    "Category": "HighAvailability",
     "Impact": "Medium",
     "Risk": null,
     "Problem": "Use NAT gateway for outbound connectivity",
@@ -3646,5 +3630,37 @@
     "LastUpdated": "2026-11-03T07:58:35.213305Z",
     "RecommendationId": "13c12900410f67e46247486b6777020d6bee037ff8db3c9b84aa3cbdd9a55b68",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/disks/osdisk-net03-server/providers/Microsoft.Advisor/recommendations/13c12900410f67e46247486b6777020d6bee037ff8db3c9b84aa3cbdd9a55b68"
+  },
+  {
+    "Category": "Security",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Azure overprovisioned identities should have only the necessary permissions",
+    "Solution": "Azure overprovisioned identities should have only the necessary permissions",
+    "ImpactedField": "Microsoft.Subscriptions/subscriptions",
+    "ImpactedValue": "aebeded2-2b0a-420d-8470-043a4ac63a52",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/microsoft.security/pricings/cloudposture/securityentitydata/aebeded2-2b0a-420d-8470-043a4ac63a52",
+    "ResourceName": "aebeded2-2b0a-420d-8470-043a4ac63a52",
+    "ResourceType": "Microsoft.Subscriptions/subscriptions",
+    "ResourceGroupName": "",
+    "LastUpdated": "2026-11-03T15:20:39.5085464Z",
+    "RecommendationId": "85580c0592ff279cb3528388b8069b2cf0135ff06c2b6423c42ede0d94f80a18",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/microsoft.security/pricings/cloudposture/securityentitydata/aebeded2-2b0a-420d-8470-043a4ac63a52/providers/Microsoft.Advisor/recommendations/85580c0592ff279cb3528388b8069b2cf0135ff06c2b6423c42ede0d94f80a18"
+  },
+  {
+    "Category": "Security",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Azure overprovisioned identities should have only the necessary permissions",
+    "Solution": "Azure overprovisioned identities should have only the necessary permissions",
+    "ImpactedField": "Microsoft.Subscriptions/subscriptions",
+    "ImpactedValue": "c63e7e1a-eeb4-459b-8185-3c23f2f4f5ce",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/microsoft.security/pricings/cloudposture/securityentitydata/c63e7e1a-eeb4-459b-8185-3c23f2f4f5ce",
+    "ResourceName": "c63e7e1a-eeb4-459b-8185-3c23f2f4f5ce",
+    "ResourceType": "Microsoft.Subscriptions/subscriptions",
+    "ResourceGroupName": "",
+    "LastUpdated": "2026-11-03T15:20:39.5083051Z",
+    "RecommendationId": "d73c10741ab2b6e39f51fd068280103828aaecdecb2d8393d36c4a00f5bb550e",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/microsoft.security/pricings/cloudposture/securityentitydata/c63e7e1a-eeb4-459b-8185-3c23f2f4f5ce/providers/Microsoft.Advisor/recommendations/d73c10741ab2b6e39f51fd068280103828aaecdecb2d8393d36c4a00f5bb550e"
   }
 ]
