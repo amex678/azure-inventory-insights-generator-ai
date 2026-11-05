@@ -2592,6 +2592,24 @@
     "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/RG-NET03-DEMO-JE-001/providers/Microsoft.Compute/virtualMachines/vm-net03-client/providers/Microsoft.Security/assessments/98b7dd38-0d5e-1a1a-49eb-dc479a8d907f"
   },
   {
+    "AssessmentName": "d316babc-9136-f8f7-78ce-2b14b3b6bd89",
+    "DisplayName": "Update libpcre2-8-0_for_linux",
+    "Severity": "High",
+    "Status": "Unhealthy",
+    "StatusCause": null,
+    "StatusDescription": null,
+    "SecurityIssue": "Vulnerability",
+    "SecurityCategories": "Vulnerabilities",
+    "RecommendationCategory": "SoftwareUpdate",
+    "Description": null,
+    "Remediation": null,
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01",
+    "ResourceName": "vm-demo-web-01",
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "ResourceGroupName": "rg-inventory-demo",
+    "AssessmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-inventory-demo/providers/Microsoft.Compute/virtualMachines/vm-demo-web-01/providers/Microsoft.Security/assessments/d316babc-9136-f8f7-78ce-2b14b3b6bd89"
+  },
+  {
     "AssessmentName": "06e3a6db-6c0c-4ad9-943f-31d9d73ecf6c",
     "DisplayName": "EDR solution should be installed on Virtual Machines",
     "Severity": "High",
