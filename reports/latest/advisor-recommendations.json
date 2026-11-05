@@ -1611,7 +1611,7 @@
     "ResourceName": "vm-amig-appl-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-11-05T04:31:25.2256357Z",
+    "LastUpdated": "2026-11-05T16:37:07.1303818Z",
     "RecommendationId": "5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-appl-001/providers/Microsoft.Advisor/recommendations/5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7"
   },
@@ -1627,7 +1627,7 @@
     "ResourceName": "vm-amig-win-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-11-05T04:31:35.4962525Z",
+    "LastUpdated": "2026-11-05T16:37:14.2833824Z",
     "RecommendationId": "e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-win-001/providers/Microsoft.Advisor/recommendations/e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c"
   },
@@ -3057,22 +3057,6 @@
   },
   {
     "Category": "HighAvailability",
-    "Impact": "Low",
-    "Risk": null,
-    "Problem": "Convert Standard to Premium disk for higher uptime",
-    "Solution": "Convert Standard to Premium disk for higher uptime",
-    "ImpactedField": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
-    "ImpactedValue": "vm-aib-verify01",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.compute/virtualmachines/vm-aib-verify01",
-    "ResourceName": "vm-aib-verify01",
-    "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
-    "ResourceGroupName": "rg-aib-win2025-demo",
-    "LastUpdated": "2026-11-02T15:20:31.2075327Z",
-    "RecommendationId": "29f7a7e82b0eb09f8c9a441041ddb4db88f2c15d50ab1b5df7213b735d4b2a87",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.compute/virtualmachines/vm-aib-verify01/providers/Microsoft.Advisor/recommendations/29f7a7e82b0eb09f8c9a441041ddb4db88f2c15d50ab1b5df7213b735d4b2a87"
-  },
-  {
-    "Category": "HighAvailability",
     "Impact": "High",
     "Risk": null,
     "Problem": "Use Standard or Premium tier",
@@ -3723,7 +3707,7 @@
     "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
     "ResourceType": "Microsoft.Subscriptions/subscriptions",
     "ResourceGroupName": "",
-    "LastUpdated": "2026-11-04T20:54:58.1896321Z",
+    "LastUpdated": "2026-11-05T21:10:48.9816747Z",
     "RecommendationId": "bee7b5852271257e6261cd519083fd53d96651f0ea9294f6dd7acea5e271aecb",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/bee7b5852271257e6261cd519083fd53d96651f0ea9294f6dd7acea5e271aecb"
   },
@@ -3739,7 +3723,7 @@
     "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
     "ResourceType": "Microsoft.Subscriptions/subscriptions",
     "ResourceGroupName": "",
-    "LastUpdated": "2026-11-04T20:55:14.8252365Z",
+    "LastUpdated": "2026-11-05T21:10:39.9169821Z",
     "RecommendationId": "b9e99aa3927151b24e3d7ad4a551764bbd9b487a2cbc2dceb32df22fa96d6b7b",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/b9e99aa3927151b24e3d7ad4a551764bbd9b487a2cbc2dceb32df22fa96d6b7b"
   },
@@ -3755,7 +3739,7 @@
     "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
     "ResourceType": "Microsoft.Subscriptions/subscriptions",
     "ResourceGroupName": "",
-    "LastUpdated": "2026-11-04T20:55:46.6139523Z",
+    "LastUpdated": "2026-11-05T21:10:42.1680765Z",
     "RecommendationId": "a42b35d923ecc49070ec60cd844aeef4048970de56f5d5e2f62af9125ace23ad",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/a42b35d923ecc49070ec60cd844aeef4048970de56f5d5e2f62af9125ace23ad"
   },
@@ -3771,7 +3755,7 @@
     "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
     "ResourceType": "Microsoft.Subscriptions/subscriptions",
     "ResourceGroupName": "",
-    "LastUpdated": "2026-11-04T20:55:42.0820846Z",
+    "LastUpdated": "2026-11-05T21:10:57.6725305Z",
     "RecommendationId": "ba08cf201f0fb681507e53fbb5be02974af60a46778bc6bff737da1d120bdf09",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/ba08cf201f0fb681507e53fbb5be02974af60a46778bc6bff737da1d120bdf09"
   },
@@ -3787,7 +3771,7 @@
     "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
     "ResourceType": "Microsoft.Subscriptions/subscriptions",
     "ResourceGroupName": "",
-    "LastUpdated": "2026-11-04T20:55:21.1209913Z",
+    "LastUpdated": "2026-11-05T21:10:42.1681789Z",
     "RecommendationId": "1e97e0513fc498a42d3944619f446d782fc41fe9b61cc2f4d73ef7aa002d5300",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/1e97e0513fc498a42d3944619f446d782fc41fe9b61cc2f4d73ef7aa002d5300"
   },
@@ -3803,7 +3787,7 @@
     "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
     "ResourceType": "Microsoft.Subscriptions/subscriptions",
     "ResourceGroupName": "",
-    "LastUpdated": "2026-11-04T20:55:05.200671Z",
+    "LastUpdated": "2026-11-05T21:10:50.7800048Z",
     "RecommendationId": "b8eebd27275293151dda3e2832611a1e7c3722c08fcbd95c8b7b98e54c260f7d",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/b8eebd27275293151dda3e2832611a1e7c3722c08fcbd95c8b7b98e54c260f7d"
   }

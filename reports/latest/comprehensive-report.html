@@ -77,7 +77,7 @@
 </nav>
 <header>
   <h1>Azure 総合レポート <span class="badge">管理者向け</span> <span class="badge">AI Insights</span> <span class="badge">横断分析</span></h1>
-  <div class="sub">サブスクリプション: (unknown) ((unknown)) ／ 生成日時: 2026-11-05 12:10:27 ／ 入力: resources (206) · rbac (78) · nsg (24) · defender (522) · advisor (238)</div>
+  <div class="sub">サブスクリプション: (unknown) ((unknown)) ／ 生成日時: 2026-11-05 21:57:08 ／ 入力: resources (206) · rbac (78) · nsg (24) · defender (538) · advisor (237)</div>
 </header>
 <main>
 
@@ -88,7 +88,7 @@
       <button class="tab-btn" type="button" role="tab" data-tab="rbac">RBAC <span class="cnt">78</span></button>
       <button class="tab-btn" type="button" role="tab" data-tab="nsg">NSG <span class="cnt">24</span></button>
       <button class="tab-btn" type="button" role="tab" data-tab="defender">Defender <span class="cnt">245</span></button>
-      <button class="tab-btn" type="button" role="tab" data-tab="advisor">Advisor <span class="cnt">238</span></button>
+      <button class="tab-btn" type="button" role="tab" data-tab="advisor">Advisor <span class="cnt">237</span></button>
     </div>
 
     <div class="tab-panel active" id="tab-overview" role="tabpanel">
@@ -104,7 +104,7 @@
 
 <div class="kpi-grid"><div class='kpi'><div class='kpi-label'>リソース総数</div><div class='kpi-value' style='color:var(--accent)'>206<span class='kpi-unit'>件</span></div><div class='kpi-sub'>21 RG / 9 リージョン</div></div>
 <div class='kpi'><div class='kpi-label'>Defender High</div><div class='kpi-value' style='color:var(--high)'>87<span class='kpi-unit'>件</span></div><div class='kpi-sub'>Unhealthy 計 245 件</div></div>
-<div class='kpi'><div class='kpi-label'>Advisor High Impact</div><div class='kpi-value' style='color:var(--high)'>73<span class='kpi-unit'>件</span></div><div class='kpi-sub'>総推奨 238 件</div></div>
+<div class='kpi'><div class='kpi-label'>Advisor High Impact</div><div class='kpi-value' style='color:var(--high)'>73<span class='kpi-unit'>件</span></div><div class='kpi-sub'>総推奨 237 件</div></div>
 <div class='kpi'><div class='kpi-label'>Owner 割り当て</div><div class='kpi-value' style='color:var(--high)'>18<span class='kpi-unit'>件</span></div><div class='kpi-sub'>孤児候補 78 件</div></div>
 <div class='kpi'><div class='kpi-label'>タグ付与率</div><div class='kpi-value' style='color:var(--med)'>62.6<span class='kpi-unit'>%</span></div><div class='kpi-sub'>未付与 77 件</div></div></div>
 
@@ -115,16 +115,16 @@
     <h3>&#128680; 主要な懸念事項</h3>
     <ul><li><strong>特権境界:</strong> 管理グループ スコープへの <strong>Owner 付与が 15 件</strong>。配下の全サブスクへ権限が波及。</li>
 <li><strong>監査追跡性:</strong> 削除済み ID とみられる孤児候補のロール割り当てが <strong>78 件</strong> 残存。</li>
-<li><strong>セキュリティ態勢:</strong> Defender High Severity 推奨事項 <strong>87 件</strong>（Secure Score 45.4%）。<em>暗号化未有効と特権ロール過剰付与が主因。</em></li>
-<li><strong>最適化機会:</strong> Advisor High Impact <strong>73 件</strong>（HA 83 / Sec 114 / Op 33）。同一 VM 群に重複指摘 → デプロイ テンプレート不備。</li>
+<li><strong>セキュリティ態勢:</strong> Defender High Severity 推奨事項 <strong>87 件</strong>（Secure Score 46.2%）。<em>暗号化未有効と特権ロール過剰付与が主因。</em></li>
+<li><strong>最適化機会:</strong> Advisor High Impact <strong>73 件</strong>（HA 82 / Sec 114 / Op 33）。同一 VM 群に重複指摘 → デプロイ テンプレート不備。</li>
 <li><strong>ガバナンス:</strong> タグ付与率 <strong>62.6%</strong>。所有者・コスト按分・連絡先の特定が困難。</li>
 <li><strong>可用性:</strong> ストレージ 6 件中 <strong>5 件が LRS</strong>。AZ 障害時の可用性なし。</li></ul>
   </div>
   <div class="exec-col exec-strength">
     <h3>&#9989; 強み</h3>
     <ul><li>NSG 10 個に対し、インターネット → 管理ポートの直接公開なし。</li>
-<li>Defender for Cloud が有効化済み（522 件評価、High 87 / Med 98 / Low 60）。</li>
-<li>Azure Advisor が稼働中（238 件の最適化機会を可視化）。</li></ul>
+<li>Defender for Cloud が有効化済み（538 件評価、High 87 / Med 98 / Low 60）。</li>
+<li>Azure Advisor が稼働中（237 件の最適化機会を可視化）。</li></ul>
   </div>
 </div>
 
@@ -149,11 +149,11 @@
 <tr><td><span class='dom dom-rbac'>RBAC</span></td><td>Owner / UAA / MG スコープ / MG スコープの Owner</td><td class='num'>18 / 3 / 19 / 15</td></tr>
 <tr><td><span class='dom dom-rbac'>RBAC</span></td><td>孤児候補（DisplayName=null）</td><td class='num'>78</td></tr>
 <tr><td><span class='dom dom-nsg'>NSG</span></td><td>NSG 数 / 総ルール / Inbound Allow / 高リスク</td><td class='num'>10 / 24 / 8 / 0</td></tr>
-<tr><td><span class='dom dom-defender'>Defender</span></td><td>総評価 / Unhealthy (High/Med/Low) / Healthy / NA</td><td class='num'>522 / 245 (87 / 98 / 60) / 204 / 73</td></tr>
-<tr><td><span class='dom dom-defender'>Defender</span></td><td>簡易 Secure Score (Healthy / 評価対象)</td><td class='num'>45.4% (204 / 449)</td></tr>
+<tr><td><span class='dom dom-defender'>Defender</span></td><td>総評価 / Unhealthy (High/Med/Low) / Healthy / NA</td><td class='num'>538 / 245 (87 / 98 / 60) / 210 / 83</td></tr>
+<tr><td><span class='dom dom-defender'>Defender</span></td><td>簡易 Secure Score (Healthy / 評価対象)</td><td class='num'>46.2% (210 / 455)</td></tr>
 <tr><td><span class='dom dom-defender'>Defender</span></td><td>Misconfigurations / Vulnerabilities</td><td class='num'>109 / 136</td></tr>
-<tr><td><span class='dom dom-advisor'>Advisor</span></td><td>総推奨 / Cost / Operational / Performance / HA / Security</td><td class='num'>238 / 8 / 33 / 0 / 83 / 114</td></tr>
-<tr><td><span class='dom dom-advisor'>Advisor</span></td><td>Impact 内訳 High / Medium / Low</td><td class='num'>73 / 132 / 33</td></tr></tbody>
+<tr><td><span class='dom dom-advisor'>Advisor</span></td><td>総推奨 / Cost / Operational / Performance / HA / Security</td><td class='num'>237 / 8 / 33 / 0 / 82 / 114</td></tr>
+<tr><td><span class='dom dom-advisor'>Advisor</span></td><td>Impact 内訳 High / Medium / Low</td><td class='num'>73 / 132 / 32</td></tr></tbody>
         </table>
       </section>
 
@@ -205,7 +205,7 @@
     <h3>Azure Advisor 推奨事項のフィードバックループ不在</h3>
   </header>
   <div class="risk-body">
-    <div class="row"><div class="lbl">観察事実</div><div class="val">Advisor の High Impact が 73 件、Cost 8 / Operational 33 / HA 83 / Security 114。最頻出: <code>Migrate Standard HDD OS Disks to SSD（15 件）</code>。</div></div>
+    <div class="row"><div class="lbl">観察事実</div><div class="val">Advisor の High Impact が 73 件、Cost 8 / Operational 33 / HA 82 / Security 114。最頻出: <code>Migrate Standard HDD OS Disks to SSD（15 件）</code>。</div></div>
     <div class="row"><div class="lbl">リスク理由</div><div class="val">Advisor はコスト・運用・パフォーマンス・可用性・セキュリティの 5 領域でサブスクリプション固有の最適化機会を提示します。長期未対応は <strong>無駄な課金の継続</strong>（未使用リソース・サイズ過大）、<strong>SLA リスク</strong>（単一ゾーン構成、サポート未契約等）、<strong>パフォーマンス劣化</strong> を発生させます。</div></div>
     <div class="row"><div class="lbl">推奨対応</div><div class="val">Advisor を Cost Management と連動させ、<strong>月次レビュー</strong> で High Impact から順に対応。Cost 系は予算アラート、HA 系はゾーン冗長化・バックアップ計画、Operational 系は Service Health アラートと連動させる。</div></div>
     <div class="row"><div class="lbl">公式ドキュメント</div><div class="val"><ul class="links"><li><a href='https://learn.microsoft.com/ja-jp/azure/advisor/advisor-overview' target='_blank' rel='noopener'>Azure Advisor の概要</a></li><li><a href='https://learn.microsoft.com/ja-jp/azure/advisor/advisor-reference-cost-recommendations' target='_blank' rel='noopener'>Advisor のコスト推奨事項</a></li><li><a href='https://learn.microsoft.com/ja-jp/azure/cost-management-billing/costs/quick-acm-cost-analysis' target='_blank' rel='noopener'>Cost Management でコスト分析</a></li></ul></div></div>
@@ -487,7 +487,7 @@
     <div class="tab-panel" id="tab-defender" role="tabpanel">
       <h2><span class="dom dom-defender">Defender</span> Defender for Cloud 見解 <span class="ai">AI</span></h2>
       <div class="insight" style="padding:14px 18px; border-radius:8px; margin-bottom:16px;">
-        <p>Defender for Cloud は <strong>522 件</strong>の評価を実施し、<strong>Healthy 204 / Unhealthy 245 / NotApplicable 73</strong> という結果。簡易 Secure Score は <strong style='color:var(--high)'>不十分</strong>（Healthy 比率 45.4%）— セキュリティ態勢が脆弱。</p>
+        <p>Defender for Cloud は <strong>538 件</strong>の評価を実施し、<strong>Healthy 210 / Unhealthy 245 / NotApplicable 83</strong> という結果。簡易 Secure Score は <strong style='color:var(--high)'>不十分</strong>（Healthy 比率 46.2%）— セキュリティ態勢が脆弱。</p>
 <p><strong>カテゴリ別の見立て:</strong> Unhealthy 245 件のうち、<strong>構成不備 (Misconfigurations) が 109 件</strong>、<strong>脆弱性 (Vulnerabilities) が 136 件</strong>です。構成不備が大多数を占めることは、<em>「ワークロード自体は標準デプロイ済みだが、ハードニング設定とガバナンス統制が未適用」</em> という典型的な初期 Azure 環境の症状を示しています。脆弱性 (CVE 検出) は MDVM (Microsoft Defender Vulnerability Management) が稼働している証拠であり、Defender for Servers Plan 2 が有効である可能性が高いです。</p>
 <p><strong>重大度別の見立て:</strong> High 87 件 / Medium 98 件 / Low 60 件。一般に High の多くは <strong>VM の暗号化 (Azure Disk Encryption / EncryptionAtHost) 未有効</strong> や <strong>サブスク / RG レベルへの SP 管理者ロール付与と恒久特権</strong> に起因し、RBAC レポートの Owner / UAA 過剰付与の指摘と一致するケースが多く見られます。</p>
 <p><strong>横断的なメッセージ:</strong> Defender は「個別の構成不備」を可視化しますが、根本原因は <strong>(a) デプロイ時に暗号化・Backup・Guest Configuration が組み込まれていない</strong>、<strong>(b) AI Services / Storage / Subscription レベルのネットワーク・認証ベースラインが未設定</strong> の 2 点に集約されるケースが一般的です。個別対応ではなく <strong>Azure Policy (Initiative) によるベースライン強制</strong> と <strong>Bicep / Terraform のモジュール改修</strong> で再発防止することを推奨します。</p>
@@ -644,9 +644,9 @@
     <div class="tab-panel" id="tab-advisor" role="tabpanel">
       <h2><span class="dom dom-advisor">Advisor</span> Azure Advisor 見解 <span class="ai">AI</span></h2>
       <div class="insight adv" style="padding:14px 18px; border-radius:8px; margin-bottom:16px;">
-        <p>Azure Advisor は <strong>238 件</strong> の推奨事項を提示し、Impact は High 73 / Medium 132 / Low 33。カテゴリ分布は <strong>Security 114 / HA 83 / Operational 33 / Cost 8 / Performance 0</strong>。リソースの偏りは <strong>VM 114 件 / Disk 30 件 / Storage 23 件</strong> となっています。</p>
+        <p>Azure Advisor は <strong>237 件</strong> の推奨事項を提示し、Impact は High 73 / Medium 132 / Low 32。カテゴリ分布は <strong>Security 114 / HA 82 / Operational 33 / Cost 8 / Performance 0</strong>。リソースの偏りは <strong>VM 113 件 / Disk 30 件 / Storage 23 件</strong> となっています。</p>
 <p><strong>コスト面 (Cost 8):</strong> Cost 推奨が 8 件提示されており、即時の節約機会があります。</p>
-<p><strong>可用性面 (HA 83):</strong> HA 推奨 83 件のうち <strong>10 種類が High Impact</strong>。主な指摘は <em>「VM と Disk の同一ゾーン配置」「Storage のゾーン冗長」「Service Health アラート未設定」</em>。<strong>VM とディスクのゾーン不整合</strong> は、再起動時にディスクのアタッチに時間がかかる／別ゾーン障害時に巻き込まれる原因になります。</p>
+<p><strong>可用性面 (HA 82):</strong> HA 推奨 82 件のうち <strong>10 種類が High Impact</strong>。主な指摘は <em>「VM と Disk の同一ゾーン配置」「Storage のゾーン冗長」「Service Health アラート未設定」</em>。<strong>VM とディスクのゾーン不整合</strong> は、再起動時にディスクのアタッチに時間がかかる／別ゾーン障害時に巻き込まれる原因になります。</p>
 <p><strong>運用面 (Operational 33):</strong> Operational 33 件のうち High Impact 2 種類。主な指摘は <strong>「Trusted Launch 有効化（Gen2 VM）」「VM Insights 有効化」「VMSS Flex への移行」</strong>。これらは セキュリティ + 監視 + モダン化 の 3 領域を同時に底上げするため、<strong>VM の作り直し（ARM/Bicep テンプレ刷新）と同時に対応</strong> するのが効率的です。</p>
 <p><strong>セキュリティ面 (Security 114):</strong> Security 推奨は 114 件（High 7 種類）。Advisor の Security カテゴリは Defender for Cloud と連携しており、本リストと Defender セクションの Unhealthy 項目は <strong>重複して同じ問題</strong>（暗号化未有効、EDR、特権ロール等）を指しています。<strong>Defender 側を是正することで Advisor Security も自動的に減少</strong> します。</p>
 <p><strong>横断的なメッセージ:</strong> Advisor の推奨が <strong>同じ 5 VM に対して複数カテゴリで重複して出ている</strong> のが特徴で、これは <em>「VM デプロイ標準が古い／Trusted Launch・暗号化・Backup・Insights を組み込まずに作っている」</em> ことを示しています。<strong>個別対応ではなく VM の Bicep/Terraform モジュールを更新し、既存 5 VM を再デプロイする方が ROI が高い</strong>です。</p>
@@ -683,7 +683,7 @@
           <h3>推奨が集中するリソースタイプ Top 5</h3>
           <table>
             <thead><tr><th>Resource Type</th><th class="num">件数</th></tr></thead>
-            <tbody><tr><td>MICROSOFT.COMPUTE/VIRTUALMACHINES</td><td class='num'>114</td></tr>
+            <tbody><tr><td>MICROSOFT.COMPUTE/VIRTUALMACHINES</td><td class='num'>113</td></tr>
 <tr><td>Microsoft.Compute/disks</td><td class='num'>30</td></tr>
 <tr><td>Microsoft.Subscriptions/subscriptions</td><td class='num'>28</td></tr>
 <tr><td>Microsoft.Network/virtualNetworks</td><td class='num'>23</td></tr>
