@@ -3184,22 +3184,6 @@
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/4b1780c80796ba519d8428722fc872f251263fae472b8af74d6f3ad5cd640970"
   },
   {
-    "Category": "Cost",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Consider virtual machine reserved instance to save over the on-demand costs",
-    "Solution": "Consider virtual machine reserved instance to save over the on-demand costs",
-    "ImpactedField": "Microsoft.Subscriptions/subscriptions",
-    "ImpactedValue": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceType": "Microsoft.Subscriptions/subscriptions",
-    "ResourceGroupName": "",
-    "LastUpdated": "2026-11-04T20:55:08.8824846Z",
-    "RecommendationId": "db73022d5aa6ca44003f1862a3a86925a8c9d39d9ce0a8e1d12e44c83500335e",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/db73022d5aa6ca44003f1862a3a86925a8c9d39d9ce0a8e1d12e44c83500335e"
-  },
-  {
     "Category": "HighAvailability",
     "Impact": "Medium",
     "Risk": null,
@@ -3502,22 +3486,6 @@
     "LastUpdated": "2026-11-03T01:31:09.7425137Z",
     "RecommendationId": "8187882c888a1f15319777d80631f41b1c90fb9f1c1e2224f0ae3d9118cc3acd",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/disks/osdisk-net03-client/providers/Microsoft.Advisor/recommendations/8187882c888a1f15319777d80631f41b1c90fb9f1c1e2224f0ae3d9118cc3acd"
-  },
-  {
-    "Category": "HighAvailability",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Deploy Azure Firewall across multiple availability zones",
-    "Solution": "Deploy Azure Firewall across multiple availability zones",
-    "ImpactedField": "Microsoft.Network/azureFirewalls",
-    "ImpactedValue": "afw-net03",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.network/azurefirewalls/afw-net03",
-    "ResourceName": "afw-net03",
-    "ResourceType": "Microsoft.Network/azureFirewalls",
-    "ResourceGroupName": "rg-net03-demo-je-001",
-    "LastUpdated": "2026-11-03T03:39:25.3816349Z",
-    "RecommendationId": "f00b99d7d9f218c714ca7ae8062d58a57342b03fc875e0f4a91091a23b320e2f",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.network/azurefirewalls/afw-net03/providers/Microsoft.Advisor/recommendations/f00b99d7d9f218c714ca7ae8062d58a57342b03fc875e0f4a91091a23b320e2f"
   },
   {
     "Category": "HighAvailability",
