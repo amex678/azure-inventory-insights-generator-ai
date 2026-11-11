@@ -3598,5 +3598,21 @@
     "LastUpdated": "2026-11-11T01:28:35.9778801Z",
     "RecommendationId": "adc95205c495042a97edaecc28381242ad545933b258287c749ae2e46fe121c5",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/microsoft.security/pricings/cloudposture/securityentitydata/354cca87-093b-4561-ae74-19d718bbd13b/providers/Microsoft.Advisor/recommendations/adc95205c495042a97edaecc28381242ad545933b258287c749ae2e46fe121c5"
+  },
+  {
+    "Category": "HighAvailability",
+    "Impact": "High",
+    "Risk": null,
+    "Problem": "Enable zone redundancy for storage accounts to improve high availability and resiliency",
+    "Solution": "Enable zone redundancy for storage accounts to improve high availability and resiliency",
+    "ImpactedField": "Microsoft.Storage/storageAccounts",
+    "ImpactedValue": "stmzcpnetpolpoc001",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-mzcp-netpol-poc-jpe/providers/microsoft.storage/storageaccounts/stmzcpnetpolpoc001",
+    "ResourceName": "stmzcpnetpolpoc001",
+    "ResourceType": "Microsoft.Storage/storageAccounts",
+    "ResourceGroupName": "rg-mzcp-netpol-poc-jpe",
+    "LastUpdated": "2026-11-11T16:03:34.5103285Z",
+    "RecommendationId": "0330c12fb22af2d16a4041055f4b14508bb3bb27e9b32ff9d39e125b41922192",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-mzcp-netpol-poc-jpe/providers/microsoft.storage/storageaccounts/stmzcpnetpolpoc001/providers/Microsoft.Advisor/recommendations/0330c12fb22af2d16a4041055f4b14508bb3bb27e9b32ff9d39e125b41922192"
   }
 ]
