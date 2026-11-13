@@ -3152,38 +3152,6 @@
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/virtualmachines/vm-net03-client/providers/Microsoft.Advisor/recommendations/9082747996a3ce84f4a71737c66cd26a82ded65fe70a2a82c800d1553ce63e3e"
   },
   {
-    "Category": "HighAvailability",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Migrate workload to D-series or better virtual machine",
-    "Solution": "Migrate workload to D-series or better virtual machine",
-    "ImpactedField": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
-    "ImpactedValue": "vm-net03-server",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/virtualmachines/vm-net03-server",
-    "ResourceName": "vm-net03-server",
-    "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
-    "ResourceGroupName": "rg-net03-demo-je-001",
-    "LastUpdated": "2026-11-02T14:49:22.9732976Z",
-    "RecommendationId": "c7400dddaadb702782a22f346ec80868ea6ebd78b5512bb52ccd8930bc16f21c",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/virtualmachines/vm-net03-server/providers/Microsoft.Advisor/recommendations/c7400dddaadb702782a22f346ec80868ea6ebd78b5512bb52ccd8930bc16f21c"
-  },
-  {
-    "Category": "HighAvailability",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Migrate workload to D-series or better virtual machine",
-    "Solution": "Migrate workload to D-series or better virtual machine",
-    "ImpactedField": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
-    "ImpactedValue": "vm-net03-client",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/virtualmachines/vm-net03-client",
-    "ResourceName": "vm-net03-client",
-    "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
-    "ResourceGroupName": "rg-net03-demo-je-001",
-    "LastUpdated": "2026-11-02T14:49:25.2521278Z",
-    "RecommendationId": "c25a75feaf5f17abd0e60a46a1e6b0e73f7cf35765a3aaacb182a467014d2cb5",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/virtualmachines/vm-net03-client/providers/Microsoft.Advisor/recommendations/c25a75feaf5f17abd0e60a46a1e6b0e73f7cf35765a3aaacb182a467014d2cb5"
-  },
-  {
     "Category": "Security",
     "Impact": "Medium",
     "Risk": null,
@@ -3214,22 +3182,6 @@
     "LastUpdated": "2026-11-02T21:15:02.3161013Z",
     "RecommendationId": "706881b80dd0f9f07427c3c17059b8aec0dd0661b0cbb0bc142fbcb95990df92",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/virtualmachines/vm-net03-client/providers/Microsoft.Advisor/recommendations/706881b80dd0f9f07427c3c17059b8aec0dd0661b0cbb0bc142fbcb95990df92"
-  },
-  {
-    "Category": "Security",
-    "Impact": "Low",
-    "Risk": null,
-    "Problem": "Virtual networks should be protected by Azure Firewall",
-    "Solution": "Virtual networks should be protected by Azure Firewall",
-    "ImpactedField": "Microsoft.Network/virtualNetworks",
-    "ImpactedValue": "vnet-net03-client",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.network/virtualnetworks/vnet-net03-client",
-    "ResourceName": "vnet-net03-client",
-    "ResourceType": "Microsoft.Network/virtualNetworks",
-    "ResourceGroupName": "rg-net03-demo-je-001",
-    "LastUpdated": "2026-11-02T22:31:39.8542621Z",
-    "RecommendationId": "ccd89882dba9ed27963c4dacd820cec3264286eed55a503755cfe9a063e8e4a0",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.network/virtualnetworks/vnet-net03-client/providers/Microsoft.Advisor/recommendations/ccd89882dba9ed27963c4dacd820cec3264286eed55a503755cfe9a063e8e4a0"
   },
   {
     "Category": "Security",
@@ -3854,5 +3806,37 @@
     "LastUpdated": "2026-11-13T00:49:41.1270056Z",
     "RecommendationId": "c7b4142601838f6e42c8b31faaec7d12e00620744d4bd53096932dc059259737",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/microsoft.security/pricings/cloudposture/securityentitydata/50e49ef0-b31d-4c1a-9413-74a9359d7366/providers/Microsoft.Advisor/recommendations/c7b4142601838f6e42c8b31faaec7d12e00620744d4bd53096932dc059259737"
+  },
+  {
+    "Category": "HighAvailability",
+    "Impact": "High",
+    "Risk": null,
+    "Problem": "Ensure Azure Disks are in the same zone as your VM for higher resiliency and availability",
+    "Solution": "Ensure Azure Disks are in the same zone as your VM for higher resiliency and availability",
+    "ImpactedField": "Microsoft.Compute/disks",
+    "ImpactedValue": "vm-netpol-a_osdisk_1_f54ce67da94b41629d147b139a16d3e9",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-mzcp-netpol-poc-jpe/providers/microsoft.compute/disks/vm-netpol-a_osdisk_1_f54ce67da94b41629d147b139a16d3e9",
+    "ResourceName": "vm-netpol-a_osdisk_1_f54ce67da94b41629d147b139a16d3e9",
+    "ResourceType": "Microsoft.Compute/disks",
+    "ResourceGroupName": "rg-mzcp-netpol-poc-jpe",
+    "LastUpdated": "2026-11-13T01:40:12.692045Z",
+    "RecommendationId": "c4daf39cf1fc48425568f032b5594f0acb03d5e0bc26f9dfc3e987aa5286b1bf",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-mzcp-netpol-poc-jpe/providers/microsoft.compute/disks/vm-netpol-a_osdisk_1_f54ce67da94b41629d147b139a16d3e9/providers/Microsoft.Advisor/recommendations/c4daf39cf1fc48425568f032b5594f0acb03d5e0bc26f9dfc3e987aa5286b1bf"
+  },
+  {
+    "Category": "HighAvailability",
+    "Impact": "High",
+    "Risk": null,
+    "Problem": "Ensure Azure Disks are in the same zone as your VM for higher resiliency and availability",
+    "Solution": "Ensure Azure Disks are in the same zone as your VM for higher resiliency and availability",
+    "ImpactedField": "Microsoft.Compute/disks",
+    "ImpactedValue": "vm-netpol-b_osdisk_1_2489a3931e58485291c1fced33739a6c",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-mzcp-netpol-poc-jpe/providers/microsoft.compute/disks/vm-netpol-b_osdisk_1_2489a3931e58485291c1fced33739a6c",
+    "ResourceName": "vm-netpol-b_osdisk_1_2489a3931e58485291c1fced33739a6c",
+    "ResourceType": "Microsoft.Compute/disks",
+    "ResourceGroupName": "rg-mzcp-netpol-poc-jpe",
+    "LastUpdated": "2026-11-13T01:39:32.1423222Z",
+    "RecommendationId": "f1fa27eca2ceafac460c7205a561efc704c97c37dbd26f3f6c8ec4e7cba861ca",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-mzcp-netpol-poc-jpe/providers/microsoft.compute/disks/vm-netpol-b_osdisk_1_2489a3931e58485291c1fced33739a6c/providers/Microsoft.Advisor/recommendations/f1fa27eca2ceafac460c7205a561efc704c97c37dbd26f3f6c8ec4e7cba861ca"
   }
 ]
