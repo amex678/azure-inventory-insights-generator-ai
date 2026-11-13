@@ -1563,7 +1563,7 @@
     "ResourceName": "vm-amig-appl-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-11-12T19:54:55.220963Z",
+    "LastUpdated": "2026-11-13T16:47:08.6970889Z",
     "RecommendationId": "5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-appl-001/providers/Microsoft.Advisor/recommendations/5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7"
   },
@@ -1579,7 +1579,7 @@
     "ResourceName": "vm-amig-win-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-11-12T19:55:53.6782227Z",
+    "LastUpdated": "2026-11-13T16:45:54.772792Z",
     "RecommendationId": "e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-win-001/providers/Microsoft.Advisor/recommendations/e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c"
   },
@@ -3216,38 +3216,6 @@
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/virtualmachines/vm-net03-client/providers/Microsoft.Advisor/recommendations/2e86309af6405998504994e1b04bfa57f2c734f7760a5da03355aa546674df0c"
   },
   {
-    "Category": "Security",
-    "Impact": "Low",
-    "Risk": null,
-    "Problem": "Guest Attestation extension should be installed on supported Linux virtual machines",
-    "Solution": "Guest Attestation extension should be installed on supported Linux virtual machines",
-    "ImpactedField": "Microsoft.Compute/virtualMachines",
-    "ImpactedValue": "vm-net03-server",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/virtualmachines/vm-net03-server",
-    "ResourceName": "vm-net03-server",
-    "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "rg-net03-demo-je-001",
-    "LastUpdated": "2026-11-03T00:47:59.0061095Z",
-    "RecommendationId": "7531ae850bb05907bbfc22356e2e3674c96676a562e2b87416554546b8d46e6b",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/virtualmachines/vm-net03-server/providers/Microsoft.Advisor/recommendations/7531ae850bb05907bbfc22356e2e3674c96676a562e2b87416554546b8d46e6b"
-  },
-  {
-    "Category": "Security",
-    "Impact": "Low",
-    "Risk": null,
-    "Problem": "Guest Attestation extension should be installed on supported Linux virtual machines",
-    "Solution": "Guest Attestation extension should be installed on supported Linux virtual machines",
-    "ImpactedField": "Microsoft.Compute/virtualMachines",
-    "ImpactedValue": "vm-net03-client",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/virtualmachines/vm-net03-client",
-    "ResourceName": "vm-net03-client",
-    "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "rg-net03-demo-je-001",
-    "LastUpdated": "2026-11-03T00:48:00.0974643Z",
-    "RecommendationId": "862687bb5b85287e43cfa7a3fe5f8a5b47454971ed2961b816e40e39b1f7bbcb",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/virtualmachines/vm-net03-client/providers/Microsoft.Advisor/recommendations/862687bb5b85287e43cfa7a3fe5f8a5b47454971ed2961b816e40e39b1f7bbcb"
-  },
-  {
     "Category": "HighAvailability",
     "Impact": "High",
     "Risk": null,
@@ -3838,5 +3806,21 @@
     "LastUpdated": "2026-11-13T01:39:32.1423222Z",
     "RecommendationId": "f1fa27eca2ceafac460c7205a561efc704c97c37dbd26f3f6c8ec4e7cba861ca",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-mzcp-netpol-poc-jpe/providers/microsoft.compute/disks/vm-netpol-b_osdisk_1_2489a3931e58485291c1fced33739a6c/providers/Microsoft.Advisor/recommendations/f1fa27eca2ceafac460c7205a561efc704c97c37dbd26f3f6c8ec4e7cba861ca"
+  },
+  {
+    "Category": "HighAvailability",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Enable Soft Delete to protect your blob data",
+    "Solution": "Enable Soft Delete to protect your blob data",
+    "ImpactedField": "Microsoft.Storage/storageAccounts",
+    "ImpactedValue": "stmzcpnetpolpoc001",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-mzcp-netpol-poc-jpe/providers/microsoft.storage/storageaccounts/stmzcpnetpolpoc001",
+    "ResourceName": "stmzcpnetpolpoc001",
+    "ResourceType": "Microsoft.Storage/storageAccounts",
+    "ResourceGroupName": "rg-mzcp-netpol-poc-jpe",
+    "LastUpdated": "2026-11-13T14:19:56.1982236Z",
+    "RecommendationId": "101101ed08c1edd05a40bf067353754846b177cd657448fa300bfad5228ebd65",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-mzcp-netpol-poc-jpe/providers/microsoft.storage/storageaccounts/stmzcpnetpolpoc001/providers/Microsoft.Advisor/recommendations/101101ed08c1edd05a40bf067353754846b177cd657448fa300bfad5228ebd65"
   }
 ]
