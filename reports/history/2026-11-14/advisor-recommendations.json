@@ -3152,22 +3152,6 @@
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/disks/osdisk-net03-client/providers/Microsoft.Advisor/recommendations/8187882c888a1f15319777d80631f41b1c90fb9f1c1e2224f0ae3d9118cc3acd"
   },
   {
-    "Category": "HighAvailability",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Enable zone redundancy for storage accounts to improve high availability and resiliency",
-    "Solution": "Enable zone redundancy for storage accounts to improve high availability and resiliency",
-    "ImpactedField": "Microsoft.Storage/storageAccounts",
-    "ImpactedValue": "stnet03b1199852026",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.storage/storageaccounts/stnet03b1199852026",
-    "ResourceName": "stnet03b1199852026",
-    "ResourceType": "Microsoft.Storage/storageAccounts",
-    "ResourceGroupName": "rg-net03-demo-je-001",
-    "LastUpdated": "2026-11-03T04:31:13.6763536Z",
-    "RecommendationId": "820297cd4555008b2e437682bfe5e3276d6d0a67ab696ab95d61f58da0de5859",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.storage/storageaccounts/stnet03b1199852026/providers/Microsoft.Advisor/recommendations/820297cd4555008b2e437682bfe5e3276d6d0a67ab696ab95d61f58da0de5859"
-  },
-  {
     "Category": "Security",
     "Impact": "Medium",
     "Risk": null,
