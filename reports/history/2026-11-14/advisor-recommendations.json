@@ -1563,7 +1563,7 @@
     "ResourceName": "vm-amig-appl-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-11-13T20:16:46.6391665Z",
+    "LastUpdated": "2026-11-14T10:36:29.3059612Z",
     "RecommendationId": "5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-appl-001/providers/Microsoft.Advisor/recommendations/5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7"
   },
@@ -1579,7 +1579,7 @@
     "ResourceName": "vm-amig-win-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-11-13T20:15:59.3397578Z",
+    "LastUpdated": "2026-11-14T10:35:50.0560689Z",
     "RecommendationId": "e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-win-001/providers/Microsoft.Advisor/recommendations/e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c"
   },
@@ -3262,38 +3262,6 @@
     "LastUpdated": "2026-11-03T05:20:01.910415Z",
     "RecommendationId": "0cde5636e66dfb822d1c811defa8f296032a12e6a7ebca14d817b24f5bb21cd8",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/virtualmachines/vm-net03-server/providers/Microsoft.Advisor/recommendations/0cde5636e66dfb822d1c811defa8f296032a12e6a7ebca14d817b24f5bb21cd8"
-  },
-  {
-    "Category": "HighAvailability",
-    "Impact": "Medium",
-    "Risk": null,
-    "Problem": "Migrate Standard HDD OS Disks to SSD",
-    "Solution": "Migrate Standard HDD OS Disks to SSD",
-    "ImpactedField": "Microsoft.Compute/disks",
-    "ImpactedValue": "osdisk-net03-client",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/disks/osdisk-net03-client",
-    "ResourceName": "osdisk-net03-client",
-    "ResourceType": "Microsoft.Compute/disks",
-    "ResourceGroupName": "rg-net03-demo-je-001",
-    "LastUpdated": "2026-11-03T07:58:29.9857433Z",
-    "RecommendationId": "b974fc853eb211a0da7bae0795ecb42ba1909e1f4a37acd4b2a0f179ad7a6040",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/disks/osdisk-net03-client/providers/Microsoft.Advisor/recommendations/b974fc853eb211a0da7bae0795ecb42ba1909e1f4a37acd4b2a0f179ad7a6040"
-  },
-  {
-    "Category": "HighAvailability",
-    "Impact": "Medium",
-    "Risk": null,
-    "Problem": "Migrate Standard HDD OS Disks to SSD",
-    "Solution": "Migrate Standard HDD OS Disks to SSD",
-    "ImpactedField": "Microsoft.Compute/disks",
-    "ImpactedValue": "osdisk-net03-server",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/disks/osdisk-net03-server",
-    "ResourceName": "osdisk-net03-server",
-    "ResourceType": "Microsoft.Compute/disks",
-    "ResourceGroupName": "rg-net03-demo-je-001",
-    "LastUpdated": "2026-11-03T07:58:35.213305Z",
-    "RecommendationId": "13c12900410f67e46247486b6777020d6bee037ff8db3c9b84aa3cbdd9a55b68",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/disks/osdisk-net03-server/providers/Microsoft.Advisor/recommendations/13c12900410f67e46247486b6777020d6bee037ff8db3c9b84aa3cbdd9a55b68"
   },
   {
     "Category": "Security",
