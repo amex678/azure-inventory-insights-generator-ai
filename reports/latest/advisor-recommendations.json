@@ -3120,38 +3120,6 @@
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.network/virtualnetworks/vnet-net03-server/providers/Microsoft.Advisor/recommendations/752bcce888ab03a77d75e1993dceecaddffb5a71b11bd5daf0c972727c44d126"
   },
   {
-    "Category": "HighAvailability",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Ensure Azure Disks are in the same zone as your VM for higher resiliency and availability",
-    "Solution": "Ensure Azure Disks are in the same zone as your VM for higher resiliency and availability",
-    "ImpactedField": "Microsoft.Compute/disks",
-    "ImpactedValue": "osdisk-net03-server",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/disks/osdisk-net03-server",
-    "ResourceName": "osdisk-net03-server",
-    "ResourceType": "Microsoft.Compute/disks",
-    "ResourceGroupName": "rg-net03-demo-je-001",
-    "LastUpdated": "2026-11-03T01:31:04.2076772Z",
-    "RecommendationId": "4509fbce859f8e2177d0391f104c7da81c539ba84e0a51c795dbf7e01cb3115d",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/disks/osdisk-net03-server/providers/Microsoft.Advisor/recommendations/4509fbce859f8e2177d0391f104c7da81c539ba84e0a51c795dbf7e01cb3115d"
-  },
-  {
-    "Category": "HighAvailability",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Ensure Azure Disks are in the same zone as your VM for higher resiliency and availability",
-    "Solution": "Ensure Azure Disks are in the same zone as your VM for higher resiliency and availability",
-    "ImpactedField": "Microsoft.Compute/disks",
-    "ImpactedValue": "osdisk-net03-client",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/disks/osdisk-net03-client",
-    "ResourceName": "osdisk-net03-client",
-    "ResourceType": "Microsoft.Compute/disks",
-    "ResourceGroupName": "rg-net03-demo-je-001",
-    "LastUpdated": "2026-11-03T01:31:09.7425137Z",
-    "RecommendationId": "8187882c888a1f15319777d80631f41b1c90fb9f1c1e2224f0ae3d9118cc3acd",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.compute/disks/osdisk-net03-client/providers/Microsoft.Advisor/recommendations/8187882c888a1f15319777d80631f41b1c90fb9f1c1e2224f0ae3d9118cc3acd"
-  },
-  {
     "Category": "Security",
     "Impact": "Medium",
     "Risk": null,
