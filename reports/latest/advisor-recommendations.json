@@ -3486,5 +3486,21 @@
     "LastUpdated": "2026-11-13T23:01:18.0160481Z",
     "RecommendationId": "101101ed08c1edd05a40bf067353754846b177cd657448fa300bfad5228ebd65",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-mzcp-netpol-poc-jpe/providers/microsoft.storage/storageaccounts/stmzcpnetpolpoc001/providers/Microsoft.Advisor/recommendations/101101ed08c1edd05a40bf067353754846b177cd657448fa300bfad5228ebd65"
+  },
+  {
+    "Category": "Security",
+    "Impact": "Medium",
+    "Risk": null,
+    "Problem": "Azure DDoS Protection Standard should be enabled",
+    "Solution": "Azure DDoS Protection Standard should be enabled",
+    "ImpactedField": "Microsoft.Networking/virtualNetworks",
+    "ImpactedValue": "vnet-net03-hub",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.network/virtualnetworks/vnet-net03-hub",
+    "ResourceName": "vnet-net03-hub",
+    "ResourceType": "Microsoft.Networking/virtualNetworks",
+    "ResourceGroupName": "rg-net03-demo-je-001",
+    "LastUpdated": "2026-11-18T00:34:26.8601291Z",
+    "RecommendationId": "6d2a28384fa031ccb55387192dd7b5cb5fcd572adfae083e48e091e7da7d4f2c",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.network/virtualnetworks/vnet-net03-hub/providers/Microsoft.Advisor/recommendations/6d2a28384fa031ccb55387192dd7b5cb5fcd572adfae083e48e091e7da7d4f2c"
   }
 ]
