@@ -1,22 +1,6 @@
 [
   {
     "Category": "Security",
-    "Impact": "Medium",
-    "Risk": null,
-    "Problem": "Email notification to subscription owner for high severity alerts should be enabled",
-    "Solution": "Email notification to subscription owner for high severity alerts should be enabled",
-    "ImpactedField": "Microsoft.Subscriptions/subscriptions",
-    "ImpactedValue": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceType": "Microsoft.Subscriptions/subscriptions",
-    "ResourceGroupName": "",
-    "LastUpdated": "2026-05-15T13:58:53.9597033Z",
-    "RecommendationId": "aaa34532f4e6bcaa6ff8fdd22530b9551a37638c94ffa6722356bf1704832f21",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/aaa34532f4e6bcaa6ff8fdd22530b9551a37638c94ffa6722356bf1704832f21"
-  },
-  {
-    "Category": "Security",
     "Impact": "Low",
     "Risk": null,
     "Problem": "Email notification for high severity alerts should be enabled",
@@ -2913,22 +2897,6 @@
   },
   {
     "Category": "HighAvailability",
-    "Impact": "Medium",
-    "Risk": null,
-    "Problem": "Use NAT gateway for outbound connectivity",
-    "Solution": "Use NAT gateway for outbound connectivity",
-    "ImpactedField": "MICROSOFT.NETWORK/VIRTUALNETWORKS",
-    "ImpactedValue": "sso-poc-vnet-xavlfqq6",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.network/virtualnetworks/sso-poc-vnet-xavlfqq6",
-    "ResourceName": "sso-poc-vnet-xavlfqq6",
-    "ResourceType": "MICROSOFT.NETWORK/VIRTUALNETWORKS",
-    "ResourceGroupName": "rg-sso-poc-jpw-20261021",
-    "LastUpdated": "2026-10-21T03:13:34.4254152Z",
-    "RecommendationId": "2b9b955222c58002e16968af2ba5a9f2448d681aabc5b96735d2e712fbfeb6e5",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.network/virtualnetworks/sso-poc-vnet-xavlfqq6/providers/Microsoft.Advisor/recommendations/2b9b955222c58002e16968af2ba5a9f2448d681aabc5b96735d2e712fbfeb6e5"
-  },
-  {
-    "Category": "HighAvailability",
     "Impact": "High",
     "Risk": null,
     "Problem": "Set minimum instance count for App Service to 2",
@@ -3502,5 +3470,21 @@
     "LastUpdated": "2026-11-18T00:34:26.8601291Z",
     "RecommendationId": "6d2a28384fa031ccb55387192dd7b5cb5fcd572adfae083e48e091e7da7d4f2c",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-net03-demo-je-001/providers/microsoft.network/virtualnetworks/vnet-net03-hub/providers/Microsoft.Advisor/recommendations/6d2a28384fa031ccb55387192dd7b5cb5fcd572adfae083e48e091e7da7d4f2c"
+  },
+  {
+    "Category": "HighAvailability",
+    "Impact": "High",
+    "Risk": null,
+    "Problem": "Azure Key Vault API versions prior to 2026-02-01 are being retired",
+    "Solution": "Azure Key Vault API versions prior to 2026-02-01 are being retired",
+    "ImpactedField": "Microsoft.KeyVault/vaults",
+    "ImpactedValue": "sso-poc-kv-xavlfqq6",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.keyvault/vaults/sso-poc-kv-xavlfqq6",
+    "ResourceName": "sso-poc-kv-xavlfqq6",
+    "ResourceType": "Microsoft.KeyVault/vaults",
+    "ResourceGroupName": "rg-sso-poc-jpw-20261021",
+    "LastUpdated": "2026-11-18T08:31:04.830613Z",
+    "RecommendationId": "f20c6e86379c2397415381dd5308149695a1eeb0ed5f34206ddc9c0852bcf0a2",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.keyvault/vaults/sso-poc-kv-xavlfqq6/providers/Microsoft.Advisor/recommendations/f20c6e86379c2397415381dd5308149695a1eeb0ed5f34206ddc9c0852bcf0a2"
   }
 ]

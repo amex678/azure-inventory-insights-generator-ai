@@ -1727,6 +1727,17 @@
     "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-mzcp-netpol-poc-jpe/providers/microsoft.insights/components/app-netpol-poc"
   },
   {
+    "Name": "a3a0a80c-7db9-448e-99df-6f3c34ff906b",
+    "ResourceType": "microsoft.insights/workbooks",
+    "ResourceGroupName": "rg-wb-demo-202610",
+    "Location": "eastus",
+    "SubscriptionId": "1acecba7-23bd-4d4d-9770-0b11998514dc",
+    "Sku": null,
+    "Kind": "shared",
+    "Tags": "hidden-title=test book01",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-wb-demo-202610/providers/microsoft.insights/workbooks/a3a0a80c-7db9-448e-99df-6f3c34ff906b"
+  },
+  {
     "Name": "pip-nat-srepoc-6h2ve7",
     "ResourceType": "Microsoft.Network/publicIPAddresses",
     "ResourceGroupName": "rg-srepoc-workload-aue",
