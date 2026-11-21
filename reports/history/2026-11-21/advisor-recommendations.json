@@ -2721,22 +2721,6 @@
   },
   {
     "Category": "Security",
-    "Impact": "Low",
-    "Risk": null,
-    "Problem": "Diagnostic logs in Key Vault should be enabled",
-    "Solution": "Diagnostic logs in Key Vault should be enabled",
-    "ImpactedField": "Microsoft.KeyVault/vaults",
-    "ImpactedValue": "sso-poc-kv-xavlfqq6",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.keyvault/vaults/sso-poc-kv-xavlfqq6",
-    "ResourceName": "sso-poc-kv-xavlfqq6",
-    "ResourceType": "Microsoft.KeyVault/vaults",
-    "ResourceGroupName": "rg-sso-poc-jpw-20261021",
-    "LastUpdated": "2026-10-22T02:55:34.1770071Z",
-    "RecommendationId": "9fba7ab0781fe2c19d6ab744470be1306799bd5ee0d3fb594397d29d7308e6ce",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.keyvault/vaults/sso-poc-kv-xavlfqq6/providers/Microsoft.Advisor/recommendations/9fba7ab0781fe2c19d6ab744470be1306799bd5ee0d3fb594397d29d7308e6ce"
-  },
-  {
-    "Category": "Security",
     "Impact": "Medium",
     "Risk": null,
     "Problem": "Key vaults should have deletion protection enabled",
