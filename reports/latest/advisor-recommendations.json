@@ -16,22 +16,6 @@
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/1425a61424040be698b514d71c9aaece79a541147d1ea9bcd7df0bfc52abf6f6"
   },
   {
-    "Category": "HighAvailability",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Create an Azure Service Health alert",
-    "Solution": "Create an Azure Service Health alert",
-    "ImpactedField": "",
-    "ImpactedValue": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceName": "1acecba7-23bd-4d4d-9770-0b11998514dc",
-    "ResourceType": "Subscription",
-    "ResourceGroupName": "",
-    "LastUpdated": "2026-05-19T22:34:37.2611634Z",
-    "RecommendationId": "507cb0e4224f6f82868ca53e25e1f7ccb6fb6e58a52cf4ef29b7967f43eaa39a",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/Microsoft.Advisor/recommendations/507cb0e4224f6f82868ca53e25e1f7ccb6fb6e58a52cf4ef29b7967f43eaa39a"
-  },
-  {
     "Category": "Security",
     "Impact": "Low",
     "Risk": null,
@@ -65,22 +49,6 @@
   },
   {
     "Category": "Security",
-    "Impact": "Medium",
-    "Risk": null,
-    "Problem": "Storage account should use a private link connection",
-    "Solution": "Storage account should use a private link connection",
-    "ImpactedField": "Microsoft.Storage/storageAccounts",
-    "ImpactedValue": "mcaps97700b11998514dc",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/mcapsgovernance/providers/microsoft.storage/storageaccounts/mcaps97700b11998514dc",
-    "ResourceName": "mcaps97700b11998514dc",
-    "ResourceType": "Microsoft.Storage/storageAccounts",
-    "ResourceGroupName": "mcapsgovernance",
-    "LastUpdated": "2026-05-20T07:11:28.6460812Z",
-    "RecommendationId": "74709f9dcae93a18d7005957c99fd85135c8157d212ae114d41c97717a8f9802",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/mcapsgovernance/providers/microsoft.storage/storageaccounts/mcaps97700b11998514dc/providers/Microsoft.Advisor/recommendations/74709f9dcae93a18d7005957c99fd85135c8157d212ae114d41c97717a8f9802"
-  },
-  {
-    "Category": "Security",
     "Impact": "High",
     "Risk": null,
     "Problem": "Service Principals should not be assigned with administrative roles at the subscription and resource group level",
@@ -94,22 +62,6 @@
     "LastUpdated": "2026-06-04T02:34:17.8634494Z",
     "RecommendationId": "9983373867503b01a2984b12e4585de3c7fed12de88e9ab11e128a3a9d6a513e",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/microsoft.security/pricings/cloudposture/securityentitydata/7d2b69ae-0735-4d79-a919-08568005bdc2/providers/Microsoft.Advisor/recommendations/9983373867503b01a2984b12e4585de3c7fed12de88e9ab11e128a3a9d6a513e"
-  },
-  {
-    "Category": "Security",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Privileged roles should not have permanent access at the subscription and resource group level",
-    "Solution": "Privileged roles should not have permanent access at the subscription and resource group level",
-    "ImpactedField": "Microsoft.Subscriptions/subscriptions",
-    "ImpactedValue": "14f720fd-fd42-429c-b3e1-b865c7f3bf93",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/microsoft.security/pricings/cloudposture/securityentitydata/14f720fd-fd42-429c-b3e1-b865c7f3bf93",
-    "ResourceName": "14f720fd-fd42-429c-b3e1-b865c7f3bf93",
-    "ResourceType": "Microsoft.Subscriptions/subscriptions",
-    "ResourceGroupName": "",
-    "LastUpdated": "2026-06-04T09:40:18.410817Z",
-    "RecommendationId": "49f2c464f6896833bc44809d7676f325f60482888ba62f35484ae946bf06cdaa",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/microsoft.security/pricings/cloudposture/securityentitydata/14f720fd-fd42-429c-b3e1-b865c7f3bf93/providers/Microsoft.Advisor/recommendations/49f2c464f6896833bc44809d7676f325f60482888ba62f35484ae946bf06cdaa"
   },
   {
     "Category": "OperationalExcellence",
@@ -1451,7 +1403,7 @@
     "ResourceName": "vm-amig-appl-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-11-19T19:57:10.7383268Z",
+    "LastUpdated": "2026-11-20T19:57:14.8117482Z",
     "RecommendationId": "5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-appl-001/providers/Microsoft.Advisor/recommendations/5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7"
   },
@@ -1467,7 +1419,7 @@
     "ResourceName": "vm-amig-win-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-11-19T19:57:10.7382912Z",
+    "LastUpdated": "2026-11-20T19:56:58.9756173Z",
     "RecommendationId": "e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-win-001/providers/Microsoft.Advisor/recommendations/e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c"
   },
@@ -1921,22 +1873,6 @@
   },
   {
     "Category": "Security",
-    "Impact": "Low",
-    "Risk": null,
-    "Problem": "Azure Backup should be enabled for virtual machines",
-    "Solution": "Azure Backup should be enabled for virtual machines",
-    "ImpactedField": "Microsoft.Compute/virtualMachines",
-    "ImpactedValue": "vm-amig-win-001",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-win-001",
-    "ResourceName": "vm-amig-win-001",
-    "ResourceType": "Microsoft.Compute/virtualMachines",
-    "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-07-21T05:17:06.527867Z",
-    "RecommendationId": "f5c98e658d68b657f933e81d5b54ba745a9b3186f1f0e5dd134b3cdf0e4aa020",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-win-001/providers/Microsoft.Advisor/recommendations/f5c98e658d68b657f933e81d5b54ba745a9b3186f1f0e5dd134b3cdf0e4aa020"
-  },
-  {
-    "Category": "Security",
     "Impact": "Medium",
     "Risk": null,
     "Problem": "Virtual machines and virtual machine scale sets should have encryption at host enabled",
@@ -2256,22 +2192,6 @@
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/default-activitylogalerts/providers/microsoft.cognitiveservices/accounts/tamemiya-8352-resource/providers/Microsoft.Advisor/recommendations/c138105295dd045e4668101311a35818a7263432f62b36ea6dd4515558aa1dfd"
   },
   {
-    "Category": "Security",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Privileged roles should not have permanent access at the subscription and resource group level",
-    "Solution": "Privileged roles should not have permanent access at the subscription and resource group level",
-    "ImpactedField": "Microsoft.Subscriptions/subscriptions",
-    "ImpactedValue": "50e49ef0-b31d-4c1a-9413-74a9359d7366",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/microsoft.security/pricings/cloudposture/securityentitydata/50e49ef0-b31d-4c1a-9413-74a9359d7366",
-    "ResourceName": "50e49ef0-b31d-4c1a-9413-74a9359d7366",
-    "ResourceType": "Microsoft.Subscriptions/subscriptions",
-    "ResourceGroupName": "",
-    "LastUpdated": "2026-09-04T13:21:35.7011763Z",
-    "RecommendationId": "ddda68b450a6e557e4af032d5a2121cd81c3f5b5ab9d6bf1f4114b6128adb021",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/providers/microsoft.security/pricings/cloudposture/securityentitydata/50e49ef0-b31d-4c1a-9413-74a9359d7366/providers/Microsoft.Advisor/recommendations/ddda68b450a6e557e4af032d5a2121cd81c3f5b5ab9d6bf1f4114b6128adb021"
-  },
-  {
     "Category": "HighAvailability",
     "Impact": "Medium",
     "Risk": null,
@@ -2478,22 +2398,6 @@
     "LastUpdated": "2026-09-17T21:01:00.0285951Z",
     "RecommendationId": "ad545a1906b58f09c155438a5891152baf51b37ec92e9c17c58d92d6360dfa49",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-aib-win2025-demo/providers/microsoft.compute/virtualmachines/vm-aib-verify01/providers/Microsoft.Advisor/recommendations/ad545a1906b58f09c155438a5891152baf51b37ec92e9c17c58d92d6360dfa49"
-  },
-  {
-    "Category": "Security",
-    "Impact": "Medium",
-    "Risk": null,
-    "Problem": "Storage account should use a private link connection",
-    "Solution": "Storage account should use a private link connection",
-    "ImpactedField": "Microsoft.Storage/storageAccounts",
-    "ImpactedValue": "wgmt28j57d9877uautoq4ujd",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/it_rg-aib-win2025-demo_it-aib-win2025-demo_a448c843-0259-4273-a179-5fc8a2adce5f/providers/microsoft.storage/storageaccounts/wgmt28j57d9877uautoq4ujd",
-    "ResourceName": "wgmt28j57d9877uautoq4ujd",
-    "ResourceType": "Microsoft.Storage/storageAccounts",
-    "ResourceGroupName": "it_rg-aib-win2025-demo_it-aib-win2025-demo_a448c843-0259-4273-a179-5fc8a2adce5f",
-    "LastUpdated": "2026-09-18T03:15:52.2883466Z",
-    "RecommendationId": "df573627eac1a8a021d413c5d5bd1b91066f8967c7038ae2252e30c2a2cf2acb",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/it_rg-aib-win2025-demo_it-aib-win2025-demo_a448c843-0259-4273-a179-5fc8a2adce5f/providers/microsoft.storage/storageaccounts/wgmt28j57d9877uautoq4ujd/providers/Microsoft.Advisor/recommendations/df573627eac1a8a021d413c5d5bd1b91066f8967c7038ae2252e30c2a2cf2acb"
   },
   {
     "Category": "Security",
@@ -2787,22 +2691,6 @@
     "Category": "HighAvailability",
     "Impact": "High",
     "Risk": null,
-    "Problem": "Set minimum instance count for App Service to 2",
-    "Solution": "Set minimum instance count for App Service to 2",
-    "ImpactedField": "MICROSOFT.WEB/SITES",
-    "ImpactedValue": "sso-poc-plan-xavlfqq6",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.web/serverfarms/sso-poc-plan-xavlfqq6",
-    "ResourceName": "sso-poc-plan-xavlfqq6",
-    "ResourceType": "MICROSOFT.WEB/SITES",
-    "ResourceGroupName": "rg-sso-poc-jpw-20261021",
-    "LastUpdated": "2026-10-21T05:25:47.9150038Z",
-    "RecommendationId": "38ea87b7fa645816c74d091e43c09402a0386a490ea971246b1875b9a0219148",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.web/serverfarms/sso-poc-plan-xavlfqq6/providers/Microsoft.Advisor/recommendations/38ea87b7fa645816c74d091e43c09402a0386a490ea971246b1875b9a0219148"
-  },
-  {
-    "Category": "HighAvailability",
-    "Impact": "High",
-    "Risk": null,
     "Problem": "Use Standard or Premium tier",
     "Solution": "Use Standard or Premium tier",
     "ImpactedField": "MICROSOFT.WEB/SITES",
@@ -2862,22 +2750,6 @@
     "LastUpdated": "2026-10-22T04:48:39.1584667Z",
     "RecommendationId": "114678df4176347842a5e79d2439d1b563d5754a54f8dc2fe8c60969b1f9ada1",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.keyvault/vaults/sso-poc-kv-xavlfqq6/providers/Microsoft.Advisor/recommendations/114678df4176347842a5e79d2439d1b563d5754a54f8dc2fe8c60969b1f9ada1"
-  },
-  {
-    "Category": "Security",
-    "Impact": "High",
-    "Risk": null,
-    "Problem": "Key Vault secrets should have an expiration date",
-    "Solution": "Key Vault secrets should have an expiration date",
-    "ImpactedField": "Microsoft.KeyVault.Data/vaults/secrets",
-    "ImpactedValue": "sso-poc-kv-xavlfqq6",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.keyvault/vaults/sso-poc-kv-xavlfqq6",
-    "ResourceName": "sso-poc-kv-xavlfqq6",
-    "ResourceType": "Microsoft.KeyVault.Data/vaults/secrets",
-    "ResourceGroupName": "rg-sso-poc-jpw-20261021",
-    "LastUpdated": "2026-10-22T04:58:06.1235808Z",
-    "RecommendationId": "7aa2125d41b788863c856e6007bf51c552891bed648126a3616eb5a6099a5ec3",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.keyvault/vaults/sso-poc-kv-xavlfqq6/providers/Microsoft.Advisor/recommendations/7aa2125d41b788863c856e6007bf51c552891bed648126a3616eb5a6099a5ec3"
   },
   {
     "Category": "Security",
