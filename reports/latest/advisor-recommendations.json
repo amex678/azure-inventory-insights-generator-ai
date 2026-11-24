@@ -176,22 +176,6 @@
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-inventory-demo/providers/microsoft.compute/virtualmachines/vm-demo-app-01/providers/Microsoft.Advisor/recommendations/b5156475a556f9cb4861f1ec919ed7564d37b328358ebebd360468e92d259e36"
   },
   {
-    "Category": "Security",
-    "Impact": "Medium",
-    "Risk": null,
-    "Problem": "Storage accounts should restrict network access using virtual network rules",
-    "Solution": "Storage accounts should restrict network access using virtual network rules",
-    "ImpactedField": "Microsoft.Storage/storageAccounts",
-    "ImpactedValue": "stdemogootyszw77dgs",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-inventory-demo/providers/microsoft.storage/storageaccounts/stdemogootyszw77dgs",
-    "ResourceName": "stdemogootyszw77dgs",
-    "ResourceType": "Microsoft.Storage/storageAccounts",
-    "ResourceGroupName": "rg-inventory-demo",
-    "LastUpdated": "2026-06-08T20:15:24.711595Z",
-    "RecommendationId": "be4db1b067c28da641b57f2979eb570474c5634f72e2863dc64836ab8cb40742",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-inventory-demo/providers/microsoft.storage/storageaccounts/stdemogootyszw77dgs/providers/Microsoft.Advisor/recommendations/be4db1b067c28da641b57f2979eb570474c5634f72e2863dc64836ab8cb40742"
-  },
-  {
     "Category": "HighAvailability",
     "Impact": "Medium",
     "Risk": null,
@@ -624,22 +608,6 @@
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-pw-ops-dev-jpe-27161/providers/microsoft.network/virtualnetworks/vm-pw-ops-dev-jpw-27161vnet/providers/Microsoft.Advisor/recommendations/64a5bc18934ad808910e1bd6128e12943e779476991dc3b7a740e19f2ac95776"
   },
   {
-    "Category": "Security",
-    "Impact": "Medium",
-    "Risk": null,
-    "Problem": "Storage accounts should restrict network access using virtual network rules",
-    "Solution": "Storage accounts should restrict network access using virtual network rules",
-    "ImpactedField": "Microsoft.Storage/storageAccounts",
-    "ImpactedValue": "nwrilkb2l5f6fuhds",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.storage/storageaccounts/nwrilkb2l5f6fuhds",
-    "ResourceName": "nwrilkb2l5f6fuhds",
-    "ResourceType": "Microsoft.Storage/storageAccounts",
-    "ResourceGroupName": "rg-nwri-jpe-20260709",
-    "LastUpdated": "2026-07-15T13:08:33.611418Z",
-    "RecommendationId": "52891f4803c11c69e615fbe0e7975a9aa5168d9c3aa5d50d4e27495dd3ebf64b",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-nwri-jpe-20260709/providers/microsoft.storage/storageaccounts/nwrilkb2l5f6fuhds/providers/Microsoft.Advisor/recommendations/52891f4803c11c69e615fbe0e7975a9aa5168d9c3aa5d50d4e27495dd3ebf64b"
-  },
-  {
     "Category": "HighAvailability",
     "Impact": "High",
     "Risk": null,
@@ -651,7 +619,7 @@
     "ResourceName": "vm-amig-appl-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-11-23T07:57:06.4618548Z",
+    "LastUpdated": "2026-11-23T19:59:10.8879229Z",
     "RecommendationId": "5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-appl-001/providers/Microsoft.Advisor/recommendations/5e91679eef9679e15dab85103d846eb63d76b2857d93dd11ef5960e9de46f3e7"
   },
@@ -667,7 +635,7 @@
     "ResourceName": "vm-amig-win-001",
     "ResourceType": "MICROSOFT.COMPUTE/VIRTUALMACHINES",
     "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-11-23T07:57:01.8058076Z",
+    "LastUpdated": "2026-11-23T19:59:13.3329284Z",
     "RecommendationId": "e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.compute/virtualmachines/vm-amig-win-001/providers/Microsoft.Advisor/recommendations/e00b3ea48c222a4288756b4025d1433752d02e8e6e05b1902ae4333b21ed6c3c"
   },
@@ -894,22 +862,6 @@
     "LastUpdated": "2026-07-19T06:18:55.3099531Z",
     "RecommendationId": "a611e2d5db699b26739b0ed3b08a571c218fcf8d3ceda4c13afe240f0a610fa2",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.storage/storageaccounts/stamiguctnhzjq4unu2/providers/Microsoft.Advisor/recommendations/a611e2d5db699b26739b0ed3b08a571c218fcf8d3ceda4c13afe240f0a610fa2"
-  },
-  {
-    "Category": "Security",
-    "Impact": "Medium",
-    "Risk": null,
-    "Problem": "Storage accounts should restrict network access using virtual network rules",
-    "Solution": "Storage accounts should restrict network access using virtual network rules",
-    "ImpactedField": "Microsoft.Storage/storageAccounts",
-    "ImpactedValue": "stamiguctnhzjq4unu2",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.storage/storageaccounts/stamiguctnhzjq4unu2",
-    "ResourceName": "stamiguctnhzjq4unu2",
-    "ResourceType": "Microsoft.Storage/storageAccounts",
-    "ResourceGroupName": "rg-migrate-demo-je-001",
-    "LastUpdated": "2026-07-20T20:13:16.5976449Z",
-    "RecommendationId": "806aac4467225264a5d219f13b2daf70198bc4f97ae7ca08c73029606709952a",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-migrate-demo-je-001/providers/microsoft.storage/storageaccounts/stamiguctnhzjq4unu2/providers/Microsoft.Advisor/recommendations/806aac4467225264a5d219f13b2daf70198bc4f97ae7ca08c73029606709952a"
   },
   {
     "Category": "HighAvailability",
@@ -1358,22 +1310,6 @@
     "LastUpdated": "2026-11-11T16:38:36.6811685Z",
     "RecommendationId": "764068dcebae7e79a4ce592d4229f38693c0015286a5f0874df85d6c5c769436",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-mzcp-netpol-poc-jpe/providers/microsoft.compute/virtualmachines/vm-netpol-b/providers/Microsoft.Advisor/recommendations/764068dcebae7e79a4ce592d4229f38693c0015286a5f0874df85d6c5c769436"
-  },
-  {
-    "Category": "Security",
-    "Impact": "Medium",
-    "Risk": null,
-    "Problem": "Storage accounts should restrict network access using virtual network rules",
-    "Solution": "Storage accounts should restrict network access using virtual network rules",
-    "ImpactedField": "Microsoft.Storage/storageAccounts",
-    "ImpactedValue": "stmzcpnetpolpoc001",
-    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-mzcp-netpol-poc-jpe/providers/microsoft.storage/storageaccounts/stmzcpnetpolpoc001",
-    "ResourceName": "stmzcpnetpolpoc001",
-    "ResourceType": "Microsoft.Storage/storageAccounts",
-    "ResourceGroupName": "rg-mzcp-netpol-poc-jpe",
-    "LastUpdated": "2026-11-11T20:13:51.8881158Z",
-    "RecommendationId": "7eb6ebb815ffb6ed3b2ac7923a2f3238676a9bc9ee960e99bbfe671fe1835cef",
-    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-mzcp-netpol-poc-jpe/providers/microsoft.storage/storageaccounts/stmzcpnetpolpoc001/providers/Microsoft.Advisor/recommendations/7eb6ebb815ffb6ed3b2ac7923a2f3238676a9bc9ee960e99bbfe671fe1835cef"
   },
   {
     "Category": "HighAvailability",

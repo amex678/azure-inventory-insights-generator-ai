@@ -800,6 +800,20 @@
   {
     "DisplayName": null,
     "SignInName": null,
+    "ObjectId": "d95052c2-b9cc-45af-af2e-643d81049222",
+    "ObjectType": "ServicePrincipal",
+    "RoleDefinitionName": "Key Vault Reader",
+    "RoleDefinitionId": "21090545-7ca7-4776-b22c-e363652d74d2",
+    "Scope": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-azurestudy-20261125-4ffa6a1/providers/Microsoft.KeyVault/vaults/kv-azstudy-4ffa6a1",
+    "ScopeKind": "Resource",
+    "ConditionVersion": null,
+    "Condition": null,
+    "Description": null,
+    "RoleAssignmentId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourceGroups/rg-azurestudy-20261125-4ffa6a1/providers/Microsoft.KeyVault/vaults/kv-azstudy-4ffa6a1/providers/Microsoft.Authorization/roleAssignments/84ca60a0-67a3-4544-b04f-e7e7bc25d93d"
+  },
+  {
+    "DisplayName": null,
+    "SignInName": null,
     "ObjectId": "50e49ef0-b31d-4c1a-9413-74a9359d7366",
     "ObjectType": "User",
     "RoleDefinitionName": "User Access Administrator",
