@@ -1310,5 +1310,21 @@
     "LastUpdated": "2026-11-18T08:31:04.830613Z",
     "RecommendationId": "f20c6e86379c2397415381dd5308149695a1eeb0ed5f34206ddc9c0852bcf0a2",
     "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-sso-poc-jpw-20261021/providers/microsoft.keyvault/vaults/sso-poc-kv-xavlfqq6/providers/Microsoft.Advisor/recommendations/f20c6e86379c2397415381dd5308149695a1eeb0ed5f34206ddc9c0852bcf0a2"
+  },
+  {
+    "Category": "HighAvailability",
+    "Impact": "High",
+    "Risk": null,
+    "Problem": "Azure Key Vault API versions prior to 2026-02-01 are being retired",
+    "Solution": "Azure Key Vault API versions prior to 2026-02-01 are being retired",
+    "ImpactedField": "Microsoft.KeyVault/vaults",
+    "ImpactedValue": "kv-azstudy-4ffa6a1",
+    "ResourceId": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-azurestudy-20261125-4ffa6a1/providers/microsoft.keyvault/vaults/kv-azstudy-4ffa6a1",
+    "ResourceName": "kv-azstudy-4ffa6a1",
+    "ResourceType": "Microsoft.KeyVault/vaults",
+    "ResourceGroupName": "rg-azurestudy-20261125-4ffa6a1",
+    "LastUpdated": "2026-11-25T01:16:29.4966096Z",
+    "RecommendationId": "090ba5b4b8389de0b74279bbd14ce9ad7db21168a4caafec125d9a67261a0a0f",
+    "Id": "/subscriptions/1acecba7-23bd-4d4d-9770-0b11998514dc/resourcegroups/rg-azurestudy-20261125-4ffa6a1/providers/microsoft.keyvault/vaults/kv-azstudy-4ffa6a1/providers/Microsoft.Advisor/recommendations/090ba5b4b8389de0b74279bbd14ce9ad7db21168a4caafec125d9a67261a0a0f"
   }
 ]
